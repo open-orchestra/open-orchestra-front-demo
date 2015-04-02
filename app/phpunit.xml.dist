@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- http://www.phpunit.de/manual/current/en/appendixes.configuration.html -->
+<phpunit
+    backupGlobals               = "false"
+    backupStaticAttributes      = "false"
+    colors                      = "true"
+    convertErrorsToExceptions   = "true"
+    convertNoticesToExceptions  = "true"
+    convertWarningsToExceptions = "true"
+    processIsolation            = "false"
+    stopOnFailure               = "false"
+    syntaxCheck                 = "false"
+    bootstrap                   = "bootstrap.php.cache" >
+
+    <testsuites>
+        <testsuite name="unit">
+            <directory>../src/*/*Bundle/Tests</directory>
+            <directory>../src/*/Bundle/*Bundle/Tests</directory>
+            <directory>../vendor/open-orchestra/*/*/*Bundle/Tests</directory>
+            <exclude>../vendor/open-orchestra/open-orchestra-cms-bundle/OpenOrchestra/ApiBundle/Tests/Functional</exclude>
+            <exclude>../vendor/open-orchestra/open-orchestra-cms-bundle/OpenOrchestra/BackofficeBundle/Tests/Functional</exclude>
+            <exclude>../vendor/open-orchestra/open-orchestra-front-bundle/OpenOrchestra/FrontBundle/Tests/Functional</exclude>
+            <exclude>../vendor/open-orchestra/open-orchestra-media-bundle/OpenOrchestra/MediaBundle/Tests/Functional</exclude>
+            <exclude>../vendor/open-orchestra/open-orchestra-model-bundle/OpenOrchestra/ModelBundle/Tests/Functional</exclude>
+            <exclude>../vendor/open-orchestra/open-orchestra-user-bundle/OpenOrchestra/UserBundle/Tests/Functional</exclude>
+        </testsuite>
+        <testsuite name="functional">
+            <directory>../vendor/open-orchestra/*/*/*Bundle/Tests/Functional</directory>
+        </testsuite>
+    </testsuites>
+
+
+    <!--
+    <php>
+        <server name="KERNEL_DIR" value="/path/to/your/app/" />
+    </php>
+    -->
+
+    <filter>
+        <whitelist>
+            <directory>../src</directory>
+            <exclude>
+                <directory>../src/*/*Bundle/Resources</directory>
+                <directory>../src/*/*Bundle/Tests</directory>
+                <directory>../src/*/Bundle/*Bundle/Resources</directory>
+                <directory>../src/*/Bundle/*Bundle/Tests</directory>
+            </exclude>
+        </whitelist>
+    </filter>
+
+</phpunit>

@@ -1,0 +1,20 @@
+open_orchestra_front:
+    resource: "@OpenOrchestraFrontBundle/Controller"
+    type: annotation
+
+open_orchestra_display:
+    resource: "@OpenOrchestraDisplayBundle/Controller"
+    type: annotation
+
+open_orchestra_media:
+    resource: "@OpenOrchestraMediaBundle/Controller"
+    type: annotation
+    prefix: /media
+
+open_orchestra_database:
+    resource: '.'
+    type: database
+
+open_orchestra_redirection:
+    resource: '.'
+    type: orchestra_redirection
