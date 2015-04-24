@@ -1,0 +1,8 @@
+open_orchestra_theme:
+    themes:
+        themePresentation:
+            name: "Open Orchestra"
+            stylesheets:
+                - OpenOrchestraStyleBundle:demo:reset.css
+                - OpenOrchestraStyleBundle:demo:style.css
+                - OpenOrchestraStyleBundle:demo:layout.css
