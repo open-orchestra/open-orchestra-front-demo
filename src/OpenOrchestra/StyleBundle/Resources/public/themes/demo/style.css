@@ -1,4 +1,4 @@
-/****************************** GLOBAL ************************************/
+/********************************** GLOBAL **********************************/
 
 /* Fonts */
 
@@ -8,23 +8,26 @@
     font-weight: 400;
     src: local('Open Sans'), local('OpenSans'), url(http://fonts.gstatic.com/s/opensans/v10/cJZKeOuBrn4kERxqtaUH3VtXRa8TVwTICgirnJhmVJw.woff2) format('woff2'), url(http://fonts.gstatic.com/s/opensans/v10/cJZKeOuBrn4kERxqtaUH3T8E0i7KZn-EPnyo3HZu7kw.woff) format('woff');
 }
+
 @font-face {
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: 700;
     src: local('Open Sans Bold'), local('OpenSans-Bold'), url(http://fonts.gstatic.com/s/opensans/v10/k3k702ZOKiLJc3WVjuplzOgdm0LZdjqr5-oayXSOefg.woff2) format('woff2'), url(http://fonts.gstatic.com/s/opensans/v10/k3k702ZOKiLJc3WVjuplzHhCUOGz7vYGh680lGh-uXM.woff) format('woff');
 }
+
 body{
     font-family: 'Open Sans', sans-serif;
     font-size: 0.9em;
     color: #474747;
 }
 
-/* links */
+/* text */
 a {
     color: #474747;
     text-decoration: none;
 }
+
 a:hover{
     color: #e5590c;
     -webkit-transition: ease 0.5s;
@@ -35,12 +38,12 @@ a:hover{
 
 }
 
+br{
+    margin: 1em;
+}
 
 /* background */
 
-html {
-    background-color: #005796;
-}
 body {
     background-color: honeydew;
 }
@@ -52,16 +55,19 @@ h1 {
     font-weight: normal;
     margin: 25px 0;
 }
+
 h2 {
     color: #e5590c;
     font-weight: normal;
     margin: 20px 0;
 }
+
 h3 {
     color: black;
     font-weight: normal;
     margin: 15px 0;
 }
+
 h4 {
     color: black;
     font-weight: normal;

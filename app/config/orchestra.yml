@@ -8,3 +8,5 @@ open_orchestra_theme:
                 - OpenOrchestraStyleBundle:demo:layout.css
                 - OpenOrchestraStyleBundle:demo:menu.css
                 - OpenOrchestraStyleBundle:demo:footer.css
+                - OpenOrchestraStyleBundle:demo:sidebar.css
+                - OpenOrchestraStyleBundle:demo:blocks.css

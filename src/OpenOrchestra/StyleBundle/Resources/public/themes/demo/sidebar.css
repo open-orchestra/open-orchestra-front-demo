@@ -1,0 +1,59 @@
+/********************************** SIDEBAR **********************************/
+#moduleArea > div {
+    border-top: double 3px #e5590c;
+    margin-top: 20px;
+}
+/* CONTACT FORM */
+#Contact input, #Contact textarea, #Contact label {
+    display: block;
+    width: 100%;
+}
+#Contact textarea {
+    min-width: 100%;
+    max-width: 100%;
+    margin-bottom: 20px;
+    min-height: 2em;
+
+}
+#Contact label {
+    padding: 3px 0 1px 1px;
+}
+
+#Contact_submit {
+    background-color: #e5590c;
+    border: none;
+    width: 100%;
+    text-align: center;
+    padding: 10px 0;
+    border-radius: 10px;
+    color: black;
+}
+
+#Contact_submit:hover {
+    cursor: pointer;
+    background-color: #70a0d0;
+    -webkit-transition: ease 0.5s;
+    -moz-transition: ease 0.5s;
+    -ms-transition: ease 0.5s;
+    -o-transition: ease 0.5s;
+    transition: ease 0.5s;
+    box-shadow: ;
+}
+
+#Contact_submit:active {
+    -webkit-box-shadow: 1px 1px 10px black inset,
+    0 1px 0 rgba( 255, 255, 255, 0.4);
+    -moz-box-shadow: 1px 1px 10px black inset,
+    0 1px 0 rgba( 255, 255, 255, 0.4);
+    -ms-box-shadow: 1px 1px 10px black inset,
+    0 1px 0 rgba( 255, 255, 255, 0.4);
+    -o-box-shadow: 1px 1px 10px black inset,
+    0 1px 0 rgba( 255, 255, 255, 0.4);
+    box-shadow: 1px 1px 10px black inset,
+    0 1px 0 rgba( 255, 255, 255, 0.4);
+}
+
+/* GOOGLE MAP */
+#googleMapsInterakting iframe{
+    width: 100%;
+}

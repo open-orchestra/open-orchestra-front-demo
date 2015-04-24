@@ -1,6 +1,24 @@
+/********************************** LAYOUT **********************************/
 body {
     clear: both;
     margin:auto;
     width:960px;
     padding: 10px;
+}
+
+#mainContentArea1{
+    width: 65%;
+    margin-right: 5%;
+    float: left;
+    margin-bottom: 20px;
+}
+
+#footer{
+    clear: both;
+}
+
+#moduleArea {
+    width: 30%;
+    margin-bottom: 20px;
+    display: inline-block;
 }
