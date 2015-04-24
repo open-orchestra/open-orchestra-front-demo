@@ -6,3 +6,5 @@ open_orchestra_theme:
                 - OpenOrchestraStyleBundle:demo:reset.css
                 - OpenOrchestraStyleBundle:demo:style.css
                 - OpenOrchestraStyleBundle:demo:layout.css
+                - OpenOrchestraStyleBundle:demo:menu.css
+                - OpenOrchestraStyleBundle:demo:footer.css

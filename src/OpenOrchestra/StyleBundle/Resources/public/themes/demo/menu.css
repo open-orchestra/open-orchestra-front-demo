@@ -1,0 +1,34 @@
+#logo{
+    float: left;
+}
+#main_menu {
+    margin: 10px 0;
+    clear: both;
+    background-color: lightsteelblue;
+}
+
+#mySubMenu li, #myMainMenu > ul > li > ul {
+    display: inline-block;
+}
+#mySubMenu a{
+    display: inline-block;
+    padding: 5px 20px;
+}
+#myMainMenu > ul > li  a{
+    display: inline-block;
+    padding: 15px 20px;
+}
+#myMainMenu > ul > li  a:hover{
+    background-color: floralwhite;
+    -webkit-transition: ease 0.5s;
+    -moz-transition: ease 0.5s;
+    -ms-transition: ease 0.5s;
+    -o-transition: ease 0.5s;
+    transition: ease 0.5s;
+}
+
+#mySubMenu li
+{
+    border-right: solid black 1px;
+
+}

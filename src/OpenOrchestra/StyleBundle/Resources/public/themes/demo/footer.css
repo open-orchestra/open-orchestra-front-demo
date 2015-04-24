@@ -1,0 +1,19 @@
+#footer {
+    margin-top: 20px;
+    border-top: solid 1px black;
+}
+#containeFooter > div > div:after{
+    content: "&nbsp;";
+    visibility: hidden;
+    height: 0;
+    display: block;
+    clear:both;
+}
+#footerInfos, #footerLegal, #footerNetworks {
+    float: left;
+    margin-right: 40px;
+}
+#footerContact {
+    float: right;
+    margin-right: 30px;
+}
