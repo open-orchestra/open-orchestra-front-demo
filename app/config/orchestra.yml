@@ -3,10 +3,10 @@ open_orchestra_theme:
         themePresentation:
             name: "Open Orchestra"
             stylesheets:
-                - OpenOrchestraStyleBundle:demo:reset.css
-                - OpenOrchestraStyleBundle:demo:style.css
-                - OpenOrchestraStyleBundle:demo:layout.css
-                - OpenOrchestraStyleBundle:demo:menu.css
-                - OpenOrchestraStyleBundle:demo:footer.css
-                - OpenOrchestraStyleBundle:demo:sidebar.css
-                - OpenOrchestraStyleBundle:demo:blocks.css
+                - OpenOrchestraDemoBundle:demo:reset.css
+                - OpenOrchestraDemoBundle:demo:style.css
+                - OpenOrchestraDemoBundle:demo:layout.css
+                - OpenOrchestraDemoBundle:demo:menu.css
+                - OpenOrchestraDemoBundle:demo:footer.css
+                - OpenOrchestraDemoBundle:demo:sidebar.css
+                - OpenOrchestraDemoBundle:demo:contact_page.css

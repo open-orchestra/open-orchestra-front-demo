@@ -1,0 +1,51 @@
+/********************************** CONTACT FORM PAGE **********************************/
+
+/*layout*/
+#mainContentAreaContact{
+    width: 35%;
+    margin-right: 3%;
+    float: left;
+    margin-bottom: 20px;
+}
+
+#moduleAreaContact {
+    width: 62%;
+    margin-bottom: 20px;
+    display: inline-block;
+}
+
+#contactInformation #infoInterakting, #contactInformation #accessInterakting {
+    margin-bottom: 1rem;
+    width: 50%;
+    float: left;
+}
+
+#contactInformation #googleMapsInterakting {
+    width: 100%;
+    height: 225px;
+    clear:both;
+}
+/* form style */
+#mainContentAreaContact #Contact > div > textarea {
+    height: 5rem;
+}
+
+#mainContentAreaContact #Contact > div > label {
+    padding: 10px 0 5px 2px;
+    font-weight: bold;
+}
+
+#mainContentAreaContact #Contact > div > input{
+    padding: 5px;
+}
+
+/* GOOGLE MAP */
+#googleMapsInterakting iframe{
+    width: 100%;
+    height: 225px;
+}
+
+/* infos */
+#contactInformation #infoInterakting br{
+    margin: 0.25em;
+}

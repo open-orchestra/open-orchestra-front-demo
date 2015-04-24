@@ -1,6 +1,7 @@
 /********************************** HEADER **********************************/
 #logo{
     float: left;
+    margin-bottom: 1em;
 }
 #main_menu {
     margin: 10px 0;
