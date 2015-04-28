@@ -1,51 +1,51 @@
 /********************************** CONTACT FORM PAGE **********************************/
 
 /*layout*/
-#mainContentAreaContact{
+.main-content-contact{
     width: 35%;
     margin-right: 3%;
     float: left;
     margin-bottom: 20px;
 }
 
-#moduleAreaContact {
+.module-area-contact {
     width: 62%;
     margin-bottom: 20px;
     display: inline-block;
 }
 
-#contactInformation #infoInterakting, #contactInformation #accessInterakting {
+.contact-information .info-interakting, .contact-information .access-interakting {
     margin-bottom: 1rem;
     width: 50%;
     float: left;
 }
 
-#contactInformation #googleMapsInterakting {
+.contact-information #google-maps-interakting {
     width: 100%;
     height: 225px;
     clear:both;
 }
 /* form style */
-#mainContentAreaContact #Contact > div > textarea {
+.main-content-contact .my-form-contact > form > div > div > textarea {
     height: 5rem;
 }
 
-#mainContentAreaContact #Contact > div > label {
+.main-content-contact .my-form-contact > form > div > div > label {
     padding: 10px 0 5px 2px;
     font-weight: bold;
 }
 
-#mainContentAreaContact #Contact > div > input{
+.main-content-contact .my-form-contact > form > div > div > input{
     padding: 5px;
 }
 
 /* GOOGLE MAP */
-#googleMapsInterakting iframe{
+.google-maps-interakting iframe{
     width: 100%;
     height: 225px;
 }
 
 /* infos */
-#contactInformation #infoInterakting br{
+.contact-information .info-interakting br{
     margin: 0.25em;
 }

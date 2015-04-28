@@ -1,39 +1,40 @@
 /********************************** HEADER **********************************/
-#logo{
+.logo{
     float: left;
     margin-bottom: 1em;
 }
-#main_menu {
+.main-menu {
     margin: 10px 0;
     clear: both;
     background-color: #005796;;
     border-radius: 10px;
 }
 
-#mySubMenu li, #myMainMenu > ul > li > ul {
+.sub-menu > div > ul li, .my-main-menu > ul > li > ul {
     display: inline-block;
 }
 
-#mySubMenu{
+.sub-menu > div > ul{
     float: right;
 }
-#mySubMenu li
+.sub-menu > div > ul li
 {
-    border-left: solid black 1px;
-    margin-bottom: 10px;
-}
-#mySubMenu a{
     font-size: 0.8em;
-    display: inline-block;
+    border-left: solid black 1px;
+    padding: 5px 5px 0 5px;
+}
+
+.my-main-menu a{
+display: inline-block;
     padding: 3px 10px;
 }
 
-#myMainMenu > ul > li  a{
+.my-main-menu > ul > li  a{
     display: inline-block;
     padding: 15px 20px;
     color: white;
 }
-#myMainMenu > ul > li  a:hover{
+.my-main-menu > ul > li  a:hover{
     color:#e5590c;
     background-color: floralwhite;
     -webkit-transition: ease 0.5s;

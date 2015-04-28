@@ -1,25 +1,31 @@
 /********************************** SIDEBAR **********************************/
-#moduleArea > div {
+.module-area > div {
     border-top: double 3px #e5590c;
     margin-top: 20px;
 }
 /* CONTACT FORM */
-#Contact input, #Contact textarea, #Contact label {
+.my-form-contact > form input, .my-form-contact > form textarea{
     display: block;
     width: 100%;
 }
-#Contact textarea {
+.my-form-contact > form textarea {
     min-width: 100%;
     max-width: 100%;
     margin-bottom: 20px;
     min-height: 2em;
 
 }
-#Contact label {
+.my-form-contact > form label, .my-form-contact > form input[type="checkbox"] {
     padding: 3px 0 1px 1px;
+    display: inline-block !important;
+    width: 45%;
 }
 
-#Contact_submit {
+.my-form-contact > form input[type="checkbox"] {
+    margin-bottom: 20px;
+}
+
+.my-form-contact > form button {
     background-color: #e5590c;
     border: none;
     width: 100%;
@@ -29,7 +35,7 @@
     color: black;
 }
 
-#Contact_submit:hover {
+.my-form-contact > form button:hover {
     cursor: pointer;
     background-color: #70a0d0;
     -webkit-transition: ease 0.5s;
@@ -40,7 +46,7 @@
     box-shadow: ;
 }
 
-#Contact_submit:active {
+.my-form-contact > form button:active {
     -webkit-box-shadow: 1px 1px 10px black inset,
     0 1px 0 rgba( 255, 255, 255, 0.4);
     -moz-box-shadow: 1px 1px 10px black inset,

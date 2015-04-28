@@ -6,18 +6,18 @@ body {
     padding: 10px;
 }
 
-#mainContentArea1{
+.main-content-area1{
     width: 65%;
     margin-right: 5%;
     float: left;
     margin-bottom: 20px;
 }
 
-#footer{
+.footer{
     clear: both;
 }
 
-#moduleArea {
+.module-area {
     width: 30%;
     margin-bottom: 20px;
     display: inline-block;
