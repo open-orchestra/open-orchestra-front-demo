@@ -28,6 +28,8 @@ class AppKernel extends Kernel
             new OpenOrchestra\MediaBundle\OpenOrchestraMediaBundle,
             new OpenOrchestra\DisplayBundle\OpenOrchestraDisplayBundle(),
             new OpenOrchestra\FrontBundle\OpenOrchestraFrontBundle(),
+
+            new OpenOrchestra\DemoBundle\OpenOrchestraDemoBundle()
         );
 
         if (in_array($this->getEnvironment(), array('dev', 'test'))) {

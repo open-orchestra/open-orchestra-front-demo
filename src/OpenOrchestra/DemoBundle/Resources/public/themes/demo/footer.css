@@ -1,0 +1,22 @@
+/********************************** FOOTER **********************************/
+.footer {
+    margin-top: 20px;
+    border-top: solid 1px black;
+}
+
+.containe-footer > div > div:after{
+    content: "&nbsp;";
+    visibility: hidden;
+    height: 0;
+    display: block;
+    clear:both;
+}
+.footer-infos, .footer-legal, .footer-networks {
+    float: left;
+    margin-right: 40px;
+}
+
+.footer-contact {
+    float: right;
+    margin-right: 30px;
+}
