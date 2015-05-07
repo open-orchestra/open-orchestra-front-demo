@@ -2,10 +2,6 @@ open_orchestra_front:
     resource: "@OpenOrchestraFrontBundle/Controller"
     type: annotation
 
-open_orchestra_display:
-    resource: "@OpenOrchestraDisplayBundle/Controller"
-    type: annotation
-
 open_orchestra_media:
     resource: "@OpenOrchestraMediaBundle/Controller"
     type: annotation
