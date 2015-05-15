@@ -31,6 +31,7 @@ class AppKernel extends Kernel
 
             new OpenOrchestra\DemoBundle\OpenOrchestraDemoBundle(),
             new Solution\MongoAggregationBundle\SolutionMongoAggregationBundle(),
+            new Innocead\CaptchaBundle\InnoceadCaptchaBundle(),
         );
 
         if (in_array($this->getEnvironment(), array('dev', 'test'))) {
