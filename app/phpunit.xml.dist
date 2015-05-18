@@ -18,8 +18,6 @@
             <directory>../src/*/*Bundle/Tests</directory>
             <directory>../src/*/Bundle/*Bundle/Tests</directory>
             <directory>../vendor/open-orchestra/*/*/*Bundle/Tests</directory>
-            <exclude>../vendor/open-orchestra/open-orchestra-cms-bundle/OpenOrchestra/ApiBundle/Tests/Functional</exclude>
-            <exclude>../vendor/open-orchestra/open-orchestra-cms-bundle/OpenOrchestra/BackofficeBundle/Tests/Functional</exclude>
             <exclude>../vendor/open-orchestra/open-orchestra-front-bundle/OpenOrchestra/FrontBundle/Tests/Functional</exclude>
             <exclude>../vendor/open-orchestra/open-orchestra-media-bundle/OpenOrchestra/MediaBundle/Tests/Functional</exclude>
             <exclude>../vendor/open-orchestra/open-orchestra-model-bundle/OpenOrchestra/ModelBundle/Tests/Functional</exclude>
