@@ -126,3 +126,13 @@ fos_http_cache:
             servers: "%fos_http_cache.proxy_client.varnish.servers%"
             base_url: "%fos_http_cache.proxy_client.varnish.base_url%"
         default: varnish
+
+innocead_captcha:
+    width: 150
+    height: 30
+    max_chars: 6
+    min_chars: 5
+    bg_transparent: false
+    bg_red: 255
+    bg_green: 255
+    bg_blue: 255

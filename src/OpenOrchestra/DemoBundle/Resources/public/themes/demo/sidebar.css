@@ -21,7 +21,7 @@
     width: 45%;
 }
 
-.my-form-contact > form input[type="checkbox"] {
+#Contact_captcha {
     margin-bottom: 20px;
 }
 

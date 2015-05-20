@@ -7,6 +7,9 @@ open_orchestra_media:
     type: annotation
     prefix: /media
 
+open_orchestra_display:
+    resource: "@OpenOrchestraDisplayBundle/Resources/config/routing.yml"
+
 open_orchestra_database:
     resource: '.'
     type: database
