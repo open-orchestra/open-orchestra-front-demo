@@ -561,16 +561,16 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/doctrine/mongodb.git",
-                "reference": "8b1b569e198a50ebfd61004d726e65a6138217cc"
+                "reference": "c3c029cab1917afb8fa7cc41ef3dc328e8a852fb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/doctrine/mongodb/zipball/8b1b569e198a50ebfd61004d726e65a6138217cc",
-                "reference": "8b1b569e198a50ebfd61004d726e65a6138217cc",
+                "url": "https://api.github.com/repos/doctrine/mongodb/zipball/c3c029cab1917afb8fa7cc41ef3dc328e8a852fb",
+                "reference": "c3c029cab1917afb8fa7cc41ef3dc328e8a852fb",
                 "shasum": ""
             },
             "require": {
-                "doctrine/common": "~2.1",
+                "doctrine/common": "~2.2",
                 "ext-mongo": ">=1.2.12,<1.7-dev",
                 "php": ">=5.3.2"
             },
@@ -628,7 +628,7 @@
                 "mongodb",
                 "persistence"
             ],
-            "time": "2015-05-25 17:28:49"
+            "time": "2015-05-27 19:03:49"
         },
         {
             "name": "doctrine/mongodb-odm",
@@ -1754,12 +1754,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/open-orchestra/open-orchestra-model-bundle.git",
-                "reference": "93e2936f149b5e67e52c2879ba5e140e4cfb9eea"
+                "reference": "b73cbdedaa9072e235221a31ae890c4f89d4788d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/open-orchestra/open-orchestra-model-bundle/zipball/93e2936f149b5e67e52c2879ba5e140e4cfb9eea",
-                "reference": "93e2936f149b5e67e52c2879ba5e140e4cfb9eea",
+                "url": "https://api.github.com/repos/open-orchestra/open-orchestra-model-bundle/zipball/b73cbdedaa9072e235221a31ae890c4f89d4788d",
+                "reference": "b73cbdedaa9072e235221a31ae890c4f89d4788d",
                 "shasum": ""
             },
             "require": {
@@ -1795,7 +1795,7 @@
                 }
             ],
             "description": "An implemantation of the model-interface for OpenOrchestra on mongo",
-            "time": "2015-05-27 13:18:45"
+            "time": "2015-05-27 14:35:18"
         },
         {
             "name": "open-orchestra/open-orchestra-model-interface",
@@ -2139,12 +2139,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sensiolabs/security-checker.git",
-                "reference": "da6f5d725884b9d7d6f21415405bb4b96614785a"
+                "reference": "b901b30ffcabc4e941b2b26edd8e77de03f09d49"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sensiolabs/security-checker/zipball/da6f5d725884b9d7d6f21415405bb4b96614785a",
-                "reference": "da6f5d725884b9d7d6f21415405bb4b96614785a",
+                "url": "https://api.github.com/repos/sensiolabs/security-checker/zipball/b901b30ffcabc4e941b2b26edd8e77de03f09d49",
+                "reference": "b901b30ffcabc4e941b2b26edd8e77de03f09d49",
                 "shasum": ""
             },
             "require": {
@@ -2176,7 +2176,7 @@
                 }
             ],
             "description": "A security checker for your composer.lock",
-            "time": "2015-05-26 16:22:24"
+            "time": "2015-05-27 14:05:32"
         },
         {
             "name": "snc/redis-bundle",
