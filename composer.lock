@@ -788,12 +788,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/FriendsOfSymfony/FOSHttpCache.git",
-                "reference": "54117e25b9a0ac4568d33f349d62ef83d2301b76"
+                "reference": "4ed126e951d831517769de5334106964e74fa698"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/FriendsOfSymfony/FOSHttpCache/zipball/54117e25b9a0ac4568d33f349d62ef83d2301b76",
-                "reference": "54117e25b9a0ac4568d33f349d62ef83d2301b76",
+                "url": "https://api.github.com/repos/FriendsOfSymfony/FOSHttpCache/zipball/4ed126e951d831517769de5334106964e74fa698",
+                "reference": "4ed126e951d831517769de5334106964e74fa698",
                 "shasum": ""
             },
             "require": {
@@ -852,7 +852,7 @@
                 "purge",
                 "varnish"
             ],
-            "time": "2015-06-02 07:31:35"
+            "time": "2015-06-04 06:59:48"
         },
         {
             "name": "friendsofsymfony/http-cache-bundle",
