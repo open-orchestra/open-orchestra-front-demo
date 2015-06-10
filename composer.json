@@ -18,8 +18,8 @@
     "require-dev" : {
         "scrutinizer/ocular": "1.1.1",
         "jmikola/geojson": "~1.0",
-        "phpunit/phpunit" : "4.0.14",
-        "phake/phake": "*"
+        "phpunit/phpunit" : "4.7.2",
+        "phake/phake": "2.1.0"
     },
     "scripts" : {
         "post-install-cmd" : [
