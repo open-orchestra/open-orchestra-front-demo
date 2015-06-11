@@ -788,12 +788,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/FriendsOfSymfony/FOSHttpCache.git",
-                "reference": "95bc1d851eb9086259a99e34104792a6f4fafaed"
+                "reference": "922b859fabfa0dff2e6dbbafa01e06e317b00eee"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/FriendsOfSymfony/FOSHttpCache/zipball/95bc1d851eb9086259a99e34104792a6f4fafaed",
-                "reference": "95bc1d851eb9086259a99e34104792a6f4fafaed",
+                "url": "https://api.github.com/repos/FriendsOfSymfony/FOSHttpCache/zipball/922b859fabfa0dff2e6dbbafa01e06e317b00eee",
+                "reference": "922b859fabfa0dff2e6dbbafa01e06e317b00eee",
                 "shasum": ""
             },
             "require": {
@@ -851,7 +851,7 @@
                 "purge",
                 "varnish"
             ],
-            "time": "2015-06-07 20:50:17"
+            "time": "2015-06-10 16:02:34"
         },
         {
             "name": "friendsofsymfony/http-cache-bundle",
@@ -1694,12 +1694,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/open-orchestra/open-orchestra-model-bundle.git",
-                "reference": "70497ef6968648a5e6616915cbd982587b69101b"
+                "reference": "73f304ac17245746a00bcfda8a72edac3ab4e221"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/open-orchestra/open-orchestra-model-bundle/zipball/70497ef6968648a5e6616915cbd982587b69101b",
-                "reference": "70497ef6968648a5e6616915cbd982587b69101b",
+                "url": "https://api.github.com/repos/open-orchestra/open-orchestra-model-bundle/zipball/73f304ac17245746a00bcfda8a72edac3ab4e221",
+                "reference": "73f304ac17245746a00bcfda8a72edac3ab4e221",
                 "shasum": ""
             },
             "require": {
@@ -1735,7 +1735,7 @@
                 }
             ],
             "description": "An implemantation of the model-interface for OpenOrchestra on mongo",
-            "time": "2015-06-10 08:01:46"
+            "time": "2015-06-10 08:41:36"
         },
         {
             "name": "open-orchestra/open-orchestra-model-interface",
