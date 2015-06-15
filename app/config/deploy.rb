@@ -34,7 +34,6 @@ Logger::MAX_LEVEL
 
 # deployment tasks
 after "symfony:cache:warmup", "symfony:assetic:dump"
-after "symfony:project:clear_controllers", "orchestra:second_symlink"
 after "deploy", "orchestra:generate_sitemaps"
 after "deploy", "orchestra:generate_robots"
 
@@ -51,12 +50,5 @@ namespace :orchestra do
         capifony_pretty_print "--> Generates all robots.txt"
         result = capture("cd #{latest_release} && php app/console -e=prod orchestra:robots:generate")
         puts result
-    end
-
-    desc "Add a second symlink to the current version"
-    task :second_symlink do
-        run "rm #{latest_release}/../../second_version"
-        run "ln -s #{latest_release} #{latest_release}/../../second_version"
-        capifony_puts_ok
     end
 end
