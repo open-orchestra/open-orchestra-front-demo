@@ -52,12 +52,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/doctrine/annotations.git",
-                "reference": "c8927ad70c6fce36b3af52c17ed996c9aa4de89b"
+                "reference": "6eeadf5fd5d714065a59d5da8cbcd24196da667a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/doctrine/annotations/zipball/c8927ad70c6fce36b3af52c17ed996c9aa4de89b",
-                "reference": "c8927ad70c6fce36b3af52c17ed996c9aa4de89b",
+                "url": "https://api.github.com/repos/doctrine/annotations/zipball/6eeadf5fd5d714065a59d5da8cbcd24196da667a",
+                "reference": "6eeadf5fd5d714065a59d5da8cbcd24196da667a",
                 "shasum": ""
             },
             "require": {
@@ -112,7 +112,7 @@
                 "docblock",
                 "parser"
             ],
-            "time": "2015-05-13 13:47:35"
+            "time": "2015-06-17 12:13:27"
         },
         {
             "name": "doctrine/cache",
@@ -186,16 +186,16 @@
         },
         {
             "name": "doctrine/collections",
-            "version": "dev-master",
+            "version": "v1.3.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/doctrine/collections.git",
-                "reference": "b2c6ca857d6e0caed9ed199d2d8ff1d179a95d15"
+                "reference": "6c1e4eef75f310ea1b3e30945e9f06e652128b8a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/doctrine/collections/zipball/b2c6ca857d6e0caed9ed199d2d8ff1d179a95d15",
-                "reference": "b2c6ca857d6e0caed9ed199d2d8ff1d179a95d15",
+                "url": "https://api.github.com/repos/doctrine/collections/zipball/6c1e4eef75f310ea1b3e30945e9f06e652128b8a",
+                "reference": "6c1e4eef75f310ea1b3e30945e9f06e652128b8a",
                 "shasum": ""
             },
             "require": {
@@ -248,7 +248,7 @@
                 "collections",
                 "iterator"
             ],
-            "time": "2015-05-13 13:33:57"
+            "time": "2015-04-14 22:21:58"
         },
         {
             "name": "doctrine/common",
@@ -1349,12 +1349,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/kriswallsmith/assetic.git",
-                "reference": "6c3bd95d329bfe79f3cfa137ac7a8a482e247644"
+                "reference": "b17bd13759a7c63b16a6bb88b9e84e4ff767dfaf"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/kriswallsmith/assetic/zipball/6c3bd95d329bfe79f3cfa137ac7a8a482e247644",
-                "reference": "6c3bd95d329bfe79f3cfa137ac7a8a482e247644",
+                "url": "https://api.github.com/repos/kriswallsmith/assetic/zipball/b17bd13759a7c63b16a6bb88b9e84e4ff767dfaf",
+                "reference": "b17bd13759a7c63b16a6bb88b9e84e4ff767dfaf",
                 "shasum": ""
             },
             "require": {
@@ -1415,7 +1415,7 @@
                 "compression",
                 "minification"
             ],
-            "time": "2015-03-02 19:47:30"
+            "time": "2015-06-16 13:36:43"
         },
         {
             "name": "monolog/monolog",
@@ -1642,12 +1642,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/open-orchestra/open-orchestra-media-bundle.git",
-                "reference": "35bd61949206e3fb95922be3635b5498947eae6a"
+                "reference": "e7ffcba3e5392f5c3664618c65f1d91218c10373"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/open-orchestra/open-orchestra-media-bundle/zipball/35bd61949206e3fb95922be3635b5498947eae6a",
-                "reference": "35bd61949206e3fb95922be3635b5498947eae6a",
+                "url": "https://api.github.com/repos/open-orchestra/open-orchestra-media-bundle/zipball/e7ffcba3e5392f5c3664618c65f1d91218c10373",
+                "reference": "e7ffcba3e5392f5c3664618c65f1d91218c10373",
                 "shasum": ""
             },
             "require": {
@@ -1685,7 +1685,7 @@
                 }
             ],
             "description": "A media bundle for the OpenOrchestra Project",
-            "time": "2015-06-16 08:40:08"
+            "time": "2015-06-17 09:33:12"
         },
         {
             "name": "open-orchestra/open-orchestra-model-bundle",
@@ -1694,12 +1694,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/open-orchestra/open-orchestra-model-bundle.git",
-                "reference": "de75c54d6e7ef95d100b79190cb6563da698bd88"
+                "reference": "2e9ea2d250e52d9ae85244fc0ac9fb99420a150a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/open-orchestra/open-orchestra-model-bundle/zipball/de75c54d6e7ef95d100b79190cb6563da698bd88",
-                "reference": "de75c54d6e7ef95d100b79190cb6563da698bd88",
+                "url": "https://api.github.com/repos/open-orchestra/open-orchestra-model-bundle/zipball/2e9ea2d250e52d9ae85244fc0ac9fb99420a150a",
+                "reference": "2e9ea2d250e52d9ae85244fc0ac9fb99420a150a",
                 "shasum": ""
             },
             "require": {
@@ -1735,7 +1735,7 @@
                 }
             ],
             "description": "An implemantation of the model-interface for OpenOrchestra on mongo",
-            "time": "2015-06-16 10:18:11"
+            "time": "2015-06-17 08:50:08"
         },
         {
             "name": "open-orchestra/open-orchestra-model-interface",
@@ -2890,12 +2890,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/schmittjoh/serializer.git",
-                "reference": "96f2e7a801e6d0e1def7af1c451e8ebadaab023c"
+                "reference": "a29d9a204efc3ca3f39a9d182a83fd34462fef3f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/schmittjoh/serializer/zipball/96f2e7a801e6d0e1def7af1c451e8ebadaab023c",
-                "reference": "96f2e7a801e6d0e1def7af1c451e8ebadaab023c",
+                "url": "https://api.github.com/repos/schmittjoh/serializer/zipball/a29d9a204efc3ca3f39a9d182a83fd34462fef3f",
+                "reference": "a29d9a204efc3ca3f39a9d182a83fd34462fef3f",
                 "shasum": ""
             },
             "require": {
@@ -2903,7 +2903,7 @@
                 "doctrine/instantiator": "~1.0.3",
                 "jms/metadata": "~1.1",
                 "jms/parser-lib": "1.*",
-                "php": ">=5.3.2",
+                "php": ">=5.4.0",
                 "phpcollection/phpcollection": "~0.1"
             },
             "require-dev": {
@@ -2952,7 +2952,7 @@
                 "serialization",
                 "xml"
             ],
-            "time": "2015-06-12 17:29:46"
+            "time": "2015-06-16 11:50:24"
         },
         {
             "name": "phake/phake",
