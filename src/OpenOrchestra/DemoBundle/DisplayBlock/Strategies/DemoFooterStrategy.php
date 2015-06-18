@@ -26,5 +26,4 @@ class DemoFooterStrategy extends FooterStrategy
             )
         );
     }
-
 }
