@@ -10,22 +10,8 @@
     border-radius: 10px;
 }
 
-.sub-menu > div > ul li, .my-main-menu > ul > li > ul {
+.my-main-menu > ul, .my-main-menu a{
     display: inline-block;
-}
-
-.sub-menu > div > ul{
-    float: right;
-}
-.sub-menu > div > ul li
-{
-    font-size: 0.8em;
-    border-left: solid black 1px;
-    padding: 5px 5px 0 5px;
-}
-
-.my-main-menu a{
-display: inline-block;
     padding: 3px 10px;
 }
 

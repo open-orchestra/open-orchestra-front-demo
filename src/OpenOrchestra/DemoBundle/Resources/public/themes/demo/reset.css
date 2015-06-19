@@ -1,8 +1,8 @@
 /********************************** RESET CSS **********************************/
 
 html, body, div, span, applet, object, iframe,
-p, blockquote, pre, a, em, small, strike, strong,
-tt, dl, dt, dd, ol, ul, li, fieldset, form, label,
+blockquote, pre, a, em, small, strike, strong,
+tt, dl, dt, dd, li, fieldset, form, label,
 legend, table, caption, tbody, tfoot, thead, tr, th,
 td, article, aside, canvas, details, embed, figure,
 figcaption, footer, header, hgroup, menu, nav, output,
@@ -18,8 +18,13 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
     display: block;
 }
-ol, ul {
-    list-style: none;
+#footer ul, #header ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+p {
+    margin: 1em 0;
 }
 blockquote, q {
     quotes: none;

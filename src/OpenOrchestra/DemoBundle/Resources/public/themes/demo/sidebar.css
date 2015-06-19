@@ -1,8 +1,5 @@
 /********************************** SIDEBAR **********************************/
-.module-area > div {
-    border-top: double 3px #e5590c;
-    margin-top: 20px;
-}
+
 /* CONTACT FORM */
 .my-form-contact > form input, .my-form-contact > form textarea{
     display: block;
@@ -43,7 +40,6 @@
     -ms-transition: ease 0.5s;
     -o-transition: ease 0.5s;
     transition: ease 0.5s;
-    box-shadow: ;
 }
 
 .my-form-contact > form button:active {

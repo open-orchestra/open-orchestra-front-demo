@@ -186,16 +186,16 @@
         },
         {
             "name": "doctrine/collections",
-            "version": "dev-master",
+            "version": "v1.3.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/doctrine/collections.git",
-                "reference": "b2c6ca857d6e0caed9ed199d2d8ff1d179a95d15"
+                "reference": "6c1e4eef75f310ea1b3e30945e9f06e652128b8a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/doctrine/collections/zipball/b2c6ca857d6e0caed9ed199d2d8ff1d179a95d15",
-                "reference": "b2c6ca857d6e0caed9ed199d2d8ff1d179a95d15",
+                "url": "https://api.github.com/repos/doctrine/collections/zipball/6c1e4eef75f310ea1b3e30945e9f06e652128b8a",
+                "reference": "6c1e4eef75f310ea1b3e30945e9f06e652128b8a",
                 "shasum": ""
             },
             "require": {
@@ -248,7 +248,7 @@
                 "collections",
                 "iterator"
             ],
-            "time": "2015-05-13 13:33:57"
+            "time": "2015-04-14 22:21:58"
         },
         {
             "name": "doctrine/common",
@@ -1500,12 +1500,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/open-orchestra/open-orchestra-base-bundle.git",
-                "reference": "68746636d797584e4b8f0d93a16d53fc9f32b00a"
+                "reference": "140c7261d844957806d5f900c1d9c5010fb0c204"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/open-orchestra/open-orchestra-base-bundle/zipball/68746636d797584e4b8f0d93a16d53fc9f32b00a",
-                "reference": "68746636d797584e4b8f0d93a16d53fc9f32b00a",
+                "url": "https://api.github.com/repos/open-orchestra/open-orchestra-base-bundle/zipball/140c7261d844957806d5f900c1d9c5010fb0c204",
+                "reference": "140c7261d844957806d5f900c1d9c5010fb0c204",
                 "shasum": ""
             },
             "require": {
@@ -1520,9 +1520,9 @@
                 "twig/extensions": "1.2.0"
             },
             "require-dev": {
+                "codeclimate/php-test-reporter": "dev-master",
                 "phake/phake": "2.1.0",
-                "phpunit/phpunit": "4.7.2",
-                "scrutinizer/ocular": "1.1.1"
+                "phpunit/phpunit": "4.7.2"
             },
             "type": "library",
             "autoload": {
@@ -1541,7 +1541,7 @@
                 }
             ],
             "description": "The OpenOrchestra base bundle",
-            "time": "2015-06-18 09:02:51"
+            "time": "2015-06-18 16:01:55"
         },
         {
             "name": "open-orchestra/open-orchestra-display-bundle",
@@ -3218,12 +3218,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/php-code-coverage.git",
-                "reference": "a02682e0fee6392379f6cc1784aa8a7b83bf4551"
+                "reference": "17f528f9999be88fafbc3540bf1f16a65c2cd815"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/php-code-coverage/zipball/a02682e0fee6392379f6cc1784aa8a7b83bf4551",
-                "reference": "a02682e0fee6392379f6cc1784aa8a7b83bf4551",
+                "url": "https://api.github.com/repos/sebastianbergmann/php-code-coverage/zipball/17f528f9999be88fafbc3540bf1f16a65c2cd815",
+                "reference": "17f528f9999be88fafbc3540bf1f16a65c2cd815",
                 "shasum": ""
             },
             "require": {
@@ -3272,7 +3272,7 @@
                 "testing",
                 "xunit"
             ],
-            "time": "2015-06-09 13:06:54"
+            "time": "2015-06-19 07:10:24"
         },
         {
             "name": "phpunit/php-file-iterator",
@@ -3412,12 +3412,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/php-token-stream.git",
-                "reference": "1c7eb0aa0d1ca766cc7177b1709ed00b4cb352a5"
+                "reference": "7a9b0969488c3c54fd62b4d504b3ec758fd005d9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/php-token-stream/zipball/1c7eb0aa0d1ca766cc7177b1709ed00b4cb352a5",
-                "reference": "1c7eb0aa0d1ca766cc7177b1709ed00b4cb352a5",
+                "url": "https://api.github.com/repos/sebastianbergmann/php-token-stream/zipball/7a9b0969488c3c54fd62b4d504b3ec758fd005d9",
+                "reference": "7a9b0969488c3c54fd62b4d504b3ec758fd005d9",
                 "shasum": ""
             },
             "require": {
@@ -3453,7 +3453,7 @@
             "keywords": [
                 "tokenizer"
             ],
-            "time": "2015-06-13 07:03:33"
+            "time": "2015-06-19 03:43:16"
         },
         {
             "name": "phpunit/phpunit",
