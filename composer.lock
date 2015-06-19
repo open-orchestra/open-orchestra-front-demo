@@ -1423,12 +1423,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Seldaek/monolog.git",
-                "reference": "3f1ac6544cedfb6285035521d4b9f231567ca821"
+                "reference": "0c3d2082ad00b598f59f87af4b56340065694f96"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Seldaek/monolog/zipball/3f1ac6544cedfb6285035521d4b9f231567ca821",
-                "reference": "3f1ac6544cedfb6285035521d4b9f231567ca821",
+                "url": "https://api.github.com/repos/Seldaek/monolog/zipball/0c3d2082ad00b598f59f87af4b56340065694f96",
+                "reference": "0c3d2082ad00b598f59f87af4b56340065694f96",
                 "shasum": ""
             },
             "require": {
@@ -1491,7 +1491,7 @@
                 "logging",
                 "psr-3"
             ],
-            "time": "2015-06-11 18:34:48"
+            "time": "2015-06-19 10:46:55"
         },
         {
             "name": "open-orchestra/open-orchestra-base-bundle",
@@ -3219,12 +3219,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/php-code-coverage.git",
-                "reference": "17f528f9999be88fafbc3540bf1f16a65c2cd815"
+                "reference": "c48ccfd0040d585c308346d7485023d273a52243"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/php-code-coverage/zipball/17f528f9999be88fafbc3540bf1f16a65c2cd815",
-                "reference": "17f528f9999be88fafbc3540bf1f16a65c2cd815",
+                "url": "https://api.github.com/repos/sebastianbergmann/php-code-coverage/zipball/c48ccfd0040d585c308346d7485023d273a52243",
+                "reference": "c48ccfd0040d585c308346d7485023d273a52243",
                 "shasum": ""
             },
             "require": {
@@ -3273,7 +3273,7 @@
                 "testing",
                 "xunit"
             ],
-            "time": "2015-06-19 07:10:24"
+            "time": "2015-06-19 11:53:04"
         },
         {
             "name": "phpunit/php-file-iterator",
