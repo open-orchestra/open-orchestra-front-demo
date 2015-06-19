@@ -1,7 +1,7 @@
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
-        "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
     "hash": "6f8e5437c75cb10db9bc2322020df13c",
@@ -186,16 +186,16 @@
         },
         {
             "name": "doctrine/collections",
-            "version": "v1.3.0",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/doctrine/collections.git",
-                "reference": "6c1e4eef75f310ea1b3e30945e9f06e652128b8a"
+                "reference": "b2c6ca857d6e0caed9ed199d2d8ff1d179a95d15"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/doctrine/collections/zipball/6c1e4eef75f310ea1b3e30945e9f06e652128b8a",
-                "reference": "6c1e4eef75f310ea1b3e30945e9f06e652128b8a",
+                "url": "https://api.github.com/repos/doctrine/collections/zipball/b2c6ca857d6e0caed9ed199d2d8ff1d179a95d15",
+                "reference": "b2c6ca857d6e0caed9ed199d2d8ff1d179a95d15",
                 "shasum": ""
             },
             "require": {
@@ -248,7 +248,7 @@
                 "collections",
                 "iterator"
             ],
-            "time": "2015-04-14 22:21:58"
+            "time": "2015-05-13 13:33:57"
         },
         {
             "name": "doctrine/common",
@@ -1500,12 +1500,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/open-orchestra/open-orchestra-base-bundle.git",
-                "reference": "140c7261d844957806d5f900c1d9c5010fb0c204"
+                "reference": "c759560172269d1ef3421efdf67327e542f6f8ad"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/open-orchestra/open-orchestra-base-bundle/zipball/140c7261d844957806d5f900c1d9c5010fb0c204",
-                "reference": "140c7261d844957806d5f900c1d9c5010fb0c204",
+                "url": "https://api.github.com/repos/open-orchestra/open-orchestra-base-bundle/zipball/c759560172269d1ef3421efdf67327e542f6f8ad",
+                "reference": "c759560172269d1ef3421efdf67327e542f6f8ad",
                 "shasum": ""
             },
             "require": {
@@ -1522,7 +1522,8 @@
             "require-dev": {
                 "codeclimate/php-test-reporter": "dev-master",
                 "phake/phake": "2.1.0",
-                "phpunit/phpunit": "4.7.2"
+                "phpunit/phpunit": "4.7.2",
+                "psr/log": "1.0.0"
             },
             "type": "library",
             "autoload": {
@@ -1541,7 +1542,7 @@
                 }
             ],
             "description": "The OpenOrchestra base bundle",
-            "time": "2015-06-18 16:01:55"
+            "time": "2015-06-19 09:00:25"
         },
         {
             "name": "open-orchestra/open-orchestra-display-bundle",
@@ -1694,12 +1695,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/open-orchestra/open-orchestra-model-bundle.git",
-                "reference": "2e9ea2d250e52d9ae85244fc0ac9fb99420a150a"
+                "reference": "20f2b064bdbf68a157f0b9a4fae7ed207c08c4ab"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/open-orchestra/open-orchestra-model-bundle/zipball/2e9ea2d250e52d9ae85244fc0ac9fb99420a150a",
-                "reference": "2e9ea2d250e52d9ae85244fc0ac9fb99420a150a",
+                "url": "https://api.github.com/repos/open-orchestra/open-orchestra-model-bundle/zipball/20f2b064bdbf68a157f0b9a4fae7ed207c08c4ab",
+                "reference": "20f2b064bdbf68a157f0b9a4fae7ed207c08c4ab",
                 "shasum": ""
             },
             "require": {
@@ -1735,7 +1736,7 @@
                 }
             ],
             "description": "An implemantation of the model-interface for OpenOrchestra on mongo",
-            "time": "2015-06-17 08:50:08"
+            "time": "2015-06-19 08:56:37"
         },
         {
             "name": "open-orchestra/open-orchestra-model-interface",
