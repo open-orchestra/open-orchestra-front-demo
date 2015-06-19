@@ -1500,12 +1500,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/open-orchestra/open-orchestra-base-bundle.git",
-                "reference": "c759560172269d1ef3421efdf67327e542f6f8ad"
+                "reference": "10fa1535e655289e35b050860edeca0b31c39868"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/open-orchestra/open-orchestra-base-bundle/zipball/c759560172269d1ef3421efdf67327e542f6f8ad",
-                "reference": "c759560172269d1ef3421efdf67327e542f6f8ad",
+                "url": "https://api.github.com/repos/open-orchestra/open-orchestra-base-bundle/zipball/10fa1535e655289e35b050860edeca0b31c39868",
+                "reference": "10fa1535e655289e35b050860edeca0b31c39868",
                 "shasum": ""
             },
             "require": {
@@ -1542,7 +1542,7 @@
                 }
             ],
             "description": "The OpenOrchestra base bundle",
-            "time": "2015-06-19 09:00:25"
+            "time": "2015-06-19 09:18:08"
         },
         {
             "name": "open-orchestra/open-orchestra-display-bundle",
@@ -1695,12 +1695,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/open-orchestra/open-orchestra-model-bundle.git",
-                "reference": "20f2b064bdbf68a157f0b9a4fae7ed207c08c4ab"
+                "reference": "874c5da0402c6631ad6c5468a0ce25a76a6663ca"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/open-orchestra/open-orchestra-model-bundle/zipball/20f2b064bdbf68a157f0b9a4fae7ed207c08c4ab",
-                "reference": "20f2b064bdbf68a157f0b9a4fae7ed207c08c4ab",
+                "url": "https://api.github.com/repos/open-orchestra/open-orchestra-model-bundle/zipball/874c5da0402c6631ad6c5468a0ce25a76a6663ca",
+                "reference": "874c5da0402c6631ad6c5468a0ce25a76a6663ca",
                 "shasum": ""
             },
             "require": {
@@ -1736,7 +1736,7 @@
                 }
             ],
             "description": "An implemantation of the model-interface for OpenOrchestra on mongo",
-            "time": "2015-06-19 08:56:37"
+            "time": "2015-06-19 09:41:25"
         },
         {
             "name": "open-orchestra/open-orchestra-model-interface",
