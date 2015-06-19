@@ -10,7 +10,7 @@
     border-radius: 10px;
 }
 
-.my-main-menu > ul, .my-main-menu a{
+.my-main-menu > ul ul, .my-main-menu a{
     display: inline-block;
     padding: 3px 10px;
 }
