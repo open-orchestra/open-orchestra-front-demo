@@ -1599,12 +1599,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/open-orchestra/open-orchestra-front-bundle.git",
-                "reference": "3205256249eef0944e00381ef5b6c27cdbd56199"
+                "reference": "25f868d2028407eec542ab1e87d98613e59aba05"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/open-orchestra/open-orchestra-front-bundle/zipball/3205256249eef0944e00381ef5b6c27cdbd56199",
-                "reference": "3205256249eef0944e00381ef5b6c27cdbd56199",
+                "url": "https://api.github.com/repos/open-orchestra/open-orchestra-front-bundle/zipball/25f868d2028407eec542ab1e87d98613e59aba05",
+                "reference": "25f868d2028407eec542ab1e87d98613e59aba05",
                 "shasum": ""
             },
             "require": {
@@ -1637,7 +1637,7 @@
                 }
             ],
             "description": "A bundle for the frontend part of an OpenOrchestra project",
-            "time": "2015-06-26 10:01:43"
+            "time": "2015-06-26 13:23:16"
         },
         {
             "name": "open-orchestra/open-orchestra-media-bundle",
