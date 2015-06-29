@@ -1699,12 +1699,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/open-orchestra/open-orchestra-model-bundle.git",
-                "reference": "5afa8ed4f41211617b8727051d0ee87dbfe2704d"
+                "reference": "0da5f83e3d12bc0d8d53059fcfcef07a1e2e490d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/open-orchestra/open-orchestra-model-bundle/zipball/5afa8ed4f41211617b8727051d0ee87dbfe2704d",
-                "reference": "5afa8ed4f41211617b8727051d0ee87dbfe2704d",
+                "url": "https://api.github.com/repos/open-orchestra/open-orchestra-model-bundle/zipball/0da5f83e3d12bc0d8d53059fcfcef07a1e2e490d",
+                "reference": "0da5f83e3d12bc0d8d53059fcfcef07a1e2e490d",
                 "shasum": ""
             },
             "require": {
@@ -1741,7 +1741,7 @@
                 }
             ],
             "description": "An implemantation of the model-interface for OpenOrchestra on mongo",
-            "time": "2015-06-26 13:58:19"
+            "time": "2015-06-29 12:22:21"
         },
         {
             "name": "open-orchestra/open-orchestra-model-interface",
