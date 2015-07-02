@@ -4,7 +4,7 @@
     border-top: solid 1px black;
 }
 
-.containe-footer > div > div:after{
+.footer:after{
     content: "&nbsp;";
     visibility: hidden;
     height: 0;
