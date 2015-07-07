@@ -1599,12 +1599,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/open-orchestra/open-orchestra-front-bundle.git",
-                "reference": "476979b2985bab6eeff3c0b7a16f65fcedd82c6f"
+                "reference": "78c8e651be127752eed0f14af4d885e3adea1b45"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/open-orchestra/open-orchestra-front-bundle/zipball/476979b2985bab6eeff3c0b7a16f65fcedd82c6f",
-                "reference": "476979b2985bab6eeff3c0b7a16f65fcedd82c6f",
+                "url": "https://api.github.com/repos/open-orchestra/open-orchestra-front-bundle/zipball/78c8e651be127752eed0f14af4d885e3adea1b45",
+                "reference": "78c8e651be127752eed0f14af4d885e3adea1b45",
                 "shasum": ""
             },
             "require": {
@@ -1637,7 +1637,7 @@
                 }
             ],
             "description": "A bundle for the frontend part of an OpenOrchestra project",
-            "time": "2015-07-07 07:54:52"
+            "time": "2015-07-07 10:09:51"
         },
         {
             "name": "open-orchestra/open-orchestra-libs",
@@ -1690,12 +1690,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/open-orchestra/open-orchestra-media-bundle.git",
-                "reference": "0f8369bc4a17b4c224f1f9eb2645563eaae83187"
+                "reference": "06a634f4e53cd6859269f22ef6e6b022fa95439a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/open-orchestra/open-orchestra-media-bundle/zipball/0f8369bc4a17b4c224f1f9eb2645563eaae83187",
-                "reference": "0f8369bc4a17b4c224f1f9eb2645563eaae83187",
+                "url": "https://api.github.com/repos/open-orchestra/open-orchestra-media-bundle/zipball/06a634f4e53cd6859269f22ef6e6b022fa95439a",
+                "reference": "06a634f4e53cd6859269f22ef6e6b022fa95439a",
                 "shasum": ""
             },
             "require": {
@@ -1735,7 +1735,7 @@
                 }
             ],
             "description": "A media bundle for the OpenOrchestra Project",
-            "time": "2015-07-06 14:23:36"
+            "time": "2015-07-07 13:27:47"
         },
         {
             "name": "open-orchestra/open-orchestra-model-bundle",
