@@ -18,8 +18,5 @@ open_orchestra_redirection:
     resource: '.'
     type: orchestra_redirection
 
-open_orchestra_base:
-    resource: "@OpenOrchestraBaseBundle/Resources/config/routing.yml"
-
 open_orchestra_front_preview:
     resource: "@OpenOrchestraFrontBundle/Resources/config/preview_routing.yml"
