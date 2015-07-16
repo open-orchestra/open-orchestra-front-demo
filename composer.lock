@@ -1748,12 +1748,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/open-orchestra/open-orchestra-model-bundle.git",
-                "reference": "58efd3b52ab9dcb247369aa3890a457806713b0e"
+                "reference": "d3ad3806eb004577aa8112784898493be5d2cb3a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/open-orchestra/open-orchestra-model-bundle/zipball/58efd3b52ab9dcb247369aa3890a457806713b0e",
-                "reference": "58efd3b52ab9dcb247369aa3890a457806713b0e",
+                "url": "https://api.github.com/repos/open-orchestra/open-orchestra-model-bundle/zipball/d3ad3806eb004577aa8112784898493be5d2cb3a",
+                "reference": "d3ad3806eb004577aa8112784898493be5d2cb3a",
                 "shasum": ""
             },
             "require": {
@@ -1790,7 +1790,7 @@
                 }
             ],
             "description": "An implemantation of the model-interface for OpenOrchestra on mongo",
-            "time": "2015-07-15 14:43:51"
+            "time": "2015-07-15 15:43:27"
         },
         {
             "name": "open-orchestra/open-orchestra-model-interface",
@@ -2343,12 +2343,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/swiftmailer/swiftmailer.git",
-                "reference": "0a6e9031371dcb384d395b1fa7bd5139a7847a60"
+                "reference": "caf94ee2473ba6503e411ce3bcbd33b080f1d903"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/swiftmailer/swiftmailer/zipball/0a6e9031371dcb384d395b1fa7bd5139a7847a60",
-                "reference": "0a6e9031371dcb384d395b1fa7bd5139a7847a60",
+                "url": "https://api.github.com/repos/swiftmailer/swiftmailer/zipball/caf94ee2473ba6503e411ce3bcbd33b080f1d903",
+                "reference": "caf94ee2473ba6503e411ce3bcbd33b080f1d903",
                 "shasum": ""
             },
             "require": {
@@ -2388,7 +2388,7 @@
                 "mail",
                 "mailer"
             ],
-            "time": "2015-06-28 17:20:48"
+            "time": "2015-07-15 23:24:06"
         },
         {
             "name": "symfony/assetic-bundle",
