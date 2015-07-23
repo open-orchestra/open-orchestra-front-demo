@@ -1668,12 +1668,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/open-orchestra/open-orchestra-display-bundle.git",
-                "reference": "3871a5f77782f2d04f78a538fd9f3f06d43a2c92"
+                "reference": "b97cd7b2163e16f3ffb28069ecb607a49d2a5d19"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/open-orchestra/open-orchestra-display-bundle/zipball/3871a5f77782f2d04f78a538fd9f3f06d43a2c92",
-                "reference": "3871a5f77782f2d04f78a538fd9f3f06d43a2c92",
+                "url": "https://api.github.com/repos/open-orchestra/open-orchestra-display-bundle/zipball/b97cd7b2163e16f3ffb28069ecb607a49d2a5d19",
+                "reference": "b97cd7b2163e16f3ffb28069ecb607a49d2a5d19",
                 "shasum": ""
             },
             "require": {
@@ -1706,7 +1706,7 @@
                 }
             ],
             "description": "The bundle to display all bricks",
-            "time": "2015-07-16 16:20:59"
+            "time": "2015-07-23 15:41:27"
         },
         {
             "name": "open-orchestra/open-orchestra-front-bundle",
