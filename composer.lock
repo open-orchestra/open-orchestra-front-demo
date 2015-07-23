@@ -7,6 +7,122 @@
     "hash": "6f8e5437c75cb10db9bc2322020df13c",
     "packages": [
         {
+            "name": "antimattr/mongodb-migrations",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/antimattr/mongodb-migrations.git",
+                "reference": "855636b0e170df3a808b03161b6e0903de217698"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/antimattr/mongodb-migrations/zipball/855636b0e170df3a808b03161b6e0903de217698",
+                "reference": "855636b0e170df3a808b03161b6e0903de217698",
+                "shasum": ""
+            },
+            "require": {
+                "doctrine/mongodb": "1.*",
+                "php": ">=5.3.2",
+                "symfony/console": "2.*",
+                "symfony/yaml": "2.*"
+            },
+            "require-dev": {
+                "antimattr/test-case": "~1.0@stable",
+                "fabpot/php-cs-fixer": "0.5.*@dev",
+                "mikey179/vfsstream": "1.*",
+                "phpunit/phpunit": "~4.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "AntiMattr\\MongoDB\\Migrations\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Matthew Fitzgerald",
+                    "email": "matthewfitz@gmail.com"
+                },
+                {
+                    "name": "Ryan Catlin",
+                    "email": "ryan.catlin@gmail.com"
+                }
+            ],
+            "description": "Managed Database Migrations for MongoDB",
+            "homepage": "http://github.com/antimattr/mongodb-migrations",
+            "keywords": [
+                "antimattr",
+                "database",
+                "doctrine",
+                "migration",
+                "mongodb"
+            ],
+            "time": "2014-09-26 17:18:36"
+        },
+        {
+            "name": "antimattr/mongodb-migrations-bundle",
+            "version": "dev-master",
+            "target-dir": "AntiMattr/Bundle/MongoDBMigrationsBundle",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/antimattr/mongodb-migrations-bundle.git",
+                "reference": "4f340b3ccc650b520d56ff348524160ac7478ed8"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/antimattr/mongodb-migrations-bundle/zipball/4f340b3ccc650b520d56ff348524160ac7478ed8",
+                "reference": "4f340b3ccc650b520d56ff348524160ac7478ed8",
+                "shasum": ""
+            },
+            "require": {
+                "antimattr/mongodb-migrations": "~1.0@stable",
+                "doctrine/mongodb-odm": "1.*",
+                "php": ">=5.3.2",
+                "symfony/framework-bundle": "~2.1"
+            },
+            "type": "symfony-bundle",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "AntiMattr\\Bundle\\MongoDBMigrationsBundle\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Matthew Fitzgerald",
+                    "email": "matthewfitz@gmail.com"
+                }
+            ],
+            "description": "Symfony MongoDBMigrationsBundle",
+            "homepage": "http://github.com/antimattr/mongodb-migrations-bundle",
+            "keywords": [
+                "antimattr",
+                "database",
+                "doctrine",
+                "migration",
+                "mongodb",
+                "symfony"
+            ],
+            "time": "2014-10-30 18:30:09"
+        },
+        {
             "name": "behat/transliterator",
             "version": "dev-master",
             "source": {
@@ -1599,12 +1715,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/open-orchestra/open-orchestra-front-bundle.git",
-                "reference": "c807102278c28bbde04914c4b5d57e89c980ac14"
+                "reference": "9fec9dddcb3de9788d4500b02e1a2dd493489201"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/open-orchestra/open-orchestra-front-bundle/zipball/c807102278c28bbde04914c4b5d57e89c980ac14",
-                "reference": "c807102278c28bbde04914c4b5d57e89c980ac14",
+                "url": "https://api.github.com/repos/open-orchestra/open-orchestra-front-bundle/zipball/9fec9dddcb3de9788d4500b02e1a2dd493489201",
+                "reference": "9fec9dddcb3de9788d4500b02e1a2dd493489201",
                 "shasum": ""
             },
             "require": {
@@ -1637,7 +1753,7 @@
                 }
             ],
             "description": "A bundle for the frontend part of an OpenOrchestra project",
-            "time": "2015-07-15 13:52:57"
+            "time": "2015-07-23 12:58:26"
         },
         {
             "name": "open-orchestra/open-orchestra-libs",
@@ -1748,15 +1864,17 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/open-orchestra/open-orchestra-model-bundle.git",
-                "reference": "36b5340a86470f29ac6f23eb2832eb06238bbc85"
+                "reference": "2033284b98a1bd2db1b3bca39a9d1026e6654d01"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/open-orchestra/open-orchestra-model-bundle/zipball/36b5340a86470f29ac6f23eb2832eb06238bbc85",
-                "reference": "36b5340a86470f29ac6f23eb2832eb06238bbc85",
+                "url": "https://api.github.com/repos/open-orchestra/open-orchestra-model-bundle/zipball/2033284b98a1bd2db1b3bca39a9d1026e6654d01",
+                "reference": "2033284b98a1bd2db1b3bca39a9d1026e6654d01",
                 "shasum": ""
             },
             "require": {
+                "antimattr/mongodb-migrations": "~1.0@stable",
+                "antimattr/mongodb-migrations-bundle": "~1.0@stable",
                 "doctrine/data-fixtures": "1.1.1",
                 "doctrine/mongodb-odm": "1.0.0-BETA13",
                 "doctrine/mongodb-odm-bundle": "3.0.0",
@@ -1790,7 +1908,7 @@
                 }
             ],
             "description": "An implemantation of the model-interface for OpenOrchestra on mongo",
-            "time": "2015-07-17 09:28:59"
+            "time": "2015-07-23 13:34:48"
         },
         {
             "name": "open-orchestra/open-orchestra-model-interface",
@@ -1799,12 +1917,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/open-orchestra/open-orchestra-model-interface.git",
-                "reference": "485e632cb67fac7a5f3433b9a78bf1f955e4a5ca"
+                "reference": "2ae16560a006e08acbc4ffdd8367dc6c126cc6a0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/open-orchestra/open-orchestra-model-interface/zipball/485e632cb67fac7a5f3433b9a78bf1f955e4a5ca",
-                "reference": "485e632cb67fac7a5f3433b9a78bf1f955e4a5ca",
+                "url": "https://api.github.com/repos/open-orchestra/open-orchestra-model-interface/zipball/2ae16560a006e08acbc4ffdd8367dc6c126cc6a0",
+                "reference": "2ae16560a006e08acbc4ffdd8367dc6c126cc6a0",
                 "shasum": ""
             },
             "require": {
@@ -1837,7 +1955,7 @@
                 }
             ],
             "description": "Describe all entity and repository to implement for the whole OpenOrchestra project",
-            "time": "2015-07-20 12:43:29"
+            "time": "2015-07-22 14:18:41"
         },
         {
             "name": "open-orchestra/open-orchestra-theme-bundle",
