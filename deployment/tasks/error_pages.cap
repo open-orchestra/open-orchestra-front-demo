@@ -1,0 +1,9 @@
+namespace :orchestra do
+    desc "Generate error pages files"
+    task :generate_error_pages do
+        on roles(:app) do
+            execute "cd ~/current && php app/console orchestra:errorpages:generate --env=prod "
+        end
+    end
+    after 'deploy:finishing', 'orchestra:generate_error_pages'
+end
