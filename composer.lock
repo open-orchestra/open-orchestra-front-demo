@@ -1810,12 +1810,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/open-orchestra/open-orchestra-media-bundle.git",
-                "reference": "898604982731dd9d651941df5aa54bcb8868f779"
+                "reference": "90fed37b90027a9346cda642a420c9d70347755a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/open-orchestra/open-orchestra-media-bundle/zipball/898604982731dd9d651941df5aa54bcb8868f779",
-                "reference": "898604982731dd9d651941df5aa54bcb8868f779",
+                "url": "https://api.github.com/repos/open-orchestra/open-orchestra-media-bundle/zipball/90fed37b90027a9346cda642a420c9d70347755a",
+                "reference": "90fed37b90027a9346cda642a420c9d70347755a",
                 "shasum": ""
             },
             "require": {
@@ -1855,7 +1855,7 @@
                 }
             ],
             "description": "A media bundle for the OpenOrchestra Project",
-            "time": "2015-08-06 09:39:45"
+            "time": "2015-08-06 13:31:39"
         },
         {
             "name": "open-orchestra/open-orchestra-model-bundle",
