@@ -1540,12 +1540,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Seldaek/monolog.git",
-                "reference": "d93492fb60e05e67522f38796b54b9c5205bba90"
+                "reference": "c0c0b4bee3aabce7182876b0d912ef2595563db7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Seldaek/monolog/zipball/d93492fb60e05e67522f38796b54b9c5205bba90",
-                "reference": "d93492fb60e05e67522f38796b54b9c5205bba90",
+                "url": "https://api.github.com/repos/Seldaek/monolog/zipball/c0c0b4bee3aabce7182876b0d912ef2595563db7",
+                "reference": "c0c0b4bee3aabce7182876b0d912ef2595563db7",
                 "shasum": ""
             },
             "require": {
@@ -1582,7 +1582,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.15.x-dev"
+                    "dev-master": "1.16.x-dev"
                 }
             },
             "autoload": {
@@ -1608,7 +1608,7 @@
                 "logging",
                 "psr-3"
             ],
-            "time": "2015-07-31 10:19:40"
+            "time": "2015-08-09 17:44:44"
         },
         {
             "name": "open-orchestra/open-orchestra-base-bundle",
@@ -1762,12 +1762,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/open-orchestra/open-orchestra-libs.git",
-                "reference": "68817676f37a8faf01aed1524624ce66aeda9009"
+                "reference": "333ba74c03f00d294d09d42cde28f42739bda519"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/open-orchestra/open-orchestra-libs/zipball/68817676f37a8faf01aed1524624ce66aeda9009",
-                "reference": "68817676f37a8faf01aed1524624ce66aeda9009",
+                "url": "https://api.github.com/repos/open-orchestra/open-orchestra-libs/zipball/333ba74c03f00d294d09d42cde28f42739bda519",
+                "reference": "333ba74c03f00d294d09d42cde28f42739bda519",
                 "shasum": ""
             },
             "require": {
@@ -1785,6 +1785,7 @@
             "type": "library",
             "autoload": {
                 "psr-0": {
+                    "OpenOrchestra\\Mapping": "",
                     "OpenOrchestra\\Pagination": "",
                     "OpenOrchestra\\MongoTrait": "",
                     "OpenOrchestra\\Repository": ""
@@ -1801,7 +1802,7 @@
                 }
             ],
             "description": "Some library for the Open Orchestra project",
-            "time": "2015-08-03 13:42:33"
+            "time": "2015-08-10 15:31:46"
         },
         {
             "name": "open-orchestra/open-orchestra-media-bundle",
@@ -1864,12 +1865,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/open-orchestra/open-orchestra-model-bundle.git",
-                "reference": "788bb9198c88046fb7a89ed470bb63c039c71ddd"
+                "reference": "d6372cfa8cd357de725e3f04ab0f72b3a9ae0d86"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/open-orchestra/open-orchestra-model-bundle/zipball/788bb9198c88046fb7a89ed470bb63c039c71ddd",
-                "reference": "788bb9198c88046fb7a89ed470bb63c039c71ddd",
+                "url": "https://api.github.com/repos/open-orchestra/open-orchestra-model-bundle/zipball/d6372cfa8cd357de725e3f04ab0f72b3a9ae0d86",
+                "reference": "d6372cfa8cd357de725e3f04ab0f72b3a9ae0d86",
                 "shasum": ""
             },
             "require": {
@@ -1908,7 +1909,7 @@
                 }
             ],
             "description": "An implemantation of the model-interface for OpenOrchestra on mongo",
-            "time": "2015-08-05 09:07:21"
+            "time": "2015-08-11 09:24:02"
         },
         {
             "name": "open-orchestra/open-orchestra-model-interface",
@@ -1917,12 +1918,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/open-orchestra/open-orchestra-model-interface.git",
-                "reference": "462ce5a93d4cecf70438f50d42ac74f2e681ac8a"
+                "reference": "71d4b69de4817057cc805ecb4b4dd5fb8405fa0f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/open-orchestra/open-orchestra-model-interface/zipball/462ce5a93d4cecf70438f50d42ac74f2e681ac8a",
-                "reference": "462ce5a93d4cecf70438f50d42ac74f2e681ac8a",
+                "url": "https://api.github.com/repos/open-orchestra/open-orchestra-model-interface/zipball/71d4b69de4817057cc805ecb4b4dd5fb8405fa0f",
+                "reference": "71d4b69de4817057cc805ecb4b4dd5fb8405fa0f",
                 "shasum": ""
             },
             "require": {
@@ -1955,7 +1956,7 @@
                 }
             ],
             "description": "Describe all entity and repository to implement for the whole OpenOrchestra project",
-            "time": "2015-07-29 08:48:12"
+            "time": "2015-08-11 09:08:30"
         },
         {
             "name": "open-orchestra/open-orchestra-theme-bundle",
@@ -3705,12 +3706,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/phpunit-mock-objects.git",
-                "reference": "ca2e42cad8446a05691cc4327b7ce3ed45bfdb11"
+                "reference": "dccd8011934fba6fb77c7182c74926ad58c9ecd1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/phpunit-mock-objects/zipball/ca2e42cad8446a05691cc4327b7ce3ed45bfdb11",
-                "reference": "ca2e42cad8446a05691cc4327b7ce3ed45bfdb11",
+                "url": "https://api.github.com/repos/sebastianbergmann/phpunit-mock-objects/zipball/dccd8011934fba6fb77c7182c74926ad58c9ecd1",
+                "reference": "dccd8011934fba6fb77c7182c74926ad58c9ecd1",
                 "shasum": ""
             },
             "require": {
@@ -3753,7 +3754,7 @@
                 "mock",
                 "xunit"
             ],
-            "time": "2015-08-02 07:29:52"
+            "time": "2015-08-09 04:15:55"
         },
         {
             "name": "scrutinizer/ocular",
@@ -3963,12 +3964,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/exporter.git",
-                "reference": "66fb20c9e1b3617651c3f66be7a1747479d96ba5"
+                "reference": "f88f8936517d54ae6d589166810877fb2015d0a2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/exporter/zipball/66fb20c9e1b3617651c3f66be7a1747479d96ba5",
-                "reference": "66fb20c9e1b3617651c3f66be7a1747479d96ba5",
+                "url": "https://api.github.com/repos/sebastianbergmann/exporter/zipball/f88f8936517d54ae6d589166810877fb2015d0a2",
+                "reference": "f88f8936517d54ae6d589166810877fb2015d0a2",
                 "shasum": ""
             },
             "require": {
@@ -4022,7 +4023,7 @@
                 "export",
                 "exporter"
             ],
-            "time": "2015-07-30 09:58:30"
+            "time": "2015-08-09 04:23:41"
         },
         {
             "name": "sebastian/global-state",
