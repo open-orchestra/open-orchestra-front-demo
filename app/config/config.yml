@@ -125,3 +125,6 @@ innocead_captcha:
     bg_red: 255
     bg_green: 255
     bg_blue: 255
+
+open_orchestra_media:
+    media_domain: %media_domain%
