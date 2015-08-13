@@ -1715,12 +1715,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/open-orchestra/open-orchestra-front-bundle.git",
-                "reference": "2f9a96331786e949c0257e53e630414579f445c4"
+                "reference": "bf2e0ef00113540d101ba6fc71576e3db3883ea8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/open-orchestra/open-orchestra-front-bundle/zipball/2f9a96331786e949c0257e53e630414579f445c4",
-                "reference": "2f9a96331786e949c0257e53e630414579f445c4",
+                "url": "https://api.github.com/repos/open-orchestra/open-orchestra-front-bundle/zipball/bf2e0ef00113540d101ba6fc71576e3db3883ea8",
+                "reference": "bf2e0ef00113540d101ba6fc71576e3db3883ea8",
                 "shasum": ""
             },
             "require": {
@@ -1753,7 +1753,7 @@
                 }
             ],
             "description": "A bundle for the frontend part of an OpenOrchestra project",
-            "time": "2015-08-05 08:05:44"
+            "time": "2015-08-12 15:31:40"
         },
         {
             "name": "open-orchestra/open-orchestra-libs",
@@ -1762,12 +1762,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/open-orchestra/open-orchestra-libs.git",
-                "reference": "918aea2959d9323a504e76ec91299edb7ad90936"
+                "reference": "2ffcf14f5326f62ab2c2cbe48c3b0d392530ce18"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/open-orchestra/open-orchestra-libs/zipball/918aea2959d9323a504e76ec91299edb7ad90936",
-                "reference": "918aea2959d9323a504e76ec91299edb7ad90936",
+                "url": "https://api.github.com/repos/open-orchestra/open-orchestra-libs/zipball/2ffcf14f5326f62ab2c2cbe48c3b0d392530ce18",
+                "reference": "2ffcf14f5326f62ab2c2cbe48c3b0d392530ce18",
                 "shasum": ""
             },
             "require": {
@@ -1802,7 +1802,7 @@
                 }
             ],
             "description": "Some library for the Open Orchestra project",
-            "time": "2015-08-12 09:02:27"
+            "time": "2015-08-13 12:31:19"
         },
         {
             "name": "open-orchestra/open-orchestra-media-bundle",
@@ -1865,12 +1865,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/open-orchestra/open-orchestra-model-bundle.git",
-                "reference": "d6372cfa8cd357de725e3f04ab0f72b3a9ae0d86"
+                "reference": "1d99bff7c1ead32c03d4cd67a84725f10add9a49"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/open-orchestra/open-orchestra-model-bundle/zipball/d6372cfa8cd357de725e3f04ab0f72b3a9ae0d86",
-                "reference": "d6372cfa8cd357de725e3f04ab0f72b3a9ae0d86",
+                "url": "https://api.github.com/repos/open-orchestra/open-orchestra-model-bundle/zipball/1d99bff7c1ead32c03d4cd67a84725f10add9a49",
+                "reference": "1d99bff7c1ead32c03d4cd67a84725f10add9a49",
                 "shasum": ""
             },
             "require": {
@@ -1909,7 +1909,7 @@
                 }
             ],
             "description": "An implemantation of the model-interface for OpenOrchestra on mongo",
-            "time": "2015-08-11 09:24:02"
+            "time": "2015-08-13 12:31:13"
         },
         {
             "name": "open-orchestra/open-orchestra-model-interface",
@@ -2869,12 +2869,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/twigphp/Twig.git",
-                "reference": "61d45b3e24598605211a2d9eb453082d12d2f766"
+                "reference": "af129b2f75fbb7b9c23f4dcb6f6c77a90769bd47"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/twigphp/Twig/zipball/61d45b3e24598605211a2d9eb453082d12d2f766",
-                "reference": "61d45b3e24598605211a2d9eb453082d12d2f766",
+                "url": "https://api.github.com/repos/twigphp/Twig/zipball/af129b2f75fbb7b9c23f4dcb6f6c77a90769bd47",
+                "reference": "af129b2f75fbb7b9c23f4dcb6f6c77a90769bd47",
                 "shasum": ""
             },
             "require": {
@@ -2918,7 +2918,7 @@
             "keywords": [
                 "templating"
             ],
-            "time": "2015-08-11 13:57:52"
+            "time": "2015-08-13 12:50:40"
         }
     ],
     "packages-dev": [
@@ -3334,12 +3334,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpspec/prophecy.git",
-                "reference": "5700f75b23b0dd3495c0f495fe33a5e6717ee160"
+                "reference": "80da5500014051b9e70740f183c5e5586f38f977"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpspec/prophecy/zipball/5700f75b23b0dd3495c0f495fe33a5e6717ee160",
-                "reference": "5700f75b23b0dd3495c0f495fe33a5e6717ee160",
+                "url": "https://api.github.com/repos/phpspec/prophecy/zipball/80da5500014051b9e70740f183c5e5586f38f977",
+                "reference": "80da5500014051b9e70740f183c5e5586f38f977",
                 "shasum": ""
             },
             "require": {
@@ -3353,7 +3353,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.4.x-dev"
+                    "dev-master": "1.5.x-dev"
                 }
             },
             "autoload": {
@@ -3386,7 +3386,7 @@
                 "spy",
                 "stub"
             ],
-            "time": "2015-06-30 10:26:46"
+            "time": "2015-08-13 10:25:47"
         },
         {
             "name": "phpunit/php-code-coverage",
@@ -3585,12 +3585,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/php-token-stream.git",
-                "reference": "7a9b0969488c3c54fd62b4d504b3ec758fd005d9"
+                "reference": "8b0723c09dd6593a27319c631bf7152be809bab0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/php-token-stream/zipball/7a9b0969488c3c54fd62b4d504b3ec758fd005d9",
-                "reference": "7a9b0969488c3c54fd62b4d504b3ec758fd005d9",
+                "url": "https://api.github.com/repos/sebastianbergmann/php-token-stream/zipball/8b0723c09dd6593a27319c631bf7152be809bab0",
+                "reference": "8b0723c09dd6593a27319c631bf7152be809bab0",
                 "shasum": ""
             },
             "require": {
@@ -3626,7 +3626,7 @@
             "keywords": [
                 "tokenizer"
             ],
-            "time": "2015-06-19 03:43:16"
+            "time": "2015-08-13 08:20:49"
         },
         {
             "name": "phpunit/phpunit",
