@@ -1,5 +1,3 @@
-set :application, 'OpenOrchestraFront'
-
 set :format, :pretty
 set :log_level, :info
 set :keep_releases, 2
