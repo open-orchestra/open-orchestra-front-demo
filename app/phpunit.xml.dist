@@ -22,6 +22,7 @@
             <exclude>../vendor/open-orchestra/open-orchestra-media-bundle/OpenOrchestra/MediaBundle/Tests/Functional</exclude>
             <exclude>../vendor/open-orchestra/open-orchestra-model-bundle/OpenOrchestra/ModelBundle/Tests/Functional</exclude>
             <exclude>../vendor/open-orchestra/open-orchestra-user-bundle/OpenOrchestra/UserBundle/Tests/Functional</exclude>
+            <exclude>../vendor/open-orchestra/open-orchestra-base-bundle/OpenOrchestra/BaseBundle/Tests/Functional</exclude>
         </testsuite>
         <testsuite name="functional">
             <directory>../vendor/open-orchestra/*/*/*Bundle/Tests/Functional</directory>
