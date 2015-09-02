@@ -32,7 +32,6 @@ class AppKernel extends Kernel
 
             new OpenOrchestra\DemoBundle\OpenOrchestraDemoBundle(),
             new Solution\MongoAggregationBundle\SolutionMongoAggregationBundle(),
-            new AntiMattr\Bundle\MongoDBMigrationsBundle\MongoDBMigrationsBundle(),
             new Innocead\CaptchaBundle\InnoceadCaptchaBundle(),
         );
 
