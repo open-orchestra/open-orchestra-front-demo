@@ -28,6 +28,7 @@ class AppKernel extends Kernel
             new OpenOrchestra\MediaBundle\OpenOrchestraMediaBundle,
             new OpenOrchestra\MediaModelBundle\OpenOrchestraMediaModelBundle(),
             new OpenOrchestra\DisplayBundle\OpenOrchestraDisplayBundle(),
+            new OpenOrchestra\BBcodeBundle\OpenOrchestraBBcodeBundle(),
             new OpenOrchestra\FrontBundle\OpenOrchestraFrontBundle(),
 
             new OpenOrchestra\DemoBundle\OpenOrchestraDemoBundle(),
