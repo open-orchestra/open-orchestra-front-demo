@@ -937,12 +937,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Atlantic18/DoctrineExtensions.git",
-                "reference": "98079b1903971620c702d0aa2fe7aa28f9e57089"
+                "reference": "371e7d62d530c40c1bf9c8e150e6defc2bed4eba"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Atlantic18/DoctrineExtensions/zipball/98079b1903971620c702d0aa2fe7aa28f9e57089",
-                "reference": "98079b1903971620c702d0aa2fe7aa28f9e57089",
+                "url": "https://api.github.com/repos/Atlantic18/DoctrineExtensions/zipball/371e7d62d530c40c1bf9c8e150e6defc2bed4eba",
+                "reference": "371e7d62d530c40c1bf9c8e150e6defc2bed4eba",
                 "shasum": ""
             },
             "require": {
@@ -1008,7 +1008,7 @@
                 "tree",
                 "uploadable"
             ],
-            "time": "2015-09-04 17:22:47"
+            "time": "2015-09-09 04:40:06"
         },
         {
             "name": "guzzle/guzzle",
@@ -2799,12 +2799,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/twigphp/Twig.git",
-                "reference": "825bdc1afcccdc88c2d641343f8df4fc5afe214d"
+                "reference": "7d21eb99840db0b0ce80221a260a299caa50e4f4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/twigphp/Twig/zipball/825bdc1afcccdc88c2d641343f8df4fc5afe214d",
-                "reference": "825bdc1afcccdc88c2d641343f8df4fc5afe214d",
+                "url": "https://api.github.com/repos/twigphp/Twig/zipball/7d21eb99840db0b0ce80221a260a299caa50e4f4",
+                "reference": "7d21eb99840db0b0ce80221a260a299caa50e4f4",
                 "shasum": ""
             },
             "require": {
@@ -2852,7 +2852,7 @@
             "keywords": [
                 "templating"
             ],
-            "time": "2015-09-06 06:45:56"
+            "time": "2015-09-09 05:33:05"
         }
     ],
     "packages-dev": [
