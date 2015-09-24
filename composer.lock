@@ -1654,12 +1654,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/open-orchestra/open-orchestra-display-bundle.git",
-                "reference": "96203d8e89f77f8b995ec643430501fbac3d81b5"
+                "reference": "e62908f22591747c71d8f4dfddf9229c2ee22764"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/open-orchestra/open-orchestra-display-bundle/zipball/96203d8e89f77f8b995ec643430501fbac3d81b5",
-                "reference": "96203d8e89f77f8b995ec643430501fbac3d81b5",
+                "url": "https://api.github.com/repos/open-orchestra/open-orchestra-display-bundle/zipball/e62908f22591747c71d8f4dfddf9229c2ee22764",
+                "reference": "e62908f22591747c71d8f4dfddf9229c2ee22764",
                 "shasum": ""
             },
             "require": {
@@ -1694,7 +1694,7 @@
                 }
             ],
             "description": "The bundle to display all bricks",
-            "time": "2015-09-21 14:46:38"
+            "time": "2015-09-24 08:21:14"
         },
         {
             "name": "open-orchestra/open-orchestra-front-bundle",
@@ -1703,12 +1703,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/open-orchestra/open-orchestra-front-bundle.git",
-                "reference": "a493a11307ca0122dbc5491a7510b956abb02f1f"
+                "reference": "dc7d31060a96ce89fbfe0087b579a08013f50410"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/open-orchestra/open-orchestra-front-bundle/zipball/a493a11307ca0122dbc5491a7510b956abb02f1f",
-                "reference": "a493a11307ca0122dbc5491a7510b956abb02f1f",
+                "url": "https://api.github.com/repos/open-orchestra/open-orchestra-front-bundle/zipball/dc7d31060a96ce89fbfe0087b579a08013f50410",
+                "reference": "dc7d31060a96ce89fbfe0087b579a08013f50410",
                 "shasum": ""
             },
             "require": {
@@ -1741,7 +1741,7 @@
                 }
             ],
             "description": "A bundle for the frontend part of an OpenOrchestra project",
-            "time": "2015-09-21 14:49:38"
+            "time": "2015-09-24 08:28:43"
         },
         {
             "name": "open-orchestra/open-orchestra-libs",
@@ -1750,12 +1750,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/open-orchestra/open-orchestra-libs.git",
-                "reference": "05a0edb55d70392875202df8fe785ba167566027"
+                "reference": "187b2aa4346967cfbd423c16b0d7387bd156c5c6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/open-orchestra/open-orchestra-libs/zipball/05a0edb55d70392875202df8fe785ba167566027",
-                "reference": "05a0edb55d70392875202df8fe785ba167566027",
+                "url": "https://api.github.com/repos/open-orchestra/open-orchestra-libs/zipball/187b2aa4346967cfbd423c16b0d7387bd156c5c6",
+                "reference": "187b2aa4346967cfbd423c16b0d7387bd156c5c6",
                 "shasum": ""
             },
             "require": {
@@ -1792,7 +1792,7 @@
                 }
             ],
             "description": "Some library for the Open Orchestra project",
-            "time": "2015-09-22 07:34:18"
+            "time": "2015-09-22 15:25:58"
         },
         {
             "name": "open-orchestra/open-orchestra-media-bundle",
@@ -1801,12 +1801,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/open-orchestra/open-orchestra-media-bundle.git",
-                "reference": "2c3db0d74a87a9415772e269150a106f20254a7f"
+                "reference": "f3c0ced4147e1cfa5b17c7ed9452a891cda1607a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/open-orchestra/open-orchestra-media-bundle/zipball/2c3db0d74a87a9415772e269150a106f20254a7f",
-                "reference": "2c3db0d74a87a9415772e269150a106f20254a7f",
+                "url": "https://api.github.com/repos/open-orchestra/open-orchestra-media-bundle/zipball/f3c0ced4147e1cfa5b17c7ed9452a891cda1607a",
+                "reference": "f3c0ced4147e1cfa5b17c7ed9452a891cda1607a",
                 "shasum": ""
             },
             "require": {
@@ -1847,7 +1847,7 @@
                 }
             ],
             "description": "A media bundle for the OpenOrchestra Project",
-            "time": "2015-09-21 14:59:35"
+            "time": "2015-09-24 08:12:25"
         },
         {
             "name": "open-orchestra/open-orchestra-model-bundle",
@@ -1856,12 +1856,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/open-orchestra/open-orchestra-model-bundle.git",
-                "reference": "cf05ccb6f04046366166f18f1175332b73583855"
+                "reference": "2f1d1d3cfbd765bc79af860e7e303ac3a456861e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/open-orchestra/open-orchestra-model-bundle/zipball/cf05ccb6f04046366166f18f1175332b73583855",
-                "reference": "cf05ccb6f04046366166f18f1175332b73583855",
+                "url": "https://api.github.com/repos/open-orchestra/open-orchestra-model-bundle/zipball/2f1d1d3cfbd765bc79af860e7e303ac3a456861e",
+                "reference": "2f1d1d3cfbd765bc79af860e7e303ac3a456861e",
                 "shasum": ""
             },
             "require": {
@@ -1898,7 +1898,7 @@
                 }
             ],
             "description": "An implemantation of the model-interface for OpenOrchestra on mongo",
-            "time": "2015-09-21 15:03:02"
+            "time": "2015-09-22 15:30:48"
         },
         {
             "name": "open-orchestra/open-orchestra-model-interface",
@@ -1907,12 +1907,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/open-orchestra/open-orchestra-model-interface.git",
-                "reference": "36a68bea23b1dce8c15cc2706351d41549a2e01c"
+                "reference": "f579886f4c993d54075c34c8b93e5f919b093d6f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/open-orchestra/open-orchestra-model-interface/zipball/36a68bea23b1dce8c15cc2706351d41549a2e01c",
-                "reference": "36a68bea23b1dce8c15cc2706351d41549a2e01c",
+                "url": "https://api.github.com/repos/open-orchestra/open-orchestra-model-interface/zipball/f579886f4c993d54075c34c8b93e5f919b093d6f",
+                "reference": "f579886f4c993d54075c34c8b93e5f919b093d6f",
                 "shasum": ""
             },
             "require": {
@@ -1945,7 +1945,7 @@
                 }
             ],
             "description": "Describe all entity and repository to implement for the whole OpenOrchestra project",
-            "time": "2015-09-21 15:05:54"
+            "time": "2015-09-24 08:19:54"
         },
         {
             "name": "open-orchestra/open-orchestra-theme-bundle",
@@ -2627,12 +2627,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/SwiftmailerBundle.git",
-                "reference": "185e00d5e4a617cf0fb5f7415f0cc80d51c15bdd"
+                "reference": "456395511e37ecdbfc5777fb78ae6d69ee07ef98"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/SwiftmailerBundle/zipball/185e00d5e4a617cf0fb5f7415f0cc80d51c15bdd",
-                "reference": "185e00d5e4a617cf0fb5f7415f0cc80d51c15bdd",
+                "url": "https://api.github.com/repos/symfony/SwiftmailerBundle/zipball/456395511e37ecdbfc5777fb78ae6d69ee07ef98",
+                "reference": "456395511e37ecdbfc5777fb78ae6d69ee07ef98",
                 "shasum": ""
             },
             "require": {
@@ -2676,7 +2676,7 @@
             ],
             "description": "Symfony SwiftmailerBundle",
             "homepage": "http://symfony.com",
-            "time": "2015-07-30 15:57:38"
+            "time": "2015-09-22 15:47:37"
         },
         {
             "name": "symfony/symfony",
@@ -3281,12 +3281,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpspec/prophecy.git",
-                "reference": "80da5500014051b9e70740f183c5e5586f38f977"
+                "reference": "4f9b1eaf0a7da77c362f8d91cbc68ab1f4718d62"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpspec/prophecy/zipball/80da5500014051b9e70740f183c5e5586f38f977",
-                "reference": "80da5500014051b9e70740f183c5e5586f38f977",
+                "url": "https://api.github.com/repos/phpspec/prophecy/zipball/4f9b1eaf0a7da77c362f8d91cbc68ab1f4718d62",
+                "reference": "4f9b1eaf0a7da77c362f8d91cbc68ab1f4718d62",
                 "shasum": ""
             },
             "require": {
@@ -3333,7 +3333,7 @@
                 "spy",
                 "stub"
             ],
-            "time": "2015-08-13 10:25:47"
+            "time": "2015-09-22 14:49:23"
         },
         {
             "name": "phpunit/php-code-coverage",
@@ -3532,12 +3532,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/php-token-stream.git",
-                "reference": "3144ae21711fb6cac0b1ab4cbe63b75ce3d4e8da"
+                "reference": "cab6c6fefee93d7b7c3a01292a0fe0884ea66644"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/php-token-stream/zipball/3144ae21711fb6cac0b1ab4cbe63b75ce3d4e8da",
-                "reference": "3144ae21711fb6cac0b1ab4cbe63b75ce3d4e8da",
+                "url": "https://api.github.com/repos/sebastianbergmann/php-token-stream/zipball/cab6c6fefee93d7b7c3a01292a0fe0884ea66644",
+                "reference": "cab6c6fefee93d7b7c3a01292a0fe0884ea66644",
                 "shasum": ""
             },
             "require": {
@@ -3573,7 +3573,7 @@
             "keywords": [
                 "tokenizer"
             ],
-            "time": "2015-09-15 10:49:45"
+            "time": "2015-09-23 14:46:55"
         },
         {
             "name": "phpunit/phpunit",
