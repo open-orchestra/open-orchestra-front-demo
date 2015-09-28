@@ -10,13 +10,5 @@ open_orchestra_media:
 open_orchestra_display:
     resource: "@OpenOrchestraDisplayBundle/Resources/config/routing.yml"
 
-#open_orchestra_database:
-#    resource: '.'
-#    type: database
-#
-#open_orchestra_redirection:
-#    resource: '.'
-#    type: orchestra_redirection
-
 open_orchestra_front_preview:
     resource: "@OpenOrchestraFrontBundle/Resources/config/preview_routing.yml"
