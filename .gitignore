@@ -1,5 +1,6 @@
 #==[Symfony]==========================#
 /web/bundles/
+/web/images/
 /app/bootstrap.php.cache
 /app/cache/*
 /app/logs/*
