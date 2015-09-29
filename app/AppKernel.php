@@ -19,6 +19,7 @@ class AppKernel extends Kernel
             new Doctrine\Bundle\MongoDBBundle\DoctrineMongoDBBundle(),
             new FOS\HttpCacheBundle\FOSHttpCacheBundle(),
             new Snc\RedisBundle\SncRedisBundle(),
+            new Symfony\Cmf\Bundle\RoutingBundle\CmfRoutingBundle(),
 
             new Knp\Bundle\GaufretteBundle\KnpGaufretteBundle(),
 
