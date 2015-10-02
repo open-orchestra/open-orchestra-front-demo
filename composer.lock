@@ -938,12 +938,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Atlantic18/DoctrineExtensions.git",
-                "reference": "1a86ba1c7426238b4f765089e0af51174a38af7f"
+                "reference": "c9566ce5e7d568248c8be41e3502c9b9a1e84e79"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Atlantic18/DoctrineExtensions/zipball/1a86ba1c7426238b4f765089e0af51174a38af7f",
-                "reference": "1a86ba1c7426238b4f765089e0af51174a38af7f",
+                "url": "https://api.github.com/repos/Atlantic18/DoctrineExtensions/zipball/c9566ce5e7d568248c8be41e3502c9b9a1e84e79",
+                "reference": "c9566ce5e7d568248c8be41e3502c9b9a1e84e79",
                 "shasum": ""
             },
             "require": {
@@ -1009,7 +1009,7 @@
                 "tree",
                 "uploadable"
             ],
-            "time": "2015-09-28 16:39:27"
+            "time": "2015-10-01 14:27:21"
         },
         {
             "name": "guzzle/guzzle",
@@ -1448,12 +1448,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/kriswallsmith/assetic.git",
-                "reference": "56cb5d6dec9e7a68a4da2fa89844f39d41092f31"
+                "reference": "37bcae173f2ca774ee125ea378690d192596aa29"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/kriswallsmith/assetic/zipball/56cb5d6dec9e7a68a4da2fa89844f39d41092f31",
-                "reference": "56cb5d6dec9e7a68a4da2fa89844f39d41092f31",
+                "url": "https://api.github.com/repos/kriswallsmith/assetic/zipball/37bcae173f2ca774ee125ea378690d192596aa29",
+                "reference": "37bcae173f2ca774ee125ea378690d192596aa29",
                 "shasum": ""
             },
             "require": {
@@ -1489,7 +1489,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.3-dev"
+                    "dev-master": "1.4-dev"
                 }
             },
             "autoload": {
@@ -1518,7 +1518,7 @@
                 "compression",
                 "minification"
             ],
-            "time": "2015-08-31 19:07:16"
+            "time": "2015-10-01 14:26:07"
         },
         {
             "name": "monolog/monolog",
@@ -1655,24 +1655,24 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/open-orchestra/open-orchestra-display-bundle.git",
-                "reference": "e62908f22591747c71d8f4dfddf9229c2ee22764"
+                "reference": "a80034c1b6ba5faf70d824474ea9120825606af3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/open-orchestra/open-orchestra-display-bundle/zipball/e62908f22591747c71d8f4dfddf9229c2ee22764",
-                "reference": "e62908f22591747c71d8f4dfddf9229c2ee22764",
+                "url": "https://api.github.com/repos/open-orchestra/open-orchestra-display-bundle/zipball/a80034c1b6ba5faf70d824474ea9120825606af3",
+                "reference": "a80034c1b6ba5faf70d824474ea9120825606af3",
                 "shasum": ""
             },
             "require": {
                 "friendsofsymfony/http-cache-bundle": "1.3.3",
                 "innocead/captcha-bundle": "*",
                 "jbbcode/jbbcode": "1.3.0",
+                "open-orchestra/open-orchestra-base-bundle": "*",
                 "open-orchestra/open-orchestra-model-interface": "*",
                 "symfony/swiftmailer-bundle": "~2.3"
             },
             "require-dev": {
                 "codeclimate/php-test-reporter": "dev-master",
-                "open-orchestra/open-orchestra-base-bundle": "dev-master",
                 "phake/phake": "2.1.0",
                 "phpunit/phpunit": "4.8.8",
                 "psr/log": "1.0.0"
@@ -1695,7 +1695,7 @@
                 }
             ],
             "description": "The bundle to display all bricks",
-            "time": "2015-09-24 08:21:14"
+            "time": "2015-10-02 09:28:02"
         },
         {
             "name": "open-orchestra/open-orchestra-front-bundle",
@@ -1704,19 +1704,17 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/open-orchestra/open-orchestra-front-bundle.git",
-                "reference": "cb0dd9cf9ee0b4fad841563d671eb587d88c4b38"
+                "reference": "d08e524c31cf35ade8a5dd5fc324b54e593e7af6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/open-orchestra/open-orchestra-front-bundle/zipball/cb0dd9cf9ee0b4fad841563d671eb587d88c4b38",
-                "reference": "cb0dd9cf9ee0b4fad841563d671eb587d88c4b38",
+                "url": "https://api.github.com/repos/open-orchestra/open-orchestra-front-bundle/zipball/d08e524c31cf35ade8a5dd5fc324b54e593e7af6",
+                "reference": "d08e524c31cf35ade8a5dd5fc324b54e593e7af6",
                 "shasum": ""
             },
             "require": {
-                "open-orchestra/open-orchestra-base-bundle": "*",
-                "open-orchestra/open-orchestra-display-bundle": "*",
-                "open-orchestra/open-orchestra-model-interface": "*",
-                "open-orchestra/open-orchestra-theme-bundle": "*",
+                "open-orchestra/open-orchestra-display-bundle": "dev-master",
+                "open-orchestra/open-orchestra-theme-bundle": "dev-master",
                 "symfony-cmf/routing-bundle": "*"
             },
             "require-dev": {
@@ -1743,7 +1741,7 @@
                 }
             ],
             "description": "A bundle for the frontend part of an OpenOrchestra project",
-            "time": "2015-09-29 15:49:40"
+            "time": "2015-10-02 09:51:31"
         },
         {
             "name": "open-orchestra/open-orchestra-libs",
@@ -1803,12 +1801,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/open-orchestra/open-orchestra-media-bundle.git",
-                "reference": "d9d2063015ca1eb49000a819ff0cc3d36357ccba"
+                "reference": "1938f228ba4ac5b75d2dbf68131af3f683f73841"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/open-orchestra/open-orchestra-media-bundle/zipball/d9d2063015ca1eb49000a819ff0cc3d36357ccba",
-                "reference": "d9d2063015ca1eb49000a819ff0cc3d36357ccba",
+                "url": "https://api.github.com/repos/open-orchestra/open-orchestra-media-bundle/zipball/1938f228ba4ac5b75d2dbf68131af3f683f73841",
+                "reference": "1938f228ba4ac5b75d2dbf68131af3f683f73841",
                 "shasum": ""
             },
             "require": {
@@ -1818,7 +1816,6 @@
                 "ext-imagick": "*",
                 "knplabs/knp-gaufrette-bundle": "v0.1.7",
                 "open-orchestra/open-orchestra-display-bundle": "*",
-                "open-orchestra/open-orchestra-model-interface": "*",
                 "stof/doctrine-extensions-bundle": "1.2.1"
             },
             "require-dev": {
@@ -1849,7 +1846,7 @@
                 }
             ],
             "description": "A media bundle for the OpenOrchestra Project",
-            "time": "2015-09-28 12:17:13"
+            "time": "2015-10-02 09:27:57"
         },
         {
             "name": "open-orchestra/open-orchestra-model-bundle",
@@ -1858,12 +1855,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/open-orchestra/open-orchestra-model-bundle.git",
-                "reference": "7d8432f8710eba83b929218d0c559bcce8b6a5fb"
+                "reference": "b0804cf13ec0661162f08c503ed58e2e7d5b9206"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/open-orchestra/open-orchestra-model-bundle/zipball/7d8432f8710eba83b929218d0c559bcce8b6a5fb",
-                "reference": "7d8432f8710eba83b929218d0c559bcce8b6a5fb",
+                "url": "https://api.github.com/repos/open-orchestra/open-orchestra-model-bundle/zipball/b0804cf13ec0661162f08c503ed58e2e7d5b9206",
+                "reference": "b0804cf13ec0661162f08c503ed58e2e7d5b9206",
                 "shasum": ""
             },
             "require": {
@@ -1900,7 +1897,7 @@
                 }
             ],
             "description": "An implemantation of the model-interface for OpenOrchestra on mongo",
-            "time": "2015-09-29 15:48:26"
+            "time": "2015-09-30 13:55:15"
         },
         {
             "name": "open-orchestra/open-orchestra-model-interface",
@@ -2309,12 +2306,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/f1nder/SolutionMongoAggregationBundle.git",
-                "reference": "231584e75b2cb5a225acd403282634c3e06fb52c"
+                "reference": "1f2c02d166392e0443386aeb2471d311d1cef2e8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/f1nder/SolutionMongoAggregationBundle/zipball/231584e75b2cb5a225acd403282634c3e06fb52c",
-                "reference": "231584e75b2cb5a225acd403282634c3e06fb52c",
+                "url": "https://api.github.com/repos/f1nder/SolutionMongoAggregationBundle/zipball/1f2c02d166392e0443386aeb2471d311d1cef2e8",
+                "reference": "1f2c02d166392e0443386aeb2471d311d1cef2e8",
                 "shasum": ""
             },
             "require": {
@@ -2347,7 +2344,7 @@
                 "pipeline",
                 "query"
             ],
-            "time": "2015-05-20 08:10:24"
+            "time": "2015-09-30 17:03:45"
         },
         {
             "name": "solution/pipeline-builder",
@@ -2558,12 +2555,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony-cmf/RoutingBundle.git",
-                "reference": "f363e1457a3d85a3d03437cc7506eae6bb3ac380"
+                "reference": "eb688a502a7d1d2c273016b5fdd484543f10414d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony-cmf/RoutingBundle/zipball/f363e1457a3d85a3d03437cc7506eae6bb3ac380",
-                "reference": "f363e1457a3d85a3d03437cc7506eae6bb3ac380",
+                "url": "https://api.github.com/repos/symfony-cmf/RoutingBundle/zipball/eb688a502a7d1d2c273016b5fdd484543f10414d",
+                "reference": "eb688a502a7d1d2c273016b5fdd484543f10414d",
                 "shasum": ""
             },
             "require": {
@@ -2618,7 +2615,7 @@
                 "database",
                 "routing"
             ],
-            "time": "2015-09-22 17:16:05"
+            "time": "2015-10-01 08:15:34"
         },
         {
             "name": "symfony/assetic-bundle",
@@ -2755,12 +2752,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/swiftmailer-bundle.git",
-                "reference": "c7c15cab65f2c36090e9a1533adcefe1381bc6f6"
+                "reference": "6febf558532ee6f25edd2699f74072c56def3f4a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/swiftmailer-bundle/zipball/c7c15cab65f2c36090e9a1533adcefe1381bc6f6",
-                "reference": "c7c15cab65f2c36090e9a1533adcefe1381bc6f6",
+                "url": "https://api.github.com/repos/symfony/swiftmailer-bundle/zipball/6febf558532ee6f25edd2699f74072c56def3f4a",
+                "reference": "6febf558532ee6f25edd2699f74072c56def3f4a",
                 "shasum": ""
             },
             "require": {
@@ -2804,7 +2801,7 @@
             ],
             "description": "Symfony SwiftmailerBundle",
             "homepage": "http://symfony.com",
-            "time": "2015-09-28 14:45:50"
+            "time": "2015-09-30 17:01:01"
         },
         {
             "name": "symfony/symfony",
@@ -3781,12 +3778,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/phpunit-mock-objects.git",
-                "reference": "5e2645ad49d196e020b85598d7c97e482725786a"
+                "reference": "ac8e7a3db35738d56ee9a76e78a4e03d97628983"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/phpunit-mock-objects/zipball/5e2645ad49d196e020b85598d7c97e482725786a",
-                "reference": "5e2645ad49d196e020b85598d7c97e482725786a",
+                "url": "https://api.github.com/repos/sebastianbergmann/phpunit-mock-objects/zipball/ac8e7a3db35738d56ee9a76e78a4e03d97628983",
+                "reference": "ac8e7a3db35738d56ee9a76e78a4e03d97628983",
                 "shasum": ""
             },
             "require": {
@@ -3829,7 +3826,7 @@
                 "mock",
                 "xunit"
             ],
-            "time": "2015-08-19 09:14:08"
+            "time": "2015-10-02 06:51:40"
         },
         {
             "name": "scrutinizer/ocular",
