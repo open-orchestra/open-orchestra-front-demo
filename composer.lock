@@ -121,12 +121,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/doctrine/cache.git",
-                "reference": "dd47003641aa5425820c0ec8a6f4a85e7412ffcd"
+                "reference": "1c3483678ab767c3e21d3a96d6dd1006b327d425"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/doctrine/cache/zipball/dd47003641aa5425820c0ec8a6f4a85e7412ffcd",
-                "reference": "dd47003641aa5425820c0ec8a6f4a85e7412ffcd",
+                "url": "https://api.github.com/repos/doctrine/cache/zipball/1c3483678ab767c3e21d3a96d6dd1006b327d425",
+                "reference": "1c3483678ab767c3e21d3a96d6dd1006b327d425",
                 "shasum": ""
             },
             "require": {
@@ -183,7 +183,7 @@
                 "cache",
                 "caching"
             ],
-            "time": "2015-09-16 13:31:45"
+            "time": "2015-10-08 07:32:30"
         },
         {
             "name": "doctrine/collections",
@@ -387,12 +387,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/doctrine/inflector.git",
-                "reference": "3a422c73f7bc556d39571f436b61fd58ccae0eb0"
+                "reference": "097e7ba84f64a427e55008117ef2bb94096731dc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/doctrine/inflector/zipball/3a422c73f7bc556d39571f436b61fd58ccae0eb0",
-                "reference": "3a422c73f7bc556d39571f436b61fd58ccae0eb0",
+                "url": "https://api.github.com/repos/doctrine/inflector/zipball/097e7ba84f64a427e55008117ef2bb94096731dc",
+                "reference": "097e7ba84f64a427e55008117ef2bb94096731dc",
                 "shasum": ""
             },
             "require": {
@@ -446,7 +446,7 @@
                 "singularize",
                 "string"
             ],
-            "time": "2015-09-17 13:29:15"
+            "time": "2015-10-07 18:00:26"
         },
         {
             "name": "doctrine/instantiator",
@@ -1112,12 +1112,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Incenteev/ParameterHandler.git",
-                "reference": "84a205fe80a46101607bafbc423019527893ddd0"
+                "reference": "f7b677a5f9bfd8bf5f165a0ff96ce7426b870312"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Incenteev/ParameterHandler/zipball/84a205fe80a46101607bafbc423019527893ddd0",
-                "reference": "84a205fe80a46101607bafbc423019527893ddd0",
+                "url": "https://api.github.com/repos/Incenteev/ParameterHandler/zipball/f7b677a5f9bfd8bf5f165a0ff96ce7426b870312",
+                "reference": "f7b677a5f9bfd8bf5f165a0ff96ce7426b870312",
                 "shasum": ""
             },
             "require": {
@@ -1155,7 +1155,7 @@
             "keywords": [
                 "parameters management"
             ],
-            "time": "2015-06-03 08:27:03"
+            "time": "2015-10-07 14:51:08"
         },
         {
             "name": "innocead/captcha-bundle",
@@ -1653,12 +1653,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/open-orchestra/open-orchestra-display-bundle.git",
-                "reference": "2239dd4ec7aad30975105dd447057baabd2ced50"
+                "reference": "f4ed01db215d59f1a39614f520d550ef48eb973b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/open-orchestra/open-orchestra-display-bundle/zipball/2239dd4ec7aad30975105dd447057baabd2ced50",
-                "reference": "2239dd4ec7aad30975105dd447057baabd2ced50",
+                "url": "https://api.github.com/repos/open-orchestra/open-orchestra-display-bundle/zipball/f4ed01db215d59f1a39614f520d550ef48eb973b",
+                "reference": "f4ed01db215d59f1a39614f520d550ef48eb973b",
                 "shasum": ""
             },
             "require": {
@@ -1693,7 +1693,7 @@
                 }
             ],
             "description": "The bundle to display all bricks",
-            "time": "2015-10-05 13:10:44"
+            "time": "2015-10-08 13:34:46"
         },
         {
             "name": "open-orchestra/open-orchestra-front-bundle",
@@ -1798,12 +1798,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/open-orchestra/open-orchestra-media-bundle.git",
-                "reference": "096fa6ac02202a76884213a7bde8df60cf05a9ba"
+                "reference": "00b6039704dae89ab90d22ed87d19dbf13de28cf"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/open-orchestra/open-orchestra-media-bundle/zipball/096fa6ac02202a76884213a7bde8df60cf05a9ba",
-                "reference": "096fa6ac02202a76884213a7bde8df60cf05a9ba",
+                "url": "https://api.github.com/repos/open-orchestra/open-orchestra-media-bundle/zipball/00b6039704dae89ab90d22ed87d19dbf13de28cf",
+                "reference": "00b6039704dae89ab90d22ed87d19dbf13de28cf",
                 "shasum": ""
             },
             "require": {
@@ -1844,7 +1844,7 @@
                 }
             ],
             "description": "A media bundle for the OpenOrchestra Project",
-            "time": "2015-10-07 12:42:40"
+            "time": "2015-10-07 13:14:45"
         },
         {
             "name": "open-orchestra/open-orchestra-model-bundle",
@@ -1852,12 +1852,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/open-orchestra/open-orchestra-model-bundle.git",
-                "reference": "815a2dade5a86d88e4f03d396eefab4fba67724e"
+                "reference": "61172da186cad766004c67ff7395831b91e9c347"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/open-orchestra/open-orchestra-model-bundle/zipball/815a2dade5a86d88e4f03d396eefab4fba67724e",
-                "reference": "815a2dade5a86d88e4f03d396eefab4fba67724e",
+                "url": "https://api.github.com/repos/open-orchestra/open-orchestra-model-bundle/zipball/61172da186cad766004c67ff7395831b91e9c347",
+                "reference": "61172da186cad766004c67ff7395831b91e9c347",
                 "shasum": ""
             },
             "require": {
@@ -1894,7 +1894,7 @@
                 }
             ],
             "description": "An implemantation of the model-interface for OpenOrchestra on mongo",
-            "time": "2015-10-07 12:45:34"
+            "time": "2015-10-12 08:28:18"
         },
         {
             "name": "open-orchestra/open-orchestra-model-interface",
@@ -1902,12 +1902,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/open-orchestra/open-orchestra-model-interface.git",
-                "reference": "339e4bcc848a98f9772db1bb6c9db6dc5525ece1"
+                "reference": "948b0709df5fc9092749c5f2a0fd7de1a3b7dd86"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/open-orchestra/open-orchestra-model-interface/zipball/339e4bcc848a98f9772db1bb6c9db6dc5525ece1",
-                "reference": "339e4bcc848a98f9772db1bb6c9db6dc5525ece1",
+                "url": "https://api.github.com/repos/open-orchestra/open-orchestra-model-interface/zipball/948b0709df5fc9092749c5f2a0fd7de1a3b7dd86",
+                "reference": "948b0709df5fc9092749c5f2a0fd7de1a3b7dd86",
                 "shasum": ""
             },
             "require": {
@@ -1940,7 +1940,7 @@
                 }
             ],
             "description": "Describe all entity and repository to implement for the whole OpenOrchestra project",
-            "time": "2015-10-07 12:40:56"
+            "time": "2015-10-12 08:22:51"
         },
         {
             "name": "open-orchestra/open-orchestra-theme-bundle",
@@ -4094,16 +4094,16 @@
         },
         {
             "name": "sebastian/global-state",
-            "version": "dev-master",
+            "version": "1.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/global-state.git",
-                "reference": "23af31f402993cfd94e99cbc4b782e9a78eb0e97"
+                "reference": "bc37d50fea7d017d3d340f230811c9f1d7280af4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/global-state/zipball/23af31f402993cfd94e99cbc4b782e9a78eb0e97",
-                "reference": "23af31f402993cfd94e99cbc4b782e9a78eb0e97",
+                "url": "https://api.github.com/repos/sebastianbergmann/global-state/zipball/bc37d50fea7d017d3d340f230811c9f1d7280af4",
+                "reference": "bc37d50fea7d017d3d340f230811c9f1d7280af4",
                 "shasum": ""
             },
             "require": {
@@ -4141,7 +4141,7 @@
             "keywords": [
                 "global state"
             ],
-            "time": "2015-06-21 15:11:22"
+            "time": "2015-10-12 03:26:01"
         },
         {
             "name": "sebastian/recursion-context",
