@@ -5,6 +5,7 @@
         "This file is @generated automatically"
     ],
     "hash": "64a68c99651ae9cdf8379a12d80c34c8",
+    "content-hash": "fa23c2c9c0380725a5ecd3dad997cfe4",
     "packages": [
         {
             "name": "behat/transliterator",
@@ -937,12 +938,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Atlantic18/DoctrineExtensions.git",
-                "reference": "33778a4dd886734077c491056862653f81b2dbdd"
+                "reference": "14ab29adc905b80e1197fe4cf00b5ba74db5750d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Atlantic18/DoctrineExtensions/zipball/33778a4dd886734077c491056862653f81b2dbdd",
-                "reference": "33778a4dd886734077c491056862653f81b2dbdd",
+                "url": "https://api.github.com/repos/Atlantic18/DoctrineExtensions/zipball/14ab29adc905b80e1197fe4cf00b5ba74db5750d",
+                "reference": "14ab29adc905b80e1197fe4cf00b5ba74db5750d",
                 "shasum": ""
             },
             "require": {
@@ -1008,7 +1009,7 @@
                 "tree",
                 "uploadable"
             ],
-            "time": "2015-10-02 13:27:34"
+            "time": "2015-10-21 05:15:12"
         },
         {
             "name": "guzzle/guzzle",
@@ -1602,12 +1603,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/open-orchestra/open-orchestra-base-bundle.git",
-                "reference": "8335b6d0c9970f73764f1c1c014c38320c7616a5"
+                "reference": "ac64e3ca40d8bd7f3a1f4abeb6b13ed186695532"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/open-orchestra/open-orchestra-base-bundle/zipball/8335b6d0c9970f73764f1c1c014c38320c7616a5",
-                "reference": "8335b6d0c9970f73764f1c1c014c38320c7616a5",
+                "url": "https://api.github.com/repos/open-orchestra/open-orchestra-base-bundle/zipball/ac64e3ca40d8bd7f3a1f4abeb6b13ed186695532",
+                "reference": "ac64e3ca40d8bd7f3a1f4abeb6b13ed186695532",
                 "shasum": ""
             },
             "require": {
@@ -1645,7 +1646,7 @@
                 }
             ],
             "description": "The OpenOrchestra base bundle",
-            "time": "2015-10-15 12:26:10"
+            "time": "2015-10-19 12:40:11"
         },
         {
             "name": "open-orchestra/open-orchestra-bbcode-bundle",
@@ -1696,12 +1697,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/open-orchestra/open-orchestra-display-bundle.git",
-                "reference": "f802689081c73737538474fdc7e96f83e323b08d"
+                "reference": "f5c82d2057ac80a84330be67abfe5cb6124229b4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/open-orchestra/open-orchestra-display-bundle/zipball/f802689081c73737538474fdc7e96f83e323b08d",
-                "reference": "f802689081c73737538474fdc7e96f83e323b08d",
+                "url": "https://api.github.com/repos/open-orchestra/open-orchestra-display-bundle/zipball/f5c82d2057ac80a84330be67abfe5cb6124229b4",
+                "reference": "f5c82d2057ac80a84330be67abfe5cb6124229b4",
                 "shasum": ""
             },
             "require": {
@@ -1737,7 +1738,7 @@
                 }
             ],
             "description": "The bundle to display all bricks",
-            "time": "2015-10-16 08:32:56"
+            "time": "2015-10-16 15:47:53"
         },
         {
             "name": "open-orchestra/open-orchestra-front-bundle",
@@ -1745,12 +1746,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/open-orchestra/open-orchestra-front-bundle.git",
-                "reference": "7751aed6cdddc6fb552c860a803b96ca3d307128"
+                "reference": "3c65067fc0f415ecbede06d39f02dafe7be811d6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/open-orchestra/open-orchestra-front-bundle/zipball/7751aed6cdddc6fb552c860a803b96ca3d307128",
-                "reference": "7751aed6cdddc6fb552c860a803b96ca3d307128",
+                "url": "https://api.github.com/repos/open-orchestra/open-orchestra-front-bundle/zipball/3c65067fc0f415ecbede06d39f02dafe7be811d6",
+                "reference": "3c65067fc0f415ecbede06d39f02dafe7be811d6",
                 "shasum": ""
             },
             "require": {
@@ -1784,7 +1785,7 @@
                 }
             ],
             "description": "A bundle for the frontend part of an OpenOrchestra project",
-            "time": "2015-10-13 14:18:40"
+            "time": "2015-10-19 15:30:28"
         },
         {
             "name": "open-orchestra/open-orchestra-libs",
@@ -1792,12 +1793,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/open-orchestra/open-orchestra-libs.git",
-                "reference": "8c3b059c0facdaa173e9a785e49a47fce657927d"
+                "reference": "b294a5a57ebdb46e4f1889b3aa8d2cdb3ceddc0e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/open-orchestra/open-orchestra-libs/zipball/8c3b059c0facdaa173e9a785e49a47fce657927d",
-                "reference": "8c3b059c0facdaa173e9a785e49a47fce657927d",
+                "url": "https://api.github.com/repos/open-orchestra/open-orchestra-libs/zipball/b294a5a57ebdb46e4f1889b3aa8d2cdb3ceddc0e",
+                "reference": "b294a5a57ebdb46e4f1889b3aa8d2cdb3ceddc0e",
                 "shasum": ""
             },
             "require": {
@@ -1829,7 +1830,7 @@
                 }
             ],
             "description": "Some library for the Open Orchestra project",
-            "time": "2015-10-15 12:56:55"
+            "time": "2015-10-19 12:40:50"
         },
         {
             "name": "open-orchestra/open-orchestra-media-bundle",
@@ -1837,12 +1838,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/open-orchestra/open-orchestra-media-bundle.git",
-                "reference": "f5c69ee4302f3c536e39710ee763438ffd7e3800"
+                "reference": "f66e21f408f51c1f3cef2dfec94637791ab7b888"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/open-orchestra/open-orchestra-media-bundle/zipball/f5c69ee4302f3c536e39710ee763438ffd7e3800",
-                "reference": "f5c69ee4302f3c536e39710ee763438ffd7e3800",
+                "url": "https://api.github.com/repos/open-orchestra/open-orchestra-media-bundle/zipball/f66e21f408f51c1f3cef2dfec94637791ab7b888",
+                "reference": "f66e21f408f51c1f3cef2dfec94637791ab7b888",
                 "shasum": ""
             },
             "require": {
@@ -1885,7 +1886,7 @@
                 }
             ],
             "description": "A media bundle for the OpenOrchestra Project",
-            "time": "2015-10-16 10:11:38"
+            "time": "2015-10-20 09:06:50"
         },
         {
             "name": "open-orchestra/open-orchestra-model-bundle",
@@ -1893,12 +1894,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/open-orchestra/open-orchestra-model-bundle.git",
-                "reference": "cc4bad15775e9ff9693bcbeeb20b7cbd00af54a2"
+                "reference": "aea7133f4f5e42668b02f501e291dbb3e8bf8202"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/open-orchestra/open-orchestra-model-bundle/zipball/cc4bad15775e9ff9693bcbeeb20b7cbd00af54a2",
-                "reference": "cc4bad15775e9ff9693bcbeeb20b7cbd00af54a2",
+                "url": "https://api.github.com/repos/open-orchestra/open-orchestra-model-bundle/zipball/aea7133f4f5e42668b02f501e291dbb3e8bf8202",
+                "reference": "aea7133f4f5e42668b02f501e291dbb3e8bf8202",
                 "shasum": ""
             },
             "require": {
@@ -1936,7 +1937,7 @@
                 }
             ],
             "description": "An implemantation of the model-interface for OpenOrchestra on mongo",
-            "time": "2015-10-15 15:37:44"
+            "time": "2015-10-19 12:41:12"
         },
         {
             "name": "open-orchestra/open-orchestra-model-interface",
@@ -1944,12 +1945,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/open-orchestra/open-orchestra-model-interface.git",
-                "reference": "5fd1c8cf0f0ade08affda59a8ec623dc58a73852"
+                "reference": "6629f27b6efde759e4d2e2b5e86a001139076656"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/open-orchestra/open-orchestra-model-interface/zipball/5fd1c8cf0f0ade08affda59a8ec623dc58a73852",
-                "reference": "5fd1c8cf0f0ade08affda59a8ec623dc58a73852",
+                "url": "https://api.github.com/repos/open-orchestra/open-orchestra-model-interface/zipball/6629f27b6efde759e4d2e2b5e86a001139076656",
+                "reference": "6629f27b6efde759e4d2e2b5e86a001139076656",
                 "shasum": ""
             },
             "require": {
@@ -1982,7 +1983,7 @@
                 }
             ],
             "description": "Describe all entity and repository to implement for the whole OpenOrchestra project",
-            "time": "2015-10-15 12:47:50"
+            "time": "2015-10-19 12:41:18"
         },
         {
             "name": "open-orchestra/open-orchestra-mongo-libs",
@@ -1990,12 +1991,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/open-orchestra/open-orchestra-mongo-libs.git",
-                "reference": "cba1bb9eb7c0d8fff107ca2c5115a0693838aac3"
+                "reference": "c704dc341baa0453bd332b833dfb1c4ab32b08b4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/open-orchestra/open-orchestra-mongo-libs/zipball/cba1bb9eb7c0d8fff107ca2c5115a0693838aac3",
-                "reference": "cba1bb9eb7c0d8fff107ca2c5115a0693838aac3",
+                "url": "https://api.github.com/repos/open-orchestra/open-orchestra-mongo-libs/zipball/c704dc341baa0453bd332b833dfb1c4ab32b08b4",
+                "reference": "c704dc341baa0453bd332b833dfb1c4ab32b08b4",
                 "shasum": ""
             },
             "require": {
@@ -2032,7 +2033,7 @@
                 }
             ],
             "description": "Some library to use the Open Orchestra project with mongo",
-            "time": "2015-10-15 13:44:59"
+            "time": "2015-10-19 12:19:54"
         },
         {
             "name": "open-orchestra/open-orchestra-theme-bundle",
@@ -2584,12 +2585,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony-cmf/Routing.git",
-                "reference": "a068c329cc5250652024ed8f919b7aa2cf30f8fd"
+                "reference": "8c41a43c31977fdeb5feee09cd450725bdc9bb8e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony-cmf/Routing/zipball/a068c329cc5250652024ed8f919b7aa2cf30f8fd",
-                "reference": "a068c329cc5250652024ed8f919b7aa2cf30f8fd",
+                "url": "https://api.github.com/repos/symfony-cmf/Routing/zipball/8c41a43c31977fdeb5feee09cd450725bdc9bb8e",
+                "reference": "8c41a43c31977fdeb5feee09cd450725bdc9bb8e",
                 "shasum": ""
             },
             "require": {
@@ -2634,7 +2635,7 @@
                 "database",
                 "routing"
             ],
-            "time": "2015-09-19 14:58:43"
+            "time": "2015-10-16 22:20:58"
         },
         {
             "name": "symfony-cmf/routing-bundle",
@@ -2642,12 +2643,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony-cmf/RoutingBundle.git",
-                "reference": "eb688a502a7d1d2c273016b5fdd484543f10414d"
+                "reference": "ac86d7571e4a1416e6d9285a8902e4e7f099c0bd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony-cmf/RoutingBundle/zipball/eb688a502a7d1d2c273016b5fdd484543f10414d",
-                "reference": "eb688a502a7d1d2c273016b5fdd484543f10414d",
+                "url": "https://api.github.com/repos/symfony-cmf/RoutingBundle/zipball/ac86d7571e4a1416e6d9285a8902e4e7f099c0bd",
+                "reference": "ac86d7571e4a1416e6d9285a8902e4e7f099c0bd",
                 "shasum": ""
             },
             "require": {
@@ -2702,7 +2703,7 @@
                 "database",
                 "routing"
             ],
-            "time": "2015-10-01 08:15:34"
+            "time": "2015-10-16 22:21:41"
         },
         {
             "name": "symfony/assetic-bundle",
