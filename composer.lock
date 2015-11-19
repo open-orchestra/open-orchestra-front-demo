@@ -1522,16 +1522,16 @@
         },
         {
             "name": "monolog/monolog",
-            "version": "1.17.2",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Seldaek/monolog.git",
-                "reference": "bee7f0dc9c3e0b69a6039697533dca1e845c8c24"
+                "reference": "7d20351afc85aa23c5795309c9984a1e93d81c27"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Seldaek/monolog/zipball/bee7f0dc9c3e0b69a6039697533dca1e845c8c24",
-                "reference": "bee7f0dc9c3e0b69a6039697533dca1e845c8c24",
+                "url": "https://api.github.com/repos/Seldaek/monolog/zipball/7d20351afc85aa23c5795309c9984a1e93d81c27",
+                "reference": "7d20351afc85aa23c5795309c9984a1e93d81c27",
                 "shasum": ""
             },
             "require": {
@@ -1560,6 +1560,7 @@
                 "ext-amqp": "Allow sending log messages to an AMQP server (1.0+ required)",
                 "ext-mongo": "Allow sending log messages to a MongoDB server",
                 "graylog2/gelf-php": "Allow sending log messages to a GrayLog2 server",
+                "mongodb/mongodb": "Allow sending log messages to a MongoDB server via PHP Driver",
                 "php-console/php-console": "Allow sending log messages to Google Chrome",
                 "raven/raven": "Allow sending log messages to a Sentry server",
                 "rollbar/rollbar": "Allow sending log messages to Rollbar",
@@ -1569,7 +1570,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.16.x-dev"
+                    "dev-master": "1.18.x-dev"
                 }
             },
             "autoload": {
@@ -1595,7 +1596,7 @@
                 "logging",
                 "psr-3"
             ],
-            "time": "2015-10-14 12:51:02"
+            "time": "2015-11-18 18:03:10"
         },
         {
             "name": "open-orchestra/open-orchestra-base-bundle",
@@ -1894,12 +1895,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/open-orchestra/open-orchestra-model-bundle.git",
-                "reference": "eb832fa710e5136a5ca2f1aa4797f171f52c7008"
+                "reference": "8a4add769bbc9246514cc76b152f9a853b3d72ad"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/open-orchestra/open-orchestra-model-bundle/zipball/eb832fa710e5136a5ca2f1aa4797f171f52c7008",
-                "reference": "eb832fa710e5136a5ca2f1aa4797f171f52c7008",
+                "url": "https://api.github.com/repos/open-orchestra/open-orchestra-model-bundle/zipball/8a4add769bbc9246514cc76b152f9a853b3d72ad",
+                "reference": "8a4add769bbc9246514cc76b152f9a853b3d72ad",
                 "shasum": ""
             },
             "require": {
@@ -1937,7 +1938,7 @@
                 }
             ],
             "description": "An implemantation of the model-interface for OpenOrchestra on mongo",
-            "time": "2015-11-18 14:40:59"
+            "time": "2015-11-19 09:33:00"
         },
         {
             "name": "open-orchestra/open-orchestra-model-interface",
@@ -1945,12 +1946,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/open-orchestra/open-orchestra-model-interface.git",
-                "reference": "04a5f3143f6c78713d118b11b225081830688a41"
+                "reference": "75357c16c2d63433fac807af94d2d1ab0d8b580a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/open-orchestra/open-orchestra-model-interface/zipball/04a5f3143f6c78713d118b11b225081830688a41",
-                "reference": "04a5f3143f6c78713d118b11b225081830688a41",
+                "url": "https://api.github.com/repos/open-orchestra/open-orchestra-model-interface/zipball/75357c16c2d63433fac807af94d2d1ab0d8b580a",
+                "reference": "75357c16c2d63433fac807af94d2d1ab0d8b580a",
                 "shasum": ""
             },
             "require": {
@@ -1983,7 +1984,7 @@
                 }
             ],
             "description": "Describe all entity and repository to implement for the whole OpenOrchestra project",
-            "time": "2015-11-17 08:52:03"
+            "time": "2015-11-19 09:17:11"
         },
         {
             "name": "open-orchestra/open-orchestra-mongo-libs",
