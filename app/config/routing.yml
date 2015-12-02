@@ -3,7 +3,7 @@ open_orchestra_front:
     type: annotation
 
 open_orchestra_media:
-    resource: "@OpenOrchestraMediaBundle/Controller"
+    resource: "@OpenOrchestraMediaFileBundle/Controller"
     type: annotation
     prefix: /media
 
