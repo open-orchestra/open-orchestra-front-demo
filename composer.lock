@@ -8,63 +8,6 @@
     "content-hash": "fa23c2c9c0380725a5ecd3dad997cfe4",
     "packages": [
         {
-            "name": "alchemy/binary-driver",
-            "version": "1.5.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/alchemy-fr/BinaryDriver.git",
-                "reference": "b32c03d4b56ce29f783051eac55887adae654b41"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/alchemy-fr/BinaryDriver/zipball/b32c03d4b56ce29f783051eac55887adae654b41",
-                "reference": "b32c03d4b56ce29f783051eac55887adae654b41",
-                "shasum": ""
-            },
-            "require": {
-                "evenement/evenement": "~1.0",
-                "monolog/monolog": "~1.3",
-                "php": ">=5.3.3",
-                "psr/log": "~1.0",
-                "symfony/process": "~2.0"
-            },
-            "require-dev": {
-                "phpunit/phpunit": "~3.7"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-0": {
-                    "Alchemy": "src"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Romain Neutron",
-                    "email": "imprec@gmail.com",
-                    "homepage": "http://www.lickmychip.com/"
-                },
-                {
-                    "name": "Phraseanet Team",
-                    "email": "info@alchemy.fr",
-                    "homepage": "http://www.phraseanet.com/"
-                },
-                {
-                    "name": "Nicolas Le Goff",
-                    "email": "legoff.n@gmail.com"
-                }
-            ],
-            "description": "A set of tools to build binary drivers",
-            "keywords": [
-                "binary",
-                "driver"
-            ],
-            "time": "2013-06-21 15:51:20"
-        },
-        {
             "name": "behat/transliterator",
             "version": "dev-master",
             "source": {
@@ -619,12 +562,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/doctrine/mongodb.git",
-                "reference": "f21bff9cc50dd565d8f52da0452666380859b5d0"
+                "reference": "55314b61d0cd9bac1dc9386b36e18238f47c3482"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/doctrine/mongodb/zipball/f21bff9cc50dd565d8f52da0452666380859b5d0",
-                "reference": "f21bff9cc50dd565d8f52da0452666380859b5d0",
+                "url": "https://api.github.com/repos/doctrine/mongodb/zipball/55314b61d0cd9bac1dc9386b36e18238f47c3482",
+                "reference": "55314b61d0cd9bac1dc9386b36e18238f47c3482",
                 "shasum": ""
             },
             "require": {
@@ -686,7 +629,7 @@
                 "mongodb",
                 "persistence"
             ],
-            "time": "2015-10-31 11:22:05"
+            "time": "2015-11-24 18:29:09"
         },
         {
             "name": "doctrine/mongodb-odm",
@@ -839,51 +782,6 @@
                 "symfony"
             ],
             "time": "2015-08-31 13:07:17"
-        },
-        {
-            "name": "evenement/evenement",
-            "version": "1.0.x-dev",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/igorw/evenement.git",
-                "reference": "8b0918f8374327dfed4408fe467980ab41d556dd"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/igorw/evenement/zipball/8b0918f8374327dfed4408fe467980ab41d556dd",
-                "reference": "8b0918f8374327dfed4408fe467980ab41d556dd",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=5.3.0"
-            },
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "2.0-dev"
-                }
-            },
-            "autoload": {
-                "psr-0": {
-                    "Evenement": "src"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Igor Wiedler",
-                    "email": "igor@wiedler.ch",
-                    "homepage": "http://wiedler.ch/igor/"
-                }
-            ],
-            "description": "Événement is a very simple event dispatching library for PHP 5.3",
-            "keywords": [
-                "event-dispatcher"
-            ],
-            "time": "2012-12-29 17:04:52"
         },
         {
             "name": "friendsofsymfony/http-cache",
@@ -1040,12 +938,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Atlantic18/DoctrineExtensions.git",
-                "reference": "f40f71fb62230a1de2c92c16acb14e38950b6464"
+                "reference": "b034ce065759ffb74179f9ce3873473e12854164"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Atlantic18/DoctrineExtensions/zipball/f40f71fb62230a1de2c92c16acb14e38950b6464",
-                "reference": "f40f71fb62230a1de2c92c16acb14e38950b6464",
+                "url": "https://api.github.com/repos/Atlantic18/DoctrineExtensions/zipball/b034ce065759ffb74179f9ce3873473e12854164",
+                "reference": "b034ce065759ffb74179f9ce3873473e12854164",
                 "shasum": ""
             },
             "require": {
@@ -1111,7 +1009,7 @@
                 "tree",
                 "uploadable"
             ],
-            "time": "2015-11-17 17:17:21"
+            "time": "2015-12-01 07:05:39"
         },
         {
             "name": "guzzle/guzzle",
@@ -1628,12 +1526,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Seldaek/monolog.git",
-                "reference": "055125a98d92ce5fa8946e5f80cdf52405244120"
+                "reference": "cab3ff71ffc802af272928ff71341cfc51e8ee98"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Seldaek/monolog/zipball/055125a98d92ce5fa8946e5f80cdf52405244120",
-                "reference": "055125a98d92ce5fa8946e5f80cdf52405244120",
+                "url": "https://api.github.com/repos/Seldaek/monolog/zipball/cab3ff71ffc802af272928ff71341cfc51e8ee98",
+                "reference": "cab3ff71ffc802af272928ff71341cfc51e8ee98",
                 "shasum": ""
             },
             "require": {
@@ -1698,47 +1596,7 @@
                 "logging",
                 "psr-3"
             ],
-            "time": "2015-11-21 00:43:47"
-        },
-        {
-            "name": "neutron/temporary-filesystem",
-            "version": "2.1.1",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/romainneutron/Temporary-Filesystem.git",
-                "reference": "6b21fa99fd452efea16b9a7adb7304ccfff854d0"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/romainneutron/Temporary-Filesystem/zipball/6b21fa99fd452efea16b9a7adb7304ccfff854d0",
-                "reference": "6b21fa99fd452efea16b9a7adb7304ccfff854d0",
-                "shasum": ""
-            },
-            "require": {
-                "symfony/filesystem": "~2.0"
-            },
-            "require-dev": {
-                "phpunit/phpunit": "~3.7"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-0": {
-                    "Neutron": "src"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Romain Neutron",
-                    "email": "imprec@gmail.com",
-                    "homepage": "http://www.lickmychip.com/"
-                }
-            ],
-            "description": "Symfony filesystem extension to handle temporary files",
-            "time": "2013-10-10 10:58:09"
+            "time": "2015-11-26 23:48:42"
         },
         {
             "name": "open-orchestra/open-orchestra-base-bundle",
@@ -1746,12 +1604,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/open-orchestra/open-orchestra-base-bundle.git",
-                "reference": "221ada501584ebf0194269834e7b6ea45c755347"
+                "reference": "fbeef4e9e331a6255794a6113baaeb63870bd5e0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/open-orchestra/open-orchestra-base-bundle/zipball/221ada501584ebf0194269834e7b6ea45c755347",
-                "reference": "221ada501584ebf0194269834e7b6ea45c755347",
+                "url": "https://api.github.com/repos/open-orchestra/open-orchestra-base-bundle/zipball/fbeef4e9e331a6255794a6113baaeb63870bd5e0",
+                "reference": "fbeef4e9e331a6255794a6113baaeb63870bd5e0",
                 "shasum": ""
             },
             "require": {
@@ -1789,7 +1647,7 @@
                 }
             ],
             "description": "The OpenOrchestra base bundle",
-            "time": "2015-11-20 14:59:20"
+            "time": "2015-11-30 17:44:37"
         },
         {
             "name": "open-orchestra/open-orchestra-bbcode-bundle",
@@ -1797,12 +1655,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/open-orchestra/open-orchestra-bbcode-bundle.git",
-                "reference": "e45080eb1a78b8280f77f14aa4d13be5fb77ffa6"
+                "reference": "c784dbc2b3d56dc4929091392fdd8b63e267204a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/open-orchestra/open-orchestra-bbcode-bundle/zipball/e45080eb1a78b8280f77f14aa4d13be5fb77ffa6",
-                "reference": "e45080eb1a78b8280f77f14aa4d13be5fb77ffa6",
+                "url": "https://api.github.com/repos/open-orchestra/open-orchestra-bbcode-bundle/zipball/c784dbc2b3d56dc4929091392fdd8b63e267204a",
+                "reference": "c784dbc2b3d56dc4929091392fdd8b63e267204a",
                 "shasum": ""
             },
             "require": {
@@ -1832,7 +1690,7 @@
                 }
             ],
             "description": "The Open Orchestra bundle wrapping the jbbcode/jbbcode library",
-            "time": "2015-10-16 08:08:35"
+            "time": "2015-11-30 17:42:01"
         },
         {
             "name": "open-orchestra/open-orchestra-display-bundle",
@@ -1840,12 +1698,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/open-orchestra/open-orchestra-display-bundle.git",
-                "reference": "cadaaa6777312e925745a1d99bfa293415c0eea0"
+                "reference": "4b8c8b84a4dc255ded955adb2d93dfe1f670dc6e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/open-orchestra/open-orchestra-display-bundle/zipball/cadaaa6777312e925745a1d99bfa293415c0eea0",
-                "reference": "cadaaa6777312e925745a1d99bfa293415c0eea0",
+                "url": "https://api.github.com/repos/open-orchestra/open-orchestra-display-bundle/zipball/4b8c8b84a4dc255ded955adb2d93dfe1f670dc6e",
+                "reference": "4b8c8b84a4dc255ded955adb2d93dfe1f670dc6e",
                 "shasum": ""
             },
             "require": {
@@ -1881,7 +1739,7 @@
                 }
             ],
             "description": "The bundle to display all bricks",
-            "time": "2015-11-04 11:28:46"
+            "time": "2015-11-30 17:40:47"
         },
         {
             "name": "open-orchestra/open-orchestra-front-bundle",
@@ -1889,12 +1747,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/open-orchestra/open-orchestra-front-bundle.git",
-                "reference": "369bba6b52f9e72e994135208551a91fd74cf13c"
+                "reference": "dc521ea50af3eaf392fe322363d571ac05b50784"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/open-orchestra/open-orchestra-front-bundle/zipball/369bba6b52f9e72e994135208551a91fd74cf13c",
-                "reference": "369bba6b52f9e72e994135208551a91fd74cf13c",
+                "url": "https://api.github.com/repos/open-orchestra/open-orchestra-front-bundle/zipball/dc521ea50af3eaf392fe322363d571ac05b50784",
+                "reference": "dc521ea50af3eaf392fe322363d571ac05b50784",
                 "shasum": ""
             },
             "require": {
@@ -1928,7 +1786,7 @@
                 }
             ],
             "description": "A bundle for the frontend part of an OpenOrchestra project",
-            "time": "2015-11-06 16:04:13"
+            "time": "2015-11-30 17:40:28"
         },
         {
             "name": "open-orchestra/open-orchestra-libs",
@@ -1981,25 +1839,23 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/open-orchestra/open-orchestra-media-bundle.git",
-                "reference": "9796f289d81bda10220c241c84f684505ccec04e"
+                "reference": "8d51c6db74a6c5aae117a1b4d9daa99062e3b472"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/open-orchestra/open-orchestra-media-bundle/zipball/9796f289d81bda10220c241c84f684505ccec04e",
-                "reference": "9796f289d81bda10220c241c84f684505ccec04e",
+                "url": "https://api.github.com/repos/open-orchestra/open-orchestra-media-bundle/zipball/8d51c6db74a6c5aae117a1b4d9daa99062e3b472",
+                "reference": "8d51c6db74a6c5aae117a1b4d9daa99062e3b472",
                 "shasum": ""
             },
             "require": {
                 "doctrine/data-fixtures": "1.1.1",
                 "doctrine/mongodb-odm": "1.0.2",
                 "doctrine/mongodb-odm-bundle": "3.0.1",
-                "ext-imagick": "*",
-                "knplabs/knp-gaufrette-bundle": "v0.1.7",
                 "open-orchestra/open-orchestra-bbcode-bundle": "*",
                 "open-orchestra/open-orchestra-display-bundle": "*",
+                "open-orchestra/open-orchestra-media-file-bundle": "*",
                 "open-orchestra/open-orchestra-model-interface": "*",
                 "open-orchestra/open-orchestra-mongo-libs": "*",
-                "php-ffmpeg/php-ffmpeg": "~0.6",
                 "stof/doctrine-extensions-bundle": "1.2.1"
             },
             "require-dev": {
@@ -2030,7 +1886,49 @@
                 }
             ],
             "description": "A media bundle for the OpenOrchestra Project",
-            "time": "2015-11-23 11:17:42"
+            "time": "2015-11-30 17:36:27"
+        },
+        {
+            "name": "open-orchestra/open-orchestra-media-file-bundle",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/open-orchestra/open-orchestra-media-file-bundle.git",
+                "reference": "7b48d1f0fd6345fb40d5b737c650a2cebb1b904f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/open-orchestra/open-orchestra-media-file-bundle/zipball/7b48d1f0fd6345fb40d5b737c650a2cebb1b904f",
+                "reference": "7b48d1f0fd6345fb40d5b737c650a2cebb1b904f",
+                "shasum": ""
+            },
+            "require": {
+                "knplabs/knp-gaufrette-bundle": "v0.1.7"
+            },
+            "require-dev": {
+                "codeclimate/php-test-reporter": "dev-master",
+                "phake/phake": "2.1.0",
+                "phpunit/phpunit": "4.7.2",
+                "psr/log": "1.0.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "OpenOrchestra\\MediaFileBundle\\": "MediaFileBundle/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "OpenOrchestra community",
+                    "homepage": "https://github.com/open-orchestra/open-orchestra-media-file-bundle/graphs/contributors"
+                }
+            ],
+            "description": "This bundle provide the file management part for the media feature of OpenOrchestra",
+            "time": "2015-11-30 17:33:42"
         },
         {
             "name": "open-orchestra/open-orchestra-model-bundle",
@@ -2038,12 +1936,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/open-orchestra/open-orchestra-model-bundle.git",
-                "reference": "bf56f87f810e42f32ab1d70394201ea7f2c57b35"
+                "reference": "8011e7d90f535666f2bb4c4f02721d09257f7956"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/open-orchestra/open-orchestra-model-bundle/zipball/bf56f87f810e42f32ab1d70394201ea7f2c57b35",
-                "reference": "bf56f87f810e42f32ab1d70394201ea7f2c57b35",
+                "url": "https://api.github.com/repos/open-orchestra/open-orchestra-model-bundle/zipball/8011e7d90f535666f2bb4c4f02721d09257f7956",
+                "reference": "8011e7d90f535666f2bb4c4f02721d09257f7956",
                 "shasum": ""
             },
             "require": {
@@ -2081,7 +1979,7 @@
                 }
             ],
             "description": "An implemantation of the model-interface for OpenOrchestra on mongo",
-            "time": "2015-11-19 10:24:37"
+            "time": "2015-12-01 09:10:34"
         },
         {
             "name": "open-orchestra/open-orchestra-model-interface",
@@ -2089,12 +1987,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/open-orchestra/open-orchestra-model-interface.git",
-                "reference": "671b32164ed8daa7057111a3532386a8b7a8da75"
+                "reference": "6a664745b3a6c3a1c6f0c9ce6c0db9659340365e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/open-orchestra/open-orchestra-model-interface/zipball/671b32164ed8daa7057111a3532386a8b7a8da75",
-                "reference": "671b32164ed8daa7057111a3532386a8b7a8da75",
+                "url": "https://api.github.com/repos/open-orchestra/open-orchestra-model-interface/zipball/6a664745b3a6c3a1c6f0c9ce6c0db9659340365e",
+                "reference": "6a664745b3a6c3a1c6f0c9ce6c0db9659340365e",
                 "shasum": ""
             },
             "require": {
@@ -2127,7 +2025,7 @@
                 }
             ],
             "description": "Describe all entity and repository to implement for the whole OpenOrchestra project",
-            "time": "2015-11-19 10:23:48"
+            "time": "2015-11-30 17:28:18"
         },
         {
             "name": "open-orchestra/open-orchestra-mongo-libs",
@@ -2185,19 +2083,20 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/open-orchestra/open-orchestra-theme-bundle.git",
-                "reference": "a03859d3053b1d6c6a5370ee00913f2c9f4f3ed1"
+                "reference": "b2c95cc900260da170ef305b81aa4525da1195aa"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/open-orchestra/open-orchestra-theme-bundle/zipball/a03859d3053b1d6c6a5370ee00913f2c9f4f3ed1",
-                "reference": "a03859d3053b1d6c6a5370ee00913f2c9f4f3ed1",
+                "url": "https://api.github.com/repos/open-orchestra/open-orchestra-theme-bundle/zipball/b2c95cc900260da170ef305b81aa4525da1195aa",
+                "reference": "b2c95cc900260da170ef305b81aa4525da1195aa",
                 "shasum": ""
             },
             "require-dev": {
+                "codeclimate/php-test-reporter": "dev-master",
                 "open-orchestra/open-orchestra-base-bundle": "dev-master",
                 "phake/phake": "2.1.0",
                 "phpunit/phpunit": "4.7.2",
-                "scrutinizer/ocular": "1.1.1"
+                "psr/log": "1.0.0"
             },
             "type": "library",
             "autoload": {
@@ -2216,76 +2115,7 @@
                 }
             ],
             "description": "The Open Orchestra Theme Bundle",
-            "time": "2015-10-05 13:39:46"
-        },
-        {
-            "name": "php-ffmpeg/php-ffmpeg",
-            "version": "0.6.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/PHP-FFMpeg/PHP-FFMpeg.git",
-                "reference": "6e3134e4ecc96852b1205e6c88ceffdb8cf17d34"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/PHP-FFMpeg/PHP-FFMpeg/zipball/6e3134e4ecc96852b1205e6c88ceffdb8cf17d34",
-                "reference": "6e3134e4ecc96852b1205e6c88ceffdb8cf17d34",
-                "shasum": ""
-            },
-            "require": {
-                "alchemy/binary-driver": "~1.5",
-                "doctrine/cache": "~1.0",
-                "evenement/evenement": "~1.0",
-                "neutron/temporary-filesystem": "~2.1, >=2.1.1",
-                "php": ">=5.3.3"
-            },
-            "require-dev": {
-                "phpunit/phpunit": "~3.7",
-                "sami/sami": "~1.0",
-                "silex/silex": "~1.0"
-            },
-            "suggest": {
-                "php-ffmpeg/extras": "A compilation of common audio & video drivers for PHP-FFMpeg"
-            },
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "0.5-dev"
-                }
-            },
-            "autoload": {
-                "psr-0": {
-                    "FFMpeg": "src"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Romain Neutron",
-                    "email": "imprec@gmail.com",
-                    "homepage": "http://www.lickmychip.com/"
-                },
-                {
-                    "name": "Phraseanet Team",
-                    "email": "info@alchemy.fr",
-                    "homepage": "http://www.phraseanet.com/"
-                }
-            ],
-            "description": "FFMpeg PHP, an Object Oriented library to communicate with AVconv / ffmpeg",
-            "keywords": [
-                "audio",
-                "audio processing",
-                "avconv",
-                "avprobe",
-                "ffmpeg",
-                "ffprobe",
-                "video",
-                "video processing"
-            ],
-            "time": "2015-01-30 19:07:38"
+            "time": "2015-11-30 17:21:23"
         },
         {
             "name": "psr/log",
@@ -2797,12 +2627,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony-cmf/Routing.git",
-                "reference": "e2122f2564dfd65e61ad91f73345a6bdcb0246bc"
+                "reference": "289fc0d55f6f57d97a2ee633f5f5ee89e6f68de7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony-cmf/Routing/zipball/e2122f2564dfd65e61ad91f73345a6bdcb0246bc",
-                "reference": "e2122f2564dfd65e61ad91f73345a6bdcb0246bc",
+                "url": "https://api.github.com/repos/symfony-cmf/Routing/zipball/289fc0d55f6f57d97a2ee633f5f5ee89e6f68de7",
+                "reference": "289fc0d55f6f57d97a2ee633f5f5ee89e6f68de7",
                 "shasum": ""
             },
             "require": {
@@ -2847,7 +2677,7 @@
                 "database",
                 "routing"
             ],
-            "time": "2015-11-08 22:16:09"
+            "time": "2015-12-01 22:31:36"
         },
         {
             "name": "symfony-cmf/routing-bundle",
@@ -3052,24 +2882,24 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/swiftmailer-bundle.git",
-                "reference": "6febf558532ee6f25edd2699f74072c56def3f4a"
+                "reference": "3d21ada19f23631f558ad6df653b168e35362e78"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/swiftmailer-bundle/zipball/6febf558532ee6f25edd2699f74072c56def3f4a",
-                "reference": "6febf558532ee6f25edd2699f74072c56def3f4a",
+                "url": "https://api.github.com/repos/symfony/swiftmailer-bundle/zipball/3d21ada19f23631f558ad6df653b168e35362e78",
+                "reference": "3d21ada19f23631f558ad6df653b168e35362e78",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.3.2",
                 "swiftmailer/swiftmailer": ">=4.2.0,~5.0",
-                "symfony/swiftmailer-bridge": "~2.1"
+                "symfony/config": "~2.3|~3.0",
+                "symfony/dependency-injection": "~2.3|~3.0",
+                "symfony/http-kernel": "~2.3|~3.0",
+                "symfony/yaml": "~2.3|~3.0"
             },
             "require-dev": {
-                "symfony/config": "~2.1",
-                "symfony/dependency-injection": "~2.1",
-                "symfony/http-kernel": "~2.1",
-                "symfony/yaml": "~2.1"
+                "symfony/phpunit-bridge": "~2.7|~3.0"
             },
             "suggest": {
                 "psr/log": "Allows logging"
@@ -3101,7 +2931,7 @@
             ],
             "description": "Symfony SwiftmailerBundle",
             "homepage": "http://symfony.com",
-            "time": "2015-09-30 17:01:01"
+            "time": "2015-11-28 10:59:29"
         },
         {
             "name": "symfony/symfony",
@@ -4285,12 +4115,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/environment.git",
-                "reference": "6324c907ce7a52478eeeaede764f48733ef5ae44"
+                "reference": "6e7133793a8e5a5714a551a8324337374be209df"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/environment/zipball/6324c907ce7a52478eeeaede764f48733ef5ae44",
-                "reference": "6324c907ce7a52478eeeaede764f48733ef5ae44",
+                "url": "https://api.github.com/repos/sebastianbergmann/environment/zipball/6e7133793a8e5a5714a551a8324337374be209df",
+                "reference": "6e7133793a8e5a5714a551a8324337374be209df",
                 "shasum": ""
             },
             "require": {
@@ -4327,7 +4157,7 @@
                 "environment",
                 "hhvm"
             ],
-            "time": "2015-08-03 06:14:51"
+            "time": "2015-12-02 08:37:27"
         },
         {
             "name": "sebastian/exporter",
