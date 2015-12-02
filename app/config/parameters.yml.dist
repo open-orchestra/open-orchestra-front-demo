@@ -12,7 +12,7 @@ parameters:
 
     encryption_key: ThisKeyIsNotSecret
 
-    media.directory: /var/uploaded-files
+    media.directory: /tmp/uploaded-files
 
     fos_http_cache.proxy_client.varnish.servers: [127.0.0.1]
     fos_http_cache.proxy_client.varnish.base_url: %router.request_context.host%
