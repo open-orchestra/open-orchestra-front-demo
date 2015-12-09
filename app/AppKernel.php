@@ -21,8 +21,6 @@ class AppKernel extends Kernel
             new Snc\RedisBundle\SncRedisBundle(),
             new Symfony\Cmf\Bundle\RoutingBundle\CmfRoutingBundle(),
 
-            new Knp\Bundle\GaufretteBundle\KnpGaufretteBundle(),
-
             new OpenOrchestra\BaseBundle\OpenOrchestraBaseBundle(),
             new OpenOrchestra\ThemeBundle\OpenOrchestraThemeBundle(),
             new OpenOrchestra\ModelBundle\OpenOrchestraModelBundle(),
