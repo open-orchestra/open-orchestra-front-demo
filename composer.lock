@@ -1840,12 +1840,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/open-orchestra/open-orchestra-media-bundle.git",
-                "reference": "8d51c6db74a6c5aae117a1b4d9daa99062e3b472"
+                "reference": "d39d542a932741ed00742239a0482fe0e78c1f19"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/open-orchestra/open-orchestra-media-bundle/zipball/8d51c6db74a6c5aae117a1b4d9daa99062e3b472",
-                "reference": "8d51c6db74a6c5aae117a1b4d9daa99062e3b472",
+                "url": "https://api.github.com/repos/open-orchestra/open-orchestra-media-bundle/zipball/d39d542a932741ed00742239a0482fe0e78c1f19",
+                "reference": "d39d542a932741ed00742239a0482fe0e78c1f19",
                 "shasum": ""
             },
             "require": {
@@ -1887,7 +1887,7 @@
                 }
             ],
             "description": "A media bundle for the OpenOrchestra Project",
-            "time": "2015-11-30 17:36:27"
+            "time": "2015-12-09 14:23:55"
         },
         {
             "name": "open-orchestra/open-orchestra-media-file-bundle",
@@ -1895,12 +1895,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/open-orchestra/open-orchestra-media-file-bundle.git",
-                "reference": "7b48d1f0fd6345fb40d5b737c650a2cebb1b904f"
+                "reference": "ac6aadfd3a588a5291cb85412af22dde0da8de50"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/open-orchestra/open-orchestra-media-file-bundle/zipball/7b48d1f0fd6345fb40d5b737c650a2cebb1b904f",
-                "reference": "7b48d1f0fd6345fb40d5b737c650a2cebb1b904f",
+                "url": "https://api.github.com/repos/open-orchestra/open-orchestra-media-file-bundle/zipball/ac6aadfd3a588a5291cb85412af22dde0da8de50",
+                "reference": "ac6aadfd3a588a5291cb85412af22dde0da8de50",
                 "shasum": ""
             },
             "require": {
@@ -1929,7 +1929,7 @@
                 }
             ],
             "description": "This bundle provide the file management part for the media feature of OpenOrchestra",
-            "time": "2015-11-30 17:33:42"
+            "time": "2015-12-09 14:23:03"
         },
         {
             "name": "open-orchestra/open-orchestra-model-bundle",
