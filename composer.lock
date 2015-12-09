@@ -121,12 +121,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/doctrine/cache.git",
-                "reference": "da201c5a23b9c19e275d27937f8db221dc608bf1"
+                "reference": "7b35da328f17825c218b75f8c493c3c99b24774a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/doctrine/cache/zipball/da201c5a23b9c19e275d27937f8db221dc608bf1",
-                "reference": "da201c5a23b9c19e275d27937f8db221dc608bf1",
+                "url": "https://api.github.com/repos/doctrine/cache/zipball/7b35da328f17825c218b75f8c493c3c99b24774a",
+                "reference": "7b35da328f17825c218b75f8c493c3c99b24774a",
                 "shasum": ""
             },
             "require": {
@@ -183,7 +183,7 @@
                 "cache",
                 "caching"
             ],
-            "time": "2015-12-03 10:46:43"
+            "time": "2015-12-09 17:17:06"
         },
         {
             "name": "doctrine/collections",
@@ -1696,12 +1696,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/open-orchestra/open-orchestra-media-bundle.git",
-                "reference": "05033f26b03d48b0ad35b7baa902acc76dae8dab"
+                "reference": "edae3a09ca73382d0cdc0b8bfcff627faa7c5419"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/open-orchestra/open-orchestra-media-bundle/zipball/05033f26b03d48b0ad35b7baa902acc76dae8dab",
-                "reference": "05033f26b03d48b0ad35b7baa902acc76dae8dab",
+                "url": "https://api.github.com/repos/open-orchestra/open-orchestra-media-bundle/zipball/edae3a09ca73382d0cdc0b8bfcff627faa7c5419",
+                "reference": "edae3a09ca73382d0cdc0b8bfcff627faa7c5419",
                 "shasum": ""
             },
             "require": {
@@ -1742,7 +1742,7 @@
                 }
             ],
             "description": "A media bundle for the OpenOrchestra Project",
-            "time": "2015-12-09 16:27:03"
+            "time": "2015-12-09 17:05:56"
         },
         {
             "name": "open-orchestra/open-orchestra-model-bundle",
