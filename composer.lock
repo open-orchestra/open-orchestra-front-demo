@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "64a68c99651ae9cdf8379a12d80c34c8",
-    "content-hash": "fa23c2c9c0380725a5ecd3dad997cfe4",
+    "hash": "d59895408c92df2cc371813e60fd8bd7",
+    "content-hash": "eb9dc92334ae232ab542b966b266d6fc",
     "packages": [
         {
             "name": "behat/transliterator",
@@ -4181,11 +4181,7 @@
     ],
     "aliases": [],
     "minimum-stability": "dev",
-    "stability-flags": {
-        "open-orchestra/open-orchestra-front-bundle": 20,
-        "open-orchestra/open-orchestra-media-bundle": 20,
-        "open-orchestra/open-orchestra-model-bundle": 20
-    },
+    "stability-flags": [],
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": [],
