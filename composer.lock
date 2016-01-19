@@ -1746,12 +1746,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/open-orchestra/open-orchestra-model-bundle.git",
-                "reference": "d5ebd788263400b4189028d050c3453800ed4d0a"
+                "reference": "ddf5a4011abbe0caee36451fde22a2e09d851209"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/open-orchestra/open-orchestra-model-bundle/zipball/d5ebd788263400b4189028d050c3453800ed4d0a",
-                "reference": "d5ebd788263400b4189028d050c3453800ed4d0a",
+                "url": "https://api.github.com/repos/open-orchestra/open-orchestra-model-bundle/zipball/ddf5a4011abbe0caee36451fde22a2e09d851209",
+                "reference": "ddf5a4011abbe0caee36451fde22a2e09d851209",
                 "shasum": ""
             },
             "require": {
@@ -1786,7 +1786,7 @@
                 }
             ],
             "description": "An implemantation of the model-interface for OpenOrchestra on mongo",
-            "time": "2016-01-19 11:26:44"
+            "time": "2016-01-19 16:45:02"
         },
         {
             "name": "open-orchestra/open-orchestra-model-interface",
@@ -1794,12 +1794,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/open-orchestra/open-orchestra-model-interface.git",
-                "reference": "4c7ab06f073ef698305613ccb5de16283281c857"
+                "reference": "2e1294e0cd94cded0fe75114338710a0c5c56d26"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/open-orchestra/open-orchestra-model-interface/zipball/4c7ab06f073ef698305613ccb5de16283281c857",
-                "reference": "4c7ab06f073ef698305613ccb5de16283281c857",
+                "url": "https://api.github.com/repos/open-orchestra/open-orchestra-model-interface/zipball/2e1294e0cd94cded0fe75114338710a0c5c56d26",
+                "reference": "2e1294e0cd94cded0fe75114338710a0c5c56d26",
                 "shasum": ""
             },
             "require": {
@@ -1832,7 +1832,7 @@
                 }
             ],
             "description": "Describe all entity and repository to implement for the whole OpenOrchestra project",
-            "time": "2016-01-19 10:44:18"
+            "time": "2016-01-19 16:44:48"
         },
         {
             "name": "open-orchestra/open-orchestra-mongo-libs",
