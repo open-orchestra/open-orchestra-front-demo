@@ -1644,12 +1644,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/open-orchestra/open-orchestra-elastica-bundle.git",
-                "reference": "1694d52512dc1d99a1967d5ae7ee85e18b5c699a"
+                "reference": "32d9349baf0d7623fb82e2212f14827d29c6b3ee"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/open-orchestra/open-orchestra-elastica-bundle/zipball/1694d52512dc1d99a1967d5ae7ee85e18b5c699a",
-                "reference": "1694d52512dc1d99a1967d5ae7ee85e18b5c699a",
+                "url": "https://api.github.com/repos/open-orchestra/open-orchestra-elastica-bundle/zipball/32d9349baf0d7623fb82e2212f14827d29c6b3ee",
+                "reference": "32d9349baf0d7623fb82e2212f14827d29c6b3ee",
                 "shasum": ""
             },
             "require": {
@@ -1690,7 +1690,7 @@
                 }
             ],
             "description": "An bundle to index Open Orchestra element",
-            "time": "2016-03-01 09:28:52"
+            "time": "2016-03-02 14:03:09"
         },
         {
             "name": "open-orchestra/open-orchestra-front-bundle",
