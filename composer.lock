@@ -1547,12 +1547,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Seldaek/monolog.git",
-                "reference": "a7ade9d68f41bf6b01cc6121635c87b4420a5b46"
+                "reference": "04dedae4a81eeb2135eeb10b5323935f879ced0a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Seldaek/monolog/zipball/a7ade9d68f41bf6b01cc6121635c87b4420a5b46",
-                "reference": "a7ade9d68f41bf6b01cc6121635c87b4420a5b46",
+                "url": "https://api.github.com/repos/Seldaek/monolog/zipball/04dedae4a81eeb2135eeb10b5323935f879ced0a",
+                "reference": "04dedae4a81eeb2135eeb10b5323935f879ced0a",
                 "shasum": ""
             },
             "require": {
@@ -1617,7 +1617,7 @@
                 "logging",
                 "psr-3"
             ],
-            "time": "2016-04-10 12:01:10"
+            "time": "2016-04-15 16:52:32"
         },
         {
             "name": "open-orchestra/open-orchestra-base-bundle",
@@ -1916,12 +1916,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/open-orchestra/open-orchestra-media-bundle.git",
-                "reference": "66cd4247ef90a24f01740ff4cca9db2887a2a3b9"
+                "reference": "6ac2ce4dbb826fa49f704f44edbfdb8fc295ba62"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/open-orchestra/open-orchestra-media-bundle/zipball/66cd4247ef90a24f01740ff4cca9db2887a2a3b9",
-                "reference": "66cd4247ef90a24f01740ff4cca9db2887a2a3b9",
+                "url": "https://api.github.com/repos/open-orchestra/open-orchestra-media-bundle/zipball/6ac2ce4dbb826fa49f704f44edbfdb8fc295ba62",
+                "reference": "6ac2ce4dbb826fa49f704f44edbfdb8fc295ba62",
                 "shasum": ""
             },
             "require": {
@@ -1960,7 +1960,7 @@
                 }
             ],
             "description": "A media bundle for the OpenOrchestra Project",
-            "time": "2016-04-11 12:30:17"
+            "time": "2016-04-18 09:12:43"
         },
         {
             "name": "open-orchestra/open-orchestra-model-bundle",
@@ -1968,12 +1968,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/open-orchestra/open-orchestra-model-bundle.git",
-                "reference": "5a13d8ce86df9c37f5b248214d0f27e543854d2c"
+                "reference": "c230a709c94c1ddff5a3b9a3727ddaaf7fdcc0f8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/open-orchestra/open-orchestra-model-bundle/zipball/5a13d8ce86df9c37f5b248214d0f27e543854d2c",
-                "reference": "5a13d8ce86df9c37f5b248214d0f27e543854d2c",
+                "url": "https://api.github.com/repos/open-orchestra/open-orchestra-model-bundle/zipball/c230a709c94c1ddff5a3b9a3727ddaaf7fdcc0f8",
+                "reference": "c230a709c94c1ddff5a3b9a3727ddaaf7fdcc0f8",
                 "shasum": ""
             },
             "require": {
@@ -2009,7 +2009,7 @@
                 }
             ],
             "description": "An implemantation of the model-interface for OpenOrchestra on mongo",
-            "time": "2016-04-11 12:09:28"
+            "time": "2016-04-15 12:15:47"
         },
         {
             "name": "open-orchestra/open-orchestra-model-interface",
