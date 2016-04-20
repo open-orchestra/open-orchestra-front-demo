@@ -4,8 +4,8 @@
   "license": "MIT",
   "authors": [
     {
-      "name": "itkg-bfouche",
-      "email": "benjamin.fouche@businessdecision.com"
+      "name": "OpenOrchestra community",
+      "homepage": "https://github.com/open-orchestra/open-orchestra-elastica-bundle/graphs/contributors"
     }
   ],
   "require": {
