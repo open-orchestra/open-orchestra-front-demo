@@ -13,23 +13,34 @@
     "open-orchestra/open-orchestra-front-bundle": "1.1.*@dev",
     "open-orchestra/open-orchestra-media-bundle": "1.1.*@dev",
     "open-orchestra/open-orchestra-model-bundle": "1.1.*@dev",
-    "open-orchestra/open-orchestra-elastica-bundle": "1.1.*@dev"
+    "open-orchestra/open-orchestra-elastica-bundle": "1.1.*@dev",
+
+    "open-orchestra/open-orchestra-base-bundle": "@dev",
+    "open-orchestra/open-orchestra-model-interface": "@dev",
+    "open-orchestra/open-orchestra-theme-bundle": "@dev",
+    "open-orchestra/open-orchestra-display-bundle": "@dev",
+    "open-orchestra/open-orchestra-bbcode-bundle": "@dev",
+    "open-orchestra/open-orchestra-mongo-libs": "@dev",
+    "open-orchestra/open-orchestra-libs": "@dev",
+    "solution/mongo-odm-aggregation-bundle": "@dev",
+    "solution/pipeline-builder": "@dev",
+    "innocead/captcha-bundle": "@dev"
   },
-  "require-dev" : {
+  "require-dev": {
     "scrutinizer/ocular": "1.1.1",
     "jmikola/geojson": "~1.0",
-    "phpunit/phpunit" : "4.8.8",
+    "phpunit/phpunit": "4.8.8",
     "phake/phake": "2.1.0"
   },
-  "scripts" : {
-    "post-install-cmd" : [
+  "scripts": {
+    "post-install-cmd": [
       "Incenteev\\ParameterHandler\\ScriptHandler::buildParameters",
       "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::buildBootstrap",
       "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::clearCache",
       "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::installAssets",
       "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::installRequirementsFile"
     ],
-    "post-update-cmd" : [
+    "post-update-cmd": [
       "Incenteev\\ParameterHandler\\ScriptHandler::buildParameters",
       "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::buildBootstrap",
       "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::clearCache",
@@ -37,19 +48,19 @@
       "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::installRequirementsFile"
     ]
   },
-  "config" : {
+  "config": {
     "bin-dir" : "bin"
   },
-  "autoload" : {
-    "psr-0" : {
-      "" : "src/"
+  "autoload": {
+    "psr-0": {
+      "": "src/"
     }
   },
-  "extra" : {
-    "symfony-app-dir" : "app",
-    "symfony-web-dir" : "web",
-    "incenteev-parameters" : {
-      "file" : "app/config/parameters.yml"
+  "extra": {
+    "symfony-app-dir": "app",
+    "symfony-web-dir": "web",
+    "incenteev-parameters": {
+      "file": "app/config/parameters.yml"
     }
   }
 }
