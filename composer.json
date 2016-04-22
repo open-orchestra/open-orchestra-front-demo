@@ -1,6 +1,6 @@
 {
   "name": "open-orchestra/open-orchestra-front-demo",
-  "description": "The front demo website",
+  "description": "Example of an Open Orchestra Front Office implementation",
   "license": "MIT",
   "authors": [
     {
@@ -22,8 +22,6 @@
     "open-orchestra/open-orchestra-bbcode-bundle": "@dev",
     "open-orchestra/open-orchestra-mongo-libs": "@dev",
     "open-orchestra/open-orchestra-libs": "@dev",
-    "solution/mongo-odm-aggregation-bundle": "@dev",
-    "solution/pipeline-builder": "@dev",
     "innocead/captcha-bundle": "@dev"
   },
   "require-dev": {
