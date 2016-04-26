@@ -1,7 +1,8 @@
 {
   "name": "open-orchestra/open-orchestra-front-demo",
   "description": "Example of an Open Orchestra Front Office implementation",
-  "license": "MIT",
+  "license": "Apache-2.0",
+  "type": "project",
   "authors": [
     {
       "name": "OpenOrchestra community",
