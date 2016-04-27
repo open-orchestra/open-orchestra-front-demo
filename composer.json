@@ -14,7 +14,8 @@
     "open-orchestra/open-orchestra-front-bundle": "~1.1.0",
     "open-orchestra/open-orchestra-media-bundle": "~1.1.0",
     "open-orchestra/open-orchestra-model-bundle": "~1.1.0",
-    "open-orchestra/open-orchestra-elastica-bundle": "~1.1.0"
+    "open-orchestra/open-orchestra-elastica-bundle": "~1.1.0",
+    "innocead/captcha-bundle": "@dev"	
   },
   "require-dev": {
     "scrutinizer/ocular": "1.1.1",
