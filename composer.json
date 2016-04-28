@@ -15,6 +15,7 @@
     "open-orchestra/open-orchestra-media-bundle": "1.2.*@dev",
     "open-orchestra/open-orchestra-model-bundle": "1.2.*@dev",
     "open-orchestra/open-orchestra-elastica-bundle": "1.2.*@dev",
+    "innocead/captcha-bundle": "@dev",
 
     "open-orchestra/open-orchestra-base-bundle": "@dev",
     "open-orchestra/open-orchestra-model-interface": "@dev",
@@ -23,7 +24,6 @@
     "open-orchestra/open-orchestra-bbcode-bundle": "@dev",
     "open-orchestra/open-orchestra-mongo-libs": "@dev",
     "open-orchestra/open-orchestra-libs": "@dev",
-    "innocead/captcha-bundle": "@dev"
   },
   "require-dev": {
     "scrutinizer/ocular": "1.1.1",
