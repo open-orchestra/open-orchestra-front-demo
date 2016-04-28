@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "86ebffc752d015fa995d12ec1f4f3f87",
-    "content-hash": "2d672c03e3722ba7f9a014bf159df451",
+    "hash": "35b6fb126121164086ed03f4d6b5cfbf",
+    "content-hash": "4459984251f55e8f3d2f023c05b22ae7",
     "packages": [
         {
             "name": "antimattr/mongodb-migrations",
@@ -5095,14 +5095,14 @@
         "open-orchestra/open-orchestra-media-bundle": 20,
         "open-orchestra/open-orchestra-model-bundle": 20,
         "open-orchestra/open-orchestra-elastica-bundle": 20,
+        "innocead/captcha-bundle": 20,
         "open-orchestra/open-orchestra-base-bundle": 20,
         "open-orchestra/open-orchestra-model-interface": 20,
         "open-orchestra/open-orchestra-theme-bundle": 20,
         "open-orchestra/open-orchestra-display-bundle": 20,
         "open-orchestra/open-orchestra-bbcode-bundle": 20,
         "open-orchestra/open-orchestra-mongo-libs": 20,
-        "open-orchestra/open-orchestra-libs": 20,
-        "innocead/captcha-bundle": 20
+        "open-orchestra/open-orchestra-libs": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,
