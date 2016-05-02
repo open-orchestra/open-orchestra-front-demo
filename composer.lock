@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "82251645a7095ee0fa024f5e690651cd",
+    "hash": "ed30e26f5ce232e94ff2d85c3e61f7f7",
     "content-hash": "9b302ce851c174f21a87057f4a76698a",
     "packages": [
         {
@@ -1858,12 +1858,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/open-orchestra/open-orchestra-model-bundle.git",
-                "reference": "d5afc40e03fcc53298045e853b300aae60242e8b"
+                "reference": "c9c1146dc574bb77887b05e6a5830272d7097d52"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/open-orchestra/open-orchestra-model-bundle/zipball/d5afc40e03fcc53298045e853b300aae60242e8b",
-                "reference": "d5afc40e03fcc53298045e853b300aae60242e8b",
+                "url": "https://api.github.com/repos/open-orchestra/open-orchestra-model-bundle/zipball/c9c1146dc574bb77887b05e6a5830272d7097d52",
+                "reference": "c9c1146dc574bb77887b05e6a5830272d7097d52",
                 "shasum": ""
             },
             "require": {
@@ -1902,7 +1902,7 @@
                 }
             ],
             "description": "An implemantation of the model-interface for OpenOrchestra on mongo",
-            "time": "2016-04-14 13:40:19"
+            "time": "2016-05-02 11:53:40"
         },
         {
             "name": "open-orchestra/open-orchestra-model-interface",
@@ -2346,23 +2346,23 @@
         },
         {
             "name": "solution/mongo-odm-aggregation-bundle",
-            "version": "v0.1",
+            "version": "v0.1.1",
             "target-dir": "Solution/MongoAggregationBundle",
             "source": {
                 "type": "git",
                 "url": "https://github.com/f1nder/SolutionMongoAggregationBundle.git",
-                "reference": "198e92c5a1edbdb41da97ed5a45d1d89d6d324b5"
+                "reference": "6b2a64430a567f97a2ec68b8b45da6e196742deb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/f1nder/SolutionMongoAggregationBundle/zipball/198e92c5a1edbdb41da97ed5a45d1d89d6d324b5",
-                "reference": "198e92c5a1edbdb41da97ed5a45d1d89d6d324b5",
+                "url": "https://api.github.com/repos/f1nder/SolutionMongoAggregationBundle/zipball/6b2a64430a567f97a2ec68b8b45da6e196742deb",
+                "reference": "6b2a64430a567f97a2ec68b8b45da6e196742deb",
                 "shasum": ""
             },
             "require": {
                 "doctrine/mongodb-odm-bundle": "~3.0",
                 "php": ">=5.4.0",
-                "solution/pipeline-builder": "dev-master"
+                "solution/pipeline-builder": "~0.1"
             },
             "type": "symfony-bundle",
             "autoload": {
@@ -2388,11 +2388,11 @@
                 "pipeline",
                 "query"
             ],
-            "time": "2015-11-04 13:25:43"
+            "time": "2016-04-22 07:39:15"
         },
         {
             "name": "solution/pipeline-builder",
-            "version": "dev-master",
+            "version": "v0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/f1nder/SolutionPipelineBuilder.git",
@@ -2414,8 +2414,7 @@
             "authors": [
                 {
                     "name": "Aleksandr Moroz",
-                    "email": "netstroix@gmail.com",
-                    "homepage": "http://comingsoon.com"
+                    "email": "netstroix@gmail.com"
                 }
             ],
             "description": "Build pipeline for Mongo Aggregation Query",
@@ -2484,16 +2483,16 @@
         },
         {
             "name": "swiftmailer/swiftmailer",
-            "version": "v5.4.1",
+            "version": "v5.4.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/swiftmailer/swiftmailer.git",
-                "reference": "0697e6aa65c83edf97bb0f23d8763f94e3f11421"
+                "reference": "d8db871a54619458a805229a057ea2af33c753e8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/swiftmailer/swiftmailer/zipball/0697e6aa65c83edf97bb0f23d8763f94e3f11421",
-                "reference": "0697e6aa65c83edf97bb0f23d8763f94e3f11421",
+                "url": "https://api.github.com/repos/swiftmailer/swiftmailer/zipball/d8db871a54619458a805229a057ea2af33c753e8",
+                "reference": "d8db871a54619458a805229a057ea2af33c753e8",
                 "shasum": ""
             },
             "require": {
@@ -2533,7 +2532,7 @@
                 "mail",
                 "mailer"
             ],
-            "time": "2015-06-06 14:19:39"
+            "time": "2016-05-01 08:45:47"
         },
         {
             "name": "symfony-cmf/routing",
@@ -2960,16 +2959,16 @@
         },
         {
             "name": "symfony/symfony",
-            "version": "v2.7.11",
+            "version": "v2.7.12",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/symfony.git",
-                "reference": "66c99826ce3d4392aa1fd08564946cb4277e3897"
+                "reference": "9edf2430f1846602844d2b434f26389a018f494f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/symfony/zipball/66c99826ce3d4392aa1fd08564946cb4277e3897",
-                "reference": "66c99826ce3d4392aa1fd08564946cb4277e3897",
+                "url": "https://api.github.com/repos/symfony/symfony/zipball/9edf2430f1846602844d2b434f26389a018f494f",
+                "reference": "9edf2430f1846602844d2b434f26389a018f494f",
                 "shasum": ""
             },
             "require": {
@@ -3045,7 +3044,11 @@
             },
             "autoload": {
                 "psr-4": {
-                    "Symfony\\Bridge\\": "src/Symfony/Bridge/",
+                    "Symfony\\Bridge\\Doctrine\\": "src/Symfony/Bridge/Doctrine/",
+                    "Symfony\\Bridge\\Monolog\\": "src/Symfony/Bridge/Monolog/",
+                    "Symfony\\Bridge\\ProxyManager\\": "src/Symfony/Bridge/ProxyManager/",
+                    "Symfony\\Bridge\\Swiftmailer\\": "src/Symfony/Bridge/Swiftmailer/",
+                    "Symfony\\Bridge\\Twig\\": "src/Symfony/Bridge/Twig/",
                     "Symfony\\Bundle\\": "src/Symfony/Bundle/",
                     "Symfony\\Component\\": "src/Symfony/Component/"
                 },
@@ -3079,7 +3082,7 @@
             "keywords": [
                 "framework"
             ],
-            "time": "2016-03-25 18:14:23"
+            "time": "2016-04-29 09:48:03"
         },
         {
             "name": "twig/extensions",
