@@ -11,19 +11,11 @@
   ],
   "require": {
     "incenteev/composer-parameter-handler" : "~2.0",
-    "open-orchestra/open-orchestra-front-bundle": "1.1.*@dev",
-    "open-orchestra/open-orchestra-media-bundle": "1.1.*@dev",
-    "open-orchestra/open-orchestra-model-bundle": "1.1.*@dev",
-    "open-orchestra/open-orchestra-elastica-bundle": "1.1.*@dev",
-    "innocead/captcha-bundle": "@dev",
-
-    "open-orchestra/open-orchestra-base-bundle": "@dev",
-    "open-orchestra/open-orchestra-model-interface": "@dev",
-    "open-orchestra/open-orchestra-theme-bundle": "@dev",
-    "open-orchestra/open-orchestra-display-bundle": "@dev",
-    "open-orchestra/open-orchestra-bbcode-bundle": "@dev",
-    "open-orchestra/open-orchestra-mongo-libs": "@dev",
-    "open-orchestra/open-orchestra-libs": "@dev"
+    "open-orchestra/open-orchestra-front-bundle": "1.1.1",
+    "open-orchestra/open-orchestra-media-bundle": "1.1.1",
+    "open-orchestra/open-orchestra-model-bundle": "1.1.1",
+    "open-orchestra/open-orchestra-elastica-bundle": "1.1.1",
+    "innocead/captcha-bundle": "@dev"
   },
   "require-dev": {
     "scrutinizer/ocular": "1.1.1",
