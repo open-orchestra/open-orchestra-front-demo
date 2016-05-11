@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "24d6b0bb3267f8f4b9ff826c83a60f97",
-    "content-hash": "b534ea2d8867c040f953990adf0de907",
+    "hash": "e28deb9f8ead55d1ddbaea12c4c6c21a",
+    "content-hash": "b7098bc33d1b8730fff31f03f499148a",
     "packages": [
         {
             "name": "antimattr/mongodb-migrations",
@@ -1622,16 +1622,16 @@
         },
         {
             "name": "open-orchestra/open-orchestra-base-bundle",
-            "version": "1.1.x-dev",
+            "version": "v1.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/open-orchestra/open-orchestra-base-bundle.git",
-                "reference": "f7f6a7a6492b4ad01479d5fba4e2d470d087be7c"
+                "reference": "723c777af1be81d3a051744de07f39a107295507"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/open-orchestra/open-orchestra-base-bundle/zipball/f7f6a7a6492b4ad01479d5fba4e2d470d087be7c",
-                "reference": "f7f6a7a6492b4ad01479d5fba4e2d470d087be7c",
+                "url": "https://api.github.com/repos/open-orchestra/open-orchestra-base-bundle/zipball/723c777af1be81d3a051744de07f39a107295507",
+                "reference": "723c777af1be81d3a051744de07f39a107295507",
                 "shasum": ""
             },
             "require": {
@@ -1653,11 +1653,6 @@
                 "psr/log": "1.0.0"
             },
             "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "1.1.x-dev"
-                }
-            },
             "autoload": {
                 "psr-4": {
                     "OpenOrchestra\\BaseBundle\\": "BaseBundle/"
@@ -1674,25 +1669,25 @@
                 }
             ],
             "description": "The OpenOrchestra base bundle",
-            "time": "2016-04-28 09:09:31"
+            "time": "2016-05-11 14:06:11"
         },
         {
             "name": "open-orchestra/open-orchestra-bbcode-bundle",
-            "version": "1.1.x-dev",
+            "version": "v1.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/open-orchestra/open-orchestra-bbcode-bundle.git",
-                "reference": "111e4421875965a24441f9a2b55263aad4da9ce6"
+                "reference": "5b3d451024d2aa9ab2ea18b6728dd80fa5c1f76b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/open-orchestra/open-orchestra-bbcode-bundle/zipball/111e4421875965a24441f9a2b55263aad4da9ce6",
-                "reference": "111e4421875965a24441f9a2b55263aad4da9ce6",
+                "url": "https://api.github.com/repos/open-orchestra/open-orchestra-bbcode-bundle/zipball/5b3d451024d2aa9ab2ea18b6728dd80fa5c1f76b",
+                "reference": "5b3d451024d2aa9ab2ea18b6728dd80fa5c1f76b",
                 "shasum": ""
             },
             "require": {
                 "jbbcode/jbbcode": "1.3.0",
-                "open-orchestra/open-orchestra-base-bundle": "1.1.*@dev"
+                "open-orchestra/open-orchestra-base-bundle": "1.1.1"
             },
             "require-dev": {
                 "codeclimate/php-test-reporter": "dev-master",
@@ -1701,11 +1696,6 @@
                 "psr/log": "1.0.0"
             },
             "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "1.1.x-dev"
-                }
-            },
             "autoload": {
                 "psr-4": {
                     "OpenOrchestra\\BBcodeBundle\\": "BBcodeBundle/"
@@ -1722,30 +1712,29 @@
                 }
             ],
             "description": "The Open Orchestra bundle wrapping the jbbcode/jbbcode library",
-            "time": "2016-04-28 09:09:33"
+            "time": "2016-05-11 14:06:06"
         },
         {
             "name": "open-orchestra/open-orchestra-display-bundle",
-            "version": "1.1.x-dev",
+            "version": "v1.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/open-orchestra/open-orchestra-display-bundle.git",
-                "reference": "1c74badcaff82d7b510bee15d2feb354a3ccbff1"
+                "reference": "67921c37b6bb5416cbede0f520e74194ea04a2d6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/open-orchestra/open-orchestra-display-bundle/zipball/1c74badcaff82d7b510bee15d2feb354a3ccbff1",
-                "reference": "1c74badcaff82d7b510bee15d2feb354a3ccbff1",
+                "url": "https://api.github.com/repos/open-orchestra/open-orchestra-display-bundle/zipball/67921c37b6bb5416cbede0f520e74194ea04a2d6",
+                "reference": "67921c37b6bb5416cbede0f520e74194ea04a2d6",
                 "shasum": ""
             },
             "require": {
                 "friendsofsymfony/http-cache-bundle": "1.3.6",
                 "innocead/captcha-bundle": "dev-master",
                 "jbbcode/jbbcode": "1.3.0",
-                "open-orchestra/open-orchestra-base-bundle": "1.1.*@dev",
-                "open-orchestra/open-orchestra-bbcode-bundle": "1.1.*@dev",
-                "open-orchestra/open-orchestra-libs": "@dev",
-                "open-orchestra/open-orchestra-model-interface": "1.1.*@dev",
+                "open-orchestra/open-orchestra-base-bundle": "1.1.1",
+                "open-orchestra/open-orchestra-bbcode-bundle": "1.1.1",
+                "open-orchestra/open-orchestra-model-interface": "1.1.1",
                 "symfony/swiftmailer-bundle": "~2.3"
             },
             "require-dev": {
@@ -1755,11 +1744,6 @@
                 "psr/log": "1.0.0"
             },
             "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "1.1.x-dev"
-                }
-            },
             "autoload": {
                 "psr-4": {
                     "OpenOrchestra\\DisplayBundle\\": "DisplayBundle/",
@@ -1777,20 +1761,20 @@
                 }
             ],
             "description": "The bundle to display all bricks",
-            "time": "2016-04-28 09:09:38"
+            "time": "2016-05-11 14:05:57"
         },
         {
             "name": "open-orchestra/open-orchestra-elastica-bundle",
-            "version": "1.1.x-dev",
+            "version": "v1.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/open-orchestra/open-orchestra-elastica-bundle.git",
-                "reference": "14475a4d2b622c1d71b14a3febb6180d4ebae9c2"
+                "reference": "d508780f23e74184dcc359c7303b7f9c74dcffb0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/open-orchestra/open-orchestra-elastica-bundle/zipball/14475a4d2b622c1d71b14a3febb6180d4ebae9c2",
-                "reference": "14475a4d2b622c1d71b14a3febb6180d4ebae9c2",
+                "url": "https://api.github.com/repos/open-orchestra/open-orchestra-elastica-bundle/zipball/d508780f23e74184dcc359c7303b7f9c74dcffb0",
+                "reference": "d508780f23e74184dcc359c7303b7f9c74dcffb0",
                 "shasum": ""
             },
             "require": {
@@ -1802,14 +1786,7 @@
                 "codeclimate/php-test-reporter": "dev-master",
                 "friendsofsymfony/user-bundle": "@dev",
                 "innocead/captcha-bundle": "@dev",
-                "open-orchestra/open-orchestra-base-api-bundle": "@dev",
-                "open-orchestra/open-orchestra-base-bundle": "@dev",
-                "open-orchestra/open-orchestra-bbcode-bundle": "@dev",
-                "open-orchestra/open-orchestra-cms-bundle": "1.1.*@dev",
-                "open-orchestra/open-orchestra-display-bundle": "@dev",
-                "open-orchestra/open-orchestra-model-bundle": "@dev",
-                "open-orchestra/open-orchestra-mongo-libs": "@dev",
-                "open-orchestra/open-orchestra-user-bundle": "@dev",
+                "open-orchestra/open-orchestra-cms-bundle": "1.1.1",
                 "phake/phake": "2.1.0",
                 "phpunit/phpunit": "4.7.2",
                 "psr/log": "1.0.0"
@@ -1819,11 +1796,6 @@
                 "open-orchestra/open-orchestra-front-bundle": "To be able to use the front bundle"
             },
             "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "1.1.x-dev"
-                }
-            },
             "autoload": {
                 "psr-4": {
                     "OpenOrchestra\\ElasticaAdminBundle\\": "ElasticaAdminBundle/",
@@ -1845,46 +1817,39 @@
                 }
             ],
             "description": "A bundle to index Open Orchestra elements with Elastica Search",
-            "time": "2016-04-28 09:09:42"
+            "time": "2016-05-11 14:05:51"
         },
         {
             "name": "open-orchestra/open-orchestra-front-bundle",
-            "version": "1.1.x-dev",
+            "version": "v1.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/open-orchestra/open-orchestra-front-bundle.git",
-                "reference": "130860822eb00edd3fc1a628c0062363f92ae3d9"
+                "reference": "4b2f6954d4437ecad38bbf7a193fde427d044bc2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/open-orchestra/open-orchestra-front-bundle/zipball/130860822eb00edd3fc1a628c0062363f92ae3d9",
-                "reference": "130860822eb00edd3fc1a628c0062363f92ae3d9",
+                "url": "https://api.github.com/repos/open-orchestra/open-orchestra-front-bundle/zipball/4b2f6954d4437ecad38bbf7a193fde427d044bc2",
+                "reference": "4b2f6954d4437ecad38bbf7a193fde427d044bc2",
                 "shasum": ""
             },
             "require": {
                 "innocead/captcha-bundle": "@dev",
-                "open-orchestra/open-orchestra-base-bundle": "1.1.*@dev",
-                "open-orchestra/open-orchestra-bbcode-bundle": "@dev",
-                "open-orchestra/open-orchestra-display-bundle": "1.1.*@dev",
-                "open-orchestra/open-orchestra-libs": "@dev",
-                "open-orchestra/open-orchestra-model-interface": "1.1.*@dev",
-                "open-orchestra/open-orchestra-theme-bundle": "1.1.*@dev",
+                "open-orchestra/open-orchestra-base-bundle": "1.1.1",
+                "open-orchestra/open-orchestra-display-bundle": "1.1.1",
+                "open-orchestra/open-orchestra-model-interface": "1.1.1",
+                "open-orchestra/open-orchestra-theme-bundle": "1.1.1",
                 "symfony-cmf/routing-bundle": "*"
             },
             "require-dev": {
                 "codeclimate/php-test-reporter": "dev-master",
-                "open-orchestra/open-orchestra-model-bundle": "1.1.*@dev",
+                "open-orchestra/open-orchestra-model-bundle": "1.1.1",
                 "open-orchestra/open-orchestra-mongo-libs": "@dev",
                 "phake/phake": "2.1.0",
                 "phpunit/phpunit": "4.7.2",
                 "psr/log": "1.0.0"
             },
             "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "1.1.x-dev"
-                }
-            },
             "autoload": {
                 "psr-4": {
                     "OpenOrchestra\\FrontBundle\\": "FrontBundle/"
@@ -1901,20 +1866,20 @@
                 }
             ],
             "description": "A bundle for the Front End part of an Open Orchestra project",
-            "time": "2016-04-28 09:09:44"
+            "time": "2016-05-11 14:05:46"
         },
         {
             "name": "open-orchestra/open-orchestra-libs",
-            "version": "1.1.x-dev",
+            "version": "v1.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/open-orchestra/open-orchestra-libs.git",
-                "reference": "d1871d859d3cbb5d0d8983f8d870eff0447458ee"
+                "reference": "7ad5203a6a85af676398d513db5f380c61065014"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/open-orchestra/open-orchestra-libs/zipball/d1871d859d3cbb5d0d8983f8d870eff0447458ee",
-                "reference": "d1871d859d3cbb5d0d8983f8d870eff0447458ee",
+                "url": "https://api.github.com/repos/open-orchestra/open-orchestra-libs/zipball/7ad5203a6a85af676398d513db5f380c61065014",
+                "reference": "7ad5203a6a85af676398d513db5f380c61065014",
                 "shasum": ""
             },
             "require": {
@@ -1930,11 +1895,6 @@
                 "psr/log": "1.0.0"
             },
             "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "1.1.x-dev"
-                }
-            },
             "autoload": {
                 "psr-4": {
                     "OpenOrchestra\\Mapping\\": "Mapping/",
@@ -1953,47 +1913,41 @@
                 }
             ],
             "description": "Some library for the Open Orchestra project",
-            "time": "2016-04-28 09:09:49"
+            "time": "2016-05-11 14:05:43"
         },
         {
             "name": "open-orchestra/open-orchestra-media-bundle",
-            "version": "1.1.x-dev",
+            "version": "v1.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/open-orchestra/open-orchestra-media-bundle.git",
-                "reference": "25dca206f50076ae127eedcdb5caa662e17780d0"
+                "reference": "8b1be13d75b769b352824aab7375e4b5a06e852b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/open-orchestra/open-orchestra-media-bundle/zipball/25dca206f50076ae127eedcdb5caa662e17780d0",
-                "reference": "25dca206f50076ae127eedcdb5caa662e17780d0",
+                "url": "https://api.github.com/repos/open-orchestra/open-orchestra-media-bundle/zipball/8b1be13d75b769b352824aab7375e4b5a06e852b",
+                "reference": "8b1be13d75b769b352824aab7375e4b5a06e852b",
                 "shasum": ""
             },
             "require": {
                 "doctrine/data-fixtures": "1.1.1",
                 "innocead/captcha-bundle": "@dev",
-                "open-orchestra/open-orchestra-bbcode-bundle": "1.1.*@dev",
-                "open-orchestra/open-orchestra-display-bundle": "1.1.*@dev",
-                "open-orchestra/open-orchestra-libs": "@dev",
-                "open-orchestra/open-orchestra-model-interface": "1.1.*@dev",
-                "open-orchestra/open-orchestra-mongo-libs": "1.1.*@dev",
+                "open-orchestra/open-orchestra-bbcode-bundle": "1.1.1",
+                "open-orchestra/open-orchestra-display-bundle": "1.1.1",
+                "open-orchestra/open-orchestra-model-interface": "1.1.1",
+                "open-orchestra/open-orchestra-mongo-libs": "1.1.1",
                 "stof/doctrine-extensions-bundle": "1.2.1"
             },
             "require-dev": {
                 "codeclimate/php-test-reporter": "dev-master",
                 "jmikola/geojson": "1.0.1",
-                "open-orchestra/open-orchestra-base-bundle": "1.1.*@dev",
+                "open-orchestra/open-orchestra-base-bundle": "1.1.1",
                 "phake/phake": "2.1.0",
                 "phpunit/phpunit": "4.7.2",
                 "psr/log": "1.0.0",
                 "symfony/validator": "2.7.0"
             },
             "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "1.1.x-dev"
-                }
-            },
             "autoload": {
                 "psr-4": {
                     "OpenOrchestra\\MediaModelBundle\\": "MediaModelBundle/",
@@ -2012,45 +1966,39 @@
                 }
             ],
             "description": "A media bundle for Open Orchestra",
-            "time": "2016-05-09 07:22:28"
+            "time": "2016-05-11 14:05:33"
         },
         {
             "name": "open-orchestra/open-orchestra-model-bundle",
-            "version": "1.1.x-dev",
+            "version": "v1.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/open-orchestra/open-orchestra-model-bundle.git",
-                "reference": "cea853c85df6e66bbac5064c4605fdfd1a1407e2"
+                "reference": "60f7f1baf828f36a4905fa159d537a3150911ef2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/open-orchestra/open-orchestra-model-bundle/zipball/cea853c85df6e66bbac5064c4605fdfd1a1407e2",
-                "reference": "cea853c85df6e66bbac5064c4605fdfd1a1407e2",
+                "url": "https://api.github.com/repos/open-orchestra/open-orchestra-model-bundle/zipball/60f7f1baf828f36a4905fa159d537a3150911ef2",
+                "reference": "60f7f1baf828f36a4905fa159d537a3150911ef2",
                 "shasum": ""
             },
             "require": {
                 "antimattr/mongodb-migrations-bundle": "~1.0",
                 "doctrine/data-fixtures": "1.1.1",
-                "open-orchestra/open-orchestra-libs": "@dev",
-                "open-orchestra/open-orchestra-model-interface": "1.1.*@dev",
-                "open-orchestra/open-orchestra-mongo-libs": "1.1.*@dev",
+                "open-orchestra/open-orchestra-model-interface": "1.1.1",
+                "open-orchestra/open-orchestra-mongo-libs": "1.1.1",
                 "stof/doctrine-extensions-bundle": "1.2.1"
             },
             "require-dev": {
                 "codeclimate/php-test-reporter": "dev-master",
                 "jmikola/geojson": "1.0.1",
-                "open-orchestra/open-orchestra-base-bundle": "1.1.*@dev",
+                "open-orchestra/open-orchestra-base-bundle": "1.1.1",
                 "phake/phake": "2.1.0",
                 "phpunit/phpunit": "4.7.2",
                 "psr/log": "1.0.0",
                 "symfony/validator": "2.7.0"
             },
             "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "1.1.x-dev"
-                }
-            },
             "autoload": {
                 "psr-4": {
                     "OpenOrchestra\\ModelBundle\\": "ModelBundle/"
@@ -2067,26 +2015,26 @@
                 }
             ],
             "description": "A MongoDB implemantation of the Open Orchestra Model Interface",
-            "time": "2016-05-09 13:50:52"
+            "time": "2016-05-11 14:04:58"
         },
         {
             "name": "open-orchestra/open-orchestra-model-interface",
-            "version": "1.1.x-dev",
+            "version": "v1.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/open-orchestra/open-orchestra-model-interface.git",
-                "reference": "05c31f68d89128a79a68f240eba56325da36e07e"
+                "reference": "1cce47e123e2684a43eb4207cf0c35cea8da86bd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/open-orchestra/open-orchestra-model-interface/zipball/05c31f68d89128a79a68f240eba56325da36e07e",
-                "reference": "05c31f68d89128a79a68f240eba56325da36e07e",
+                "url": "https://api.github.com/repos/open-orchestra/open-orchestra-model-interface/zipball/1cce47e123e2684a43eb4207cf0c35cea8da86bd",
+                "reference": "1cce47e123e2684a43eb4207cf0c35cea8da86bd",
                 "shasum": ""
             },
             "require": {
                 "doctrine/annotations": "*",
                 "doctrine/collections": "*",
-                "open-orchestra/open-orchestra-libs": "1.1.*@dev",
+                "open-orchestra/open-orchestra-libs": "1.1.1",
                 "symfony/form": "*"
             },
             "require-dev": {
@@ -2097,11 +2045,6 @@
                 "psr/log": "1.0.0"
             },
             "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "1.1.x-dev"
-                }
-            },
             "autoload": {
                 "psr-4": {
                     "OpenOrchestra\\ModelInterface\\": "ModelInterface/"
@@ -2118,26 +2061,26 @@
                 }
             ],
             "description": "Describe all entity and repository to implement for the whole OpenOrchestra project",
-            "time": "2016-05-11 08:58:20"
+            "time": "2016-05-11 14:05:23"
         },
         {
             "name": "open-orchestra/open-orchestra-mongo-libs",
-            "version": "1.1.x-dev",
+            "version": "v1.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/open-orchestra/open-orchestra-mongo-libs.git",
-                "reference": "c9519b9050e890f3e53c72b57196b175f1a01726"
+                "reference": "ace4695516badf8f376099922a02fc14e3f2bbc5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/open-orchestra/open-orchestra-mongo-libs/zipball/c9519b9050e890f3e53c72b57196b175f1a01726",
-                "reference": "c9519b9050e890f3e53c72b57196b175f1a01726",
+                "url": "https://api.github.com/repos/open-orchestra/open-orchestra-mongo-libs/zipball/ace4695516badf8f376099922a02fc14e3f2bbc5",
+                "reference": "ace4695516badf8f376099922a02fc14e3f2bbc5",
                 "shasum": ""
             },
             "require": {
                 "doctrine/mongodb-odm-bundle": "~3.1.0",
                 "jms/metadata": "~1.1",
-                "open-orchestra/open-orchestra-libs": "1.1.*@dev",
+                "open-orchestra/open-orchestra-libs": "1.1.1",
                 "solution/mongo-odm-aggregation-bundle": "~0.1.1",
                 "symfony/http-foundation": "*"
             },
@@ -2148,11 +2091,6 @@
                 "psr/log": "1.0.0"
             },
             "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "1.1.x-dev"
-                }
-            },
             "autoload": {
                 "psr-4": {
                     "OpenOrchestra\\Pagination\\": "Pagination/",
@@ -2174,35 +2112,30 @@
                 }
             ],
             "description": "Some libraries to use MongoDB in Open Orchestra",
-            "time": "2016-04-28 09:10:09"
+            "time": "2016-05-11 14:05:18"
         },
         {
             "name": "open-orchestra/open-orchestra-theme-bundle",
-            "version": "1.1.x-dev",
+            "version": "v1.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/open-orchestra/open-orchestra-theme-bundle.git",
-                "reference": "2118888a1d5c6bb1b5aaa6645226d4f02e436a0d"
+                "reference": "0eb3f2a55826a9f0280b49862fd184b102c3fb44"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/open-orchestra/open-orchestra-theme-bundle/zipball/2118888a1d5c6bb1b5aaa6645226d4f02e436a0d",
-                "reference": "2118888a1d5c6bb1b5aaa6645226d4f02e436a0d",
+                "url": "https://api.github.com/repos/open-orchestra/open-orchestra-theme-bundle/zipball/0eb3f2a55826a9f0280b49862fd184b102c3fb44",
+                "reference": "0eb3f2a55826a9f0280b49862fd184b102c3fb44",
                 "shasum": ""
             },
             "require-dev": {
                 "codeclimate/php-test-reporter": "dev-master",
-                "open-orchestra/open-orchestra-base-bundle": "1.1.*@dev",
+                "open-orchestra/open-orchestra-base-bundle": "1.1.1",
                 "phake/phake": "2.1.0",
                 "phpunit/phpunit": "4.7.2",
                 "psr/log": "1.0.0"
             },
             "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "1.1.x-dev"
-                }
-            },
             "autoload": {
                 "psr-4": {
                     "OpenOrchestra\\ThemeBundle\\": "ThemeBundle/"
@@ -2219,7 +2152,7 @@
                 }
             ],
             "description": "The Open Orchestra Theme Bundle",
-            "time": "2016-04-28 09:10:15"
+            "time": "2016-05-11 14:04:52"
         },
         {
             "name": "paragonie/random_compat",
@@ -5095,18 +5028,7 @@
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
-        "open-orchestra/open-orchestra-front-bundle": 20,
-        "open-orchestra/open-orchestra-media-bundle": 20,
-        "open-orchestra/open-orchestra-model-bundle": 20,
-        "open-orchestra/open-orchestra-elastica-bundle": 20,
-        "innocead/captcha-bundle": 20,
-        "open-orchestra/open-orchestra-base-bundle": 20,
-        "open-orchestra/open-orchestra-model-interface": 20,
-        "open-orchestra/open-orchestra-theme-bundle": 20,
-        "open-orchestra/open-orchestra-display-bundle": 20,
-        "open-orchestra/open-orchestra-bbcode-bundle": 20,
-        "open-orchestra/open-orchestra-mongo-libs": 20,
-        "open-orchestra/open-orchestra-libs": 20
+        "innocead/captcha-bundle": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,
