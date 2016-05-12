@@ -77,14 +77,6 @@ swiftmailer:
     password:  "%mailer_password%"
     spool:     { type: memory }
 
-snc_redis:
-    clients:
-        default:
-            type: phpredis
-            alias: default
-            dsn: redis://localhost
-            logging: %kernel.debug%
-
 open_orchestra_base:
     encryption_key: %encryption_key%
 
