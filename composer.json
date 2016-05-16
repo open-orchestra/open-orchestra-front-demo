@@ -13,6 +13,7 @@
   "require": {
     "php": ">=5.5 <5.7",
     "incenteev/composer-parameter-handler": "~2.1.2",
+    "sensio/generator-bundle": "~2.5.3",
     "open-orchestra/open-orchestra-elastica-bundle": "1.2.*@dev",
     "open-orchestra/open-orchestra-front-bundle": "1.2.*@dev",
     "open-orchestra/open-orchestra-media-bundle": "1.2.*@dev",
@@ -30,9 +31,7 @@
 
   "require-dev": {
     "phake/phake": "2.1.0",
-    "phpunit/phpunit": "~4.8.0",
-
-    "sensio/generator-bundle": "~2.5.3"
+    "phpunit/phpunit": "~4.8.0"
   },
 
   "scripts": {
