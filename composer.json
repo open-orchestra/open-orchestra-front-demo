@@ -3,6 +3,7 @@
   "description": "Example of an Open Orchestra Front Office implementation",
   "license": "Apache-2.0",
   "type": "project",
+  "version": "1.1.*@dev",
   "authors": [
     {
       "name": "OpenOrchestra community",
@@ -11,25 +12,25 @@
   ],
   "require": {
     "incenteev/composer-parameter-handler" : "~2.0",
-    "open-orchestra/open-orchestra-front-bundle": "1.1.*@dev",
-    "open-orchestra/open-orchestra-media-bundle": "1.1.*@dev",
-    "open-orchestra/open-orchestra-model-bundle": "1.1.*@dev",
-    "open-orchestra/open-orchestra-elastica-bundle": "1.1.*@dev",
-    "innocead/captcha-bundle": "@dev",
-
-    "open-orchestra/open-orchestra-base-bundle": "@dev",
-    "open-orchestra/open-orchestra-model-interface": "@dev",
-    "open-orchestra/open-orchestra-theme-bundle": "@dev",
-    "open-orchestra/open-orchestra-display-bundle": "@dev",
-    "open-orchestra/open-orchestra-bbcode-bundle": "@dev",
-    "open-orchestra/open-orchestra-mongo-libs": "@dev",
-    "open-orchestra/open-orchestra-libs": "@dev"
+    "open-orchestra/open-orchestra-front-bundle": "self.version",
+    "open-orchestra/open-orchestra-media-bundle": "self.version",
+    "open-orchestra/open-orchestra-model-bundle": "self.version",
+    "open-orchestra/open-orchestra-elastica-bundle": "self.version",
+    "innocead/captcha-bundle": "@dev"
   },
   "require-dev": {
     "scrutinizer/ocular": "1.1.1",
     "jmikola/geojson": "~1.0",
     "phpunit/phpunit": "4.8.8",
-    "phake/phake": "2.1.0"
+    "phake/phake": "2.1.0",
+
+    "open-orchestra/open-orchestra-base-bundle": "self.version",
+    "open-orchestra/open-orchestra-model-interface": "self.version",
+    "open-orchestra/open-orchestra-theme-bundle": "self.version",
+    "open-orchestra/open-orchestra-display-bundle": "self.version",
+    "open-orchestra/open-orchestra-bbcode-bundle": "self.version",
+    "open-orchestra/open-orchestra-mongo-libs": "self.version",
+    "open-orchestra/open-orchestra-libs": "self.version"
   },
   "scripts": {
     "post-install-cmd": [
