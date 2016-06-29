@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "578965aec2238c234096202c6b29a1c3",
-    "content-hash": "fa998bb9046103d55b851727fa52d1ee",
+    "hash": "46a826672c0da080b119a9fb5343a12d",
+    "content-hash": "dbd3511b02a13c8b89bfe3824854bbfd",
     "packages": [
         {
             "name": "antimattr/mongodb-migrations",
@@ -1135,6 +1135,108 @@
             "time": "2016-02-18 15:33:43"
         },
         {
+            "name": "gregwar/captcha",
+            "version": "v1.1.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Gregwar/Captcha.git",
+                "reference": "1240ab993ca713680573b2d4166900da5f758623"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Gregwar/Captcha/zipball/1240ab993ca713680573b2d4166900da5f758623",
+                "reference": "1240ab993ca713680573b2d4166900da5f758623",
+                "shasum": ""
+            },
+            "require": {
+                "ext-gd": "*",
+                "php": ">=5.3.0"
+            },
+            "type": "captcha",
+            "autoload": {
+                "psr-4": {
+                    "Gregwar\\Captcha\\": "/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Grégoire Passault",
+                    "email": "g.passault@gmail.com",
+                    "homepage": "http://www.gregwar.com/"
+                },
+                {
+                    "name": "Jeremy Livingston",
+                    "email": "jeremy.j.livingston@gmail.com"
+                }
+            ],
+            "description": "Captcha generator",
+            "homepage": "https://github.com/Gregwar/Captcha",
+            "keywords": [
+                "bot",
+                "captcha",
+                "spam"
+            ],
+            "time": "2015-09-11 15:23:20"
+        },
+        {
+            "name": "gregwar/captcha-bundle",
+            "version": "v2.0.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Gregwar/CaptchaBundle.git",
+                "reference": "53c25b2e9aaa7ddbdf7e9a6f69007b91a5f1efa0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Gregwar/CaptchaBundle/zipball/53c25b2e9aaa7ddbdf7e9a6f69007b91a5f1efa0",
+                "reference": "53c25b2e9aaa7ddbdf7e9a6f69007b91a5f1efa0",
+                "shasum": ""
+            },
+            "require": {
+                "gregwar/captcha": "~1.1",
+                "php": ">=5.3.9",
+                "symfony/form": "~2.1|~3.0",
+                "symfony/framework-bundle": "~2.1|~3.0"
+            },
+            "type": "captcha-bundle",
+            "autoload": {
+                "psr-4": {
+                    "Gregwar\\CaptchaBundle\\": "/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Grégoire Passault",
+                    "email": "g.passault@gmail.com",
+                    "homepage": "http://www.gregwar.com/"
+                },
+                {
+                    "name": "Jeremy Livingston",
+                    "email": "jeremy.j.livingston@gmail.com"
+                }
+            ],
+            "description": "Captcha bundle",
+            "homepage": "https://github.com/Gregwar/CaptchaBundle",
+            "keywords": [
+                "Symfony2",
+                "bot",
+                "captcha",
+                "code",
+                "security",
+                "spam",
+                "visual"
+            ],
+            "time": "2016-02-02 22:40:33"
+        },
+        {
             "name": "guzzle/guzzle",
             "version": "v3.9.3",
             "source": {
@@ -1279,51 +1381,6 @@
                 "parameters management"
             ],
             "time": "2015-11-10 17:04:01"
-        },
-        {
-            "name": "innocead/captcha-bundle",
-            "version": "dev-master",
-            "target-dir": "Innocead/CaptchaBundle",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/innocead/CaptchaBundle.git",
-                "reference": "96f40d4b2d69093fbc16919600782db0fdd03cdc"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/innocead/CaptchaBundle/zipball/96f40d4b2d69093fbc16919600782db0fdd03cdc",
-                "reference": "96f40d4b2d69093fbc16919600782db0fdd03cdc",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=5.3.2",
-                "symfony/framework-bundle": ">=2.1.0"
-            },
-            "type": "symfony-bundle",
-            "autoload": {
-                "psr-0": {
-                    "Innocead\\CaptchaBundle": ""
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Innocead",
-                    "homepage": "http://github.com/innocead"
-                }
-            ],
-            "description": "Symfony InnoceadCaptchaBundle",
-            "homepage": "https://github.com/innocead/CaptchaBundle",
-            "keywords": [
-                "Symfony2",
-                "captcha",
-                "security",
-                "spam"
-            ],
-            "time": "2013-08-27 22:10:38"
         },
         {
             "name": "ircmaxell/password-compat",
@@ -1626,12 +1683,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/open-orchestra/open-orchestra-base-bundle.git",
-                "reference": "9874c5a010be2b12dd0c6e235904eb0abdd7c9dd"
+                "reference": "12302c059aa263e0ddc26274d15bf9ed506a0d31"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/open-orchestra/open-orchestra-base-bundle/zipball/9874c5a010be2b12dd0c6e235904eb0abdd7c9dd",
-                "reference": "9874c5a010be2b12dd0c6e235904eb0abdd7c9dd",
+                "url": "https://api.github.com/repos/open-orchestra/open-orchestra-base-bundle/zipball/12302c059aa263e0ddc26274d15bf9ed506a0d31",
+                "reference": "12302c059aa263e0ddc26274d15bf9ed506a0d31",
                 "shasum": ""
             },
             "require": {
@@ -1646,15 +1703,10 @@
             },
             "require-dev": {
                 "codeclimate/php-test-reporter": "~0.3.2",
-                "phake/phake": "~2.1.0",
-                "phpunit/phpunit": "~4.8.0"
+                "phake/phake": "~2.3.0",
+                "phpunit/phpunit": "~5.4.0"
             },
             "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "1.2.x-dev"
-                }
-            },
             "autoload": {
                 "psr-4": {
                     "OpenOrchestra\\BaseBundle\\": "BaseBundle/"
@@ -1671,7 +1723,7 @@
                 }
             ],
             "description": "The OpenOrchestra base bundle",
-            "time": "2016-06-20 08:25:39"
+            "time": "2016-06-24 12:41:42"
         },
         {
             "name": "open-orchestra/open-orchestra-bbcode-bundle",
@@ -1679,30 +1731,25 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/open-orchestra/open-orchestra-bbcode-bundle.git",
-                "reference": "265695432b879f7d40a48f9b6b7c67957331ca07"
+                "reference": "c1406e33199f7d7e421dec17d47bece2a3218e3e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/open-orchestra/open-orchestra-bbcode-bundle/zipball/265695432b879f7d40a48f9b6b7c67957331ca07",
-                "reference": "265695432b879f7d40a48f9b6b7c67957331ca07",
+                "url": "https://api.github.com/repos/open-orchestra/open-orchestra-bbcode-bundle/zipball/c1406e33199f7d7e421dec17d47bece2a3218e3e",
+                "reference": "c1406e33199f7d7e421dec17d47bece2a3218e3e",
                 "shasum": ""
             },
             "require": {
                 "jbbcode/jbbcode": "~1.3.0",
-                "open-orchestra/open-orchestra-base-bundle": "1.2.*@dev",
+                "open-orchestra/open-orchestra-base-bundle": "self.version",
                 "php": "~5.6.0"
             },
             "require-dev": {
                 "codeclimate/php-test-reporter": "~0.3.2",
-                "phake/phake": "~2.1.0",
-                "phpunit/phpunit": "~4.8.0"
+                "phake/phake": "~2.3.0",
+                "phpunit/phpunit": "~5.4.0"
             },
             "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "1.2.x-dev"
-                }
-            },
             "autoload": {
                 "psr-4": {
                     "OpenOrchestra\\BBcodeBundle\\": "BBcodeBundle/"
@@ -1719,7 +1766,7 @@
                 }
             ],
             "description": "The Open Orchestra bundle wrapping the jbbcode/jbbcode library",
-            "time": "2016-06-20 08:35:30"
+            "time": "2016-06-24 12:39:47"
         },
         {
             "name": "open-orchestra/open-orchestra-display-bundle",
@@ -1727,36 +1774,31 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/open-orchestra/open-orchestra-display-bundle.git",
-                "reference": "f999ae9cc6c283e2ad171d71c7551443fa591607"
+                "reference": "713fb3729200b4d0795fb66cc419008e12885fec"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/open-orchestra/open-orchestra-display-bundle/zipball/f999ae9cc6c283e2ad171d71c7551443fa591607",
-                "reference": "f999ae9cc6c283e2ad171d71c7551443fa591607",
+                "url": "https://api.github.com/repos/open-orchestra/open-orchestra-display-bundle/zipball/713fb3729200b4d0795fb66cc419008e12885fec",
+                "reference": "713fb3729200b4d0795fb66cc419008e12885fec",
                 "shasum": ""
             },
             "require": {
                 "friendsofsymfony/http-cache-bundle": "~1.3.6",
-                "innocead/captcha-bundle": "dev-master",
+                "gregwar/captcha-bundle": "~2.0.2",
                 "jbbcode/jbbcode": "~1.3.0",
-                "open-orchestra/open-orchestra-base-bundle": "1.2.*@dev",
-                "open-orchestra/open-orchestra-bbcode-bundle": "1.2.*@dev",
-                "open-orchestra/open-orchestra-libs": "@dev",
-                "open-orchestra/open-orchestra-model-interface": "1.2.*@dev",
+                "open-orchestra/open-orchestra-base-bundle": "self.version",
+                "open-orchestra/open-orchestra-bbcode-bundle": "self.version",
+                "open-orchestra/open-orchestra-model-interface": "self.version",
                 "php": "~5.6.0",
                 "symfony/swiftmailer-bundle": "~2.3.0"
             },
             "require-dev": {
                 "codeclimate/php-test-reporter": "~0.3.2",
-                "phake/phake": "2.1.0",
-                "phpunit/phpunit": "4.8.8"
+                "open-orchestra/open-orchestra-libs": "self.version",
+                "phake/phake": "~2.3.0",
+                "phpunit/phpunit": "~5.4.0"
             },
             "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "1.2.x-dev"
-                }
-            },
             "autoload": {
                 "psr-4": {
                     "OpenOrchestra\\DisplayBundle\\": "DisplayBundle/",
@@ -1774,7 +1816,7 @@
                 }
             ],
             "description": "The bundle to display all bricks",
-            "time": "2016-06-20 08:35:12"
+            "time": "2016-06-29 10:17:24"
         },
         {
             "name": "open-orchestra/open-orchestra-elastica-bundle",
@@ -1782,45 +1824,39 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/open-orchestra/open-orchestra-elastica-bundle.git",
-                "reference": "9c5c5f48b4ca82cb4bb4e2aa1efe0bff03759d07"
+                "reference": "caba7cea3c835be803c7201361e3b3ed4723f467"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/open-orchestra/open-orchestra-elastica-bundle/zipball/9c5c5f48b4ca82cb4bb4e2aa1efe0bff03759d07",
-                "reference": "9c5c5f48b4ca82cb4bb4e2aa1efe0bff03759d07",
+                "url": "https://api.github.com/repos/open-orchestra/open-orchestra-elastica-bundle/zipball/caba7cea3c835be803c7201361e3b3ed4723f467",
+                "reference": "caba7cea3c835be803c7201361e3b3ed4723f467",
                 "shasum": ""
             },
             "require": {
-                "open-orchestra/open-orchestra-libs": "@dev",
-                "open-orchestra/open-orchestra-model-interface": "1.2.*@dev",
+                "open-orchestra/open-orchestra-model-interface": "self.version",
                 "php": "~5.6.0",
                 "ruflin/elastica": "~2.3.1"
             },
             "require-dev": {
                 "codeclimate/php-test-reporter": "~0.3.2",
                 "friendsofsymfony/user-bundle": "2.0.x-dev",
-                "innocead/captcha-bundle": "dev-master",
-                "open-orchestra/open-orchestra-base-api-bundle": "@dev",
-                "open-orchestra/open-orchestra-base-bundle": "@dev",
-                "open-orchestra/open-orchestra-bbcode-bundle": "@dev",
-                "open-orchestra/open-orchestra-cms-bundle": "1.2.*@dev",
-                "open-orchestra/open-orchestra-display-bundle": "@dev",
-                "open-orchestra/open-orchestra-model-bundle": "@dev",
-                "open-orchestra/open-orchestra-mongo-libs": "@dev",
-                "open-orchestra/open-orchestra-user-bundle": "@dev",
-                "phake/phake": "~2.1.0",
-                "phpunit/phpunit": "~4.8.0"
+                "open-orchestra/open-orchestra-base-api-bundle": "self.version",
+                "open-orchestra/open-orchestra-base-bundle": "self.version",
+                "open-orchestra/open-orchestra-bbcode-bundle": "self.version",
+                "open-orchestra/open-orchestra-cms-bundle": "self.version",
+                "open-orchestra/open-orchestra-display-bundle": "self.version",
+                "open-orchestra/open-orchestra-libs": "self.version",
+                "open-orchestra/open-orchestra-model-bundle": "self.version",
+                "open-orchestra/open-orchestra-mongo-libs": "self.version",
+                "open-orchestra/open-orchestra-user-bundle": "self.version",
+                "phake/phake": "~2.3.0",
+                "phpunit/phpunit": "~5.4.0"
             },
             "suggest": {
                 "open-orchestra/open-orchestra-cms-bundle": "To be able to use the admin bundle",
                 "open-orchestra/open-orchestra-front-bundle": "To be able to use the front bundle"
             },
             "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "1.2.x-dev"
-                }
-            },
             "autoload": {
                 "psr-4": {
                     "OpenOrchestra\\ElasticaAdminBundle\\": "ElasticaAdminBundle/",
@@ -1842,7 +1878,7 @@
                 }
             ],
             "description": "A bundle to index Open Orchestra elements with Elastica Search",
-            "time": "2016-06-20 08:34:06"
+            "time": "2016-06-29 10:38:23"
         },
         {
             "name": "open-orchestra/open-orchestra-front-bundle",
@@ -1850,38 +1886,32 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/open-orchestra/open-orchestra-front-bundle.git",
-                "reference": "cb240aa3f07a53a858f6039f9cb95ea80abb6ef3"
+                "reference": "d31b5c79b649a9a00f4686b628efb27643acfa84"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/open-orchestra/open-orchestra-front-bundle/zipball/cb240aa3f07a53a858f6039f9cb95ea80abb6ef3",
-                "reference": "cb240aa3f07a53a858f6039f9cb95ea80abb6ef3",
+                "url": "https://api.github.com/repos/open-orchestra/open-orchestra-front-bundle/zipball/d31b5c79b649a9a00f4686b628efb27643acfa84",
+                "reference": "d31b5c79b649a9a00f4686b628efb27643acfa84",
                 "shasum": ""
             },
             "require": {
-                "innocead/captcha-bundle": "dev-master",
-                "open-orchestra/open-orchestra-base-bundle": "1.2.*@dev",
+                "open-orchestra/open-orchestra-base-bundle": "self.version",
                 "open-orchestra/open-orchestra-bbcode-bundle": "@dev",
-                "open-orchestra/open-orchestra-display-bundle": "1.2.*@dev",
+                "open-orchestra/open-orchestra-display-bundle": "self.version",
                 "open-orchestra/open-orchestra-libs": "@dev",
-                "open-orchestra/open-orchestra-model-interface": "1.2.*@dev",
-                "open-orchestra/open-orchestra-theme-bundle": "1.2.*@dev",
+                "open-orchestra/open-orchestra-model-interface": "self.version",
+                "open-orchestra/open-orchestra-theme-bundle": "self.version",
                 "php": "~5.6.0",
                 "symfony-cmf/routing-bundle": "~1.4.0"
             },
             "require-dev": {
                 "codeclimate/php-test-reporter": "~0.3.2",
-                "open-orchestra/open-orchestra-model-bundle": "1.2.*@dev",
-                "open-orchestra/open-orchestra-mongo-libs": "@dev",
-                "phake/phake": "2.1.0",
-                "phpunit/phpunit": "4.7.2"
+                "open-orchestra/open-orchestra-model-bundle": "self.version",
+                "open-orchestra/open-orchestra-mongo-libs": "self.version",
+                "phake/phake": "~2.3.0",
+                "phpunit/phpunit": "~5.4.0"
             },
             "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "1.2.x-dev"
-                }
-            },
             "autoload": {
                 "psr-4": {
                     "OpenOrchestra\\FrontBundle\\": "FrontBundle/"
@@ -1898,7 +1928,7 @@
                 }
             ],
             "description": "A bundle for the Front End part of an Open Orchestra project",
-            "time": "2016-06-20 09:59:15"
+            "time": "2016-06-29 10:24:37"
         },
         {
             "name": "open-orchestra/open-orchestra-libs",
@@ -1906,12 +1936,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/open-orchestra/open-orchestra-libs.git",
-                "reference": "aeeae3f3574d17a87cce114c48660a38673ec7c5"
+                "reference": "f2c72585b51c94fcde0d6c2d629951f2e442340a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/open-orchestra/open-orchestra-libs/zipball/aeeae3f3574d17a87cce114c48660a38673ec7c5",
-                "reference": "aeeae3f3574d17a87cce114c48660a38673ec7c5",
+                "url": "https://api.github.com/repos/open-orchestra/open-orchestra-libs/zipball/f2c72585b51c94fcde0d6c2d629951f2e442340a",
+                "reference": "f2c72585b51c94fcde0d6c2d629951f2e442340a",
                 "shasum": ""
             },
             "require": {
@@ -1923,15 +1953,10 @@
             },
             "require-dev": {
                 "codeclimate/php-test-reporter": "~0.3.2",
-                "phake/phake": "~2.1.0",
-                "phpunit/phpunit": "~4.8.0"
+                "phake/phake": "~2.3.0",
+                "phpunit/phpunit": "~5.4.0"
             },
             "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "1.2.x-dev"
-                }
-            },
             "autoload": {
                 "psr-4": {
                     "OpenOrchestra\\Mapping\\": "Mapping/",
@@ -1950,7 +1975,7 @@
                 }
             ],
             "description": "Some library for the Open Orchestra project",
-            "time": "2016-06-20 08:34:39"
+            "time": "2016-06-24 12:43:55"
         },
         {
             "name": "open-orchestra/open-orchestra-media-bundle",
@@ -1958,37 +1983,31 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/open-orchestra/open-orchestra-media-bundle.git",
-                "reference": "f3206aa5b3647dd06191fc2c356407e071589afb"
+                "reference": "c4e426b0e19a07b53bfc4afa7c44e2e7964ce4a0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/open-orchestra/open-orchestra-media-bundle/zipball/f3206aa5b3647dd06191fc2c356407e071589afb",
-                "reference": "f3206aa5b3647dd06191fc2c356407e071589afb",
+                "url": "https://api.github.com/repos/open-orchestra/open-orchestra-media-bundle/zipball/c4e426b0e19a07b53bfc4afa7c44e2e7964ce4a0",
+                "reference": "c4e426b0e19a07b53bfc4afa7c44e2e7964ce4a0",
                 "shasum": ""
             },
             "require": {
                 "doctrine/data-fixtures": "~1.1.1",
-                "innocead/captcha-bundle": "@dev",
-                "open-orchestra/open-orchestra-bbcode-bundle": "1.2.*@dev",
-                "open-orchestra/open-orchestra-display-bundle": "1.2.*@dev",
-                "open-orchestra/open-orchestra-libs": "@dev",
-                "open-orchestra/open-orchestra-model-interface": "1.2.*@dev",
-                "open-orchestra/open-orchestra-mongo-libs": "1.2.*@dev",
+                "open-orchestra/open-orchestra-bbcode-bundle": "self.version",
+                "open-orchestra/open-orchestra-display-bundle": "self.version",
+                "open-orchestra/open-orchestra-model-interface": "self.version",
+                "open-orchestra/open-orchestra-mongo-libs": "self.version",
                 "php": "~5.6.0",
                 "stof/doctrine-extensions-bundle": "~1.2.1"
             },
             "require-dev": {
                 "codeclimate/php-test-reporter": "~0.3.2",
-                "open-orchestra/open-orchestra-base-bundle": "1.2.*@dev",
-                "phake/phake": "~2.1.0",
-                "phpunit/phpunit": "~4.8.0"
+                "open-orchestra/open-orchestra-base-bundle": "self.version",
+                "open-orchestra/open-orchestra-libs": "self.version",
+                "phake/phake": "~2.3.0",
+                "phpunit/phpunit": "~5.4.0"
             },
             "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "1.2.x-dev"
-                }
-            },
             "autoload": {
                 "psr-4": {
                     "OpenOrchestra\\MediaModelBundle\\": "MediaModelBundle/",
@@ -2007,7 +2026,7 @@
                 }
             ],
             "description": "A media bundle for Open Orchestra",
-            "time": "2016-06-20 08:32:47"
+            "time": "2016-06-29 10:25:28"
         },
         {
             "name": "open-orchestra/open-orchestra-model-bundle",
@@ -2015,35 +2034,30 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/open-orchestra/open-orchestra-model-bundle.git",
-                "reference": "7932d2ec905132a00d661bfac9a16febd629fe27"
+                "reference": "968906169ca0efd065e631f316a38e91831cf980"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/open-orchestra/open-orchestra-model-bundle/zipball/7932d2ec905132a00d661bfac9a16febd629fe27",
-                "reference": "7932d2ec905132a00d661bfac9a16febd629fe27",
+                "url": "https://api.github.com/repos/open-orchestra/open-orchestra-model-bundle/zipball/968906169ca0efd065e631f316a38e91831cf980",
+                "reference": "968906169ca0efd065e631f316a38e91831cf980",
                 "shasum": ""
             },
             "require": {
                 "antimattr/mongodb-migrations-bundle": "~1.0.1",
                 "doctrine/data-fixtures": "~1.1.1",
-                "open-orchestra/open-orchestra-libs": "@dev",
-                "open-orchestra/open-orchestra-model-interface": "1.2.*@dev",
-                "open-orchestra/open-orchestra-mongo-libs": "1.2.*@dev",
+                "open-orchestra/open-orchestra-model-interface": "self.version",
+                "open-orchestra/open-orchestra-mongo-libs": "self.version",
                 "php": "~5.6.0",
                 "stof/doctrine-extensions-bundle": "~1.2.1"
             },
             "require-dev": {
                 "codeclimate/php-test-reporter": "~0.3.2",
-                "open-orchestra/open-orchestra-base-bundle": "1.2.*@dev",
-                "phake/phake": "~2.1.0",
-                "phpunit/phpunit": "~4.8.0"
+                "open-orchestra/open-orchestra-base-bundle": "self.version",
+                "open-orchestra/open-orchestra-libs": "self.version",
+                "phake/phake": "~2.3.0",
+                "phpunit/phpunit": "~5.4.0"
             },
             "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "1.2.x-dev"
-                }
-            },
             "autoload": {
                 "psr-4": {
                     "OpenOrchestra\\ModelBundle\\": "ModelBundle/"
@@ -2060,7 +2074,7 @@
                 }
             ],
             "description": "A MongoDB implemantation of the Open Orchestra Model Interface",
-            "time": "2016-06-20 12:43:55"
+            "time": "2016-06-27 09:34:13"
         },
         {
             "name": "open-orchestra/open-orchestra-model-interface",
@@ -2068,32 +2082,27 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/open-orchestra/open-orchestra-model-interface.git",
-                "reference": "225884c9d5c479dcda51905af0f9ecae944dd159"
+                "reference": "8e95d9e3a8f8665ee02d3266a07cb148b4f214d1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/open-orchestra/open-orchestra-model-interface/zipball/225884c9d5c479dcda51905af0f9ecae944dd159",
-                "reference": "225884c9d5c479dcda51905af0f9ecae944dd159",
+                "url": "https://api.github.com/repos/open-orchestra/open-orchestra-model-interface/zipball/8e95d9e3a8f8665ee02d3266a07cb148b4f214d1",
+                "reference": "8e95d9e3a8f8665ee02d3266a07cb148b4f214d1",
                 "shasum": ""
             },
             "require": {
                 "doctrine/annotations": "~1.2.7",
                 "doctrine/collections": "~1.3.0",
-                "open-orchestra/open-orchestra-libs": "1.2.*@dev",
+                "open-orchestra/open-orchestra-libs": "self.version",
                 "php": "~5.6.0",
                 "symfony/form": "~2.8.6"
             },
             "require-dev": {
                 "codeclimate/php-test-reporter": "~0.3.2",
-                "phake/phake": "2.1.0",
-                "phpunit/phpunit": "4.7.2"
+                "phake/phake": "~2.3.0",
+                "phpunit/phpunit": "~5.4.0"
             },
             "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "1.2.x-dev"
-                }
-            },
             "autoload": {
                 "psr-4": {
                     "OpenOrchestra\\ModelInterface\\": "ModelInterface/"
@@ -2110,7 +2119,7 @@
                 }
             ],
             "description": "Describe all entity and repository to implement for the whole OpenOrchestra project",
-            "time": "2016-06-20 08:31:51"
+            "time": "2016-06-24 13:13:47"
         },
         {
             "name": "open-orchestra/open-orchestra-mongo-libs",
@@ -2118,33 +2127,28 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/open-orchestra/open-orchestra-mongo-libs.git",
-                "reference": "7a8469385810adfdf3dd7be995f143b4a55eb736"
+                "reference": "59c2c6ec2a7d2d16e390ad3fae0f720ddd6ddbbb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/open-orchestra/open-orchestra-mongo-libs/zipball/7a8469385810adfdf3dd7be995f143b4a55eb736",
-                "reference": "7a8469385810adfdf3dd7be995f143b4a55eb736",
+                "url": "https://api.github.com/repos/open-orchestra/open-orchestra-mongo-libs/zipball/59c2c6ec2a7d2d16e390ad3fae0f720ddd6ddbbb",
+                "reference": "59c2c6ec2a7d2d16e390ad3fae0f720ddd6ddbbb",
                 "shasum": ""
             },
             "require": {
                 "doctrine/mongodb-odm-bundle": "~3.1.0",
                 "jms/metadata": "~1.5.1",
-                "open-orchestra/open-orchestra-libs": "1.2.*@dev",
+                "open-orchestra/open-orchestra-libs": "self.version",
                 "php": "~5.6.0",
                 "solution/mongo-odm-aggregation-bundle": "~0.1.1",
                 "symfony/http-foundation": "~2.8.6"
             },
             "require-dev": {
                 "codeclimate/php-test-reporter": "~0.3.2",
-                "phake/phake": "~2.1.0",
-                "phpunit/phpunit": "~4.8.0"
+                "phake/phake": "~2.3.0",
+                "phpunit/phpunit": "~5.4.0"
             },
             "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "1.2.x-dev"
-                }
-            },
             "autoload": {
                 "psr-4": {
                     "OpenOrchestra\\Pagination\\": "Pagination/",
@@ -2166,7 +2170,7 @@
                 }
             ],
             "description": "Some libraries to use MongoDB in Open Orchestra",
-            "time": "2016-06-20 08:31:24"
+            "time": "2016-06-24 13:15:09"
         },
         {
             "name": "open-orchestra/open-orchestra-theme-bundle",
@@ -2174,12 +2178,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/open-orchestra/open-orchestra-theme-bundle.git",
-                "reference": "78d010ee95462a91cfeff82fd47a61ec2d67a1a1"
+                "reference": "1e9cdd66e17b544785bd1425b738dffabafbcbfc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/open-orchestra/open-orchestra-theme-bundle/zipball/78d010ee95462a91cfeff82fd47a61ec2d67a1a1",
-                "reference": "78d010ee95462a91cfeff82fd47a61ec2d67a1a1",
+                "url": "https://api.github.com/repos/open-orchestra/open-orchestra-theme-bundle/zipball/1e9cdd66e17b544785bd1425b738dffabafbcbfc",
+                "reference": "1e9cdd66e17b544785bd1425b738dffabafbcbfc",
                 "shasum": ""
             },
             "require": {
@@ -2187,16 +2191,11 @@
             },
             "require-dev": {
                 "codeclimate/php-test-reporter": "~0.3.2",
-                "open-orchestra/open-orchestra-base-bundle": "1.2.*@dev",
-                "phake/phake": "~2.1.0",
-                "phpunit/phpunit": "~4.8.0"
+                "open-orchestra/open-orchestra-base-bundle": "self.version",
+                "phake/phake": "~2.3.0",
+                "phpunit/phpunit": "~5.4.0"
             },
             "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "1.2.x-dev"
-                }
-            },
             "autoload": {
                 "psr-4": {
                     "OpenOrchestra\\ThemeBundle\\": "ThemeBundle/"
@@ -2213,7 +2212,7 @@
                 }
             ],
             "description": "The Open Orchestra Theme Bundle",
-            "time": "2016-06-20 08:38:21"
+            "time": "2016-06-24 13:42:34"
         },
         {
             "name": "paragonie/random_compat",
@@ -2360,17 +2359,17 @@
         },
         {
             "name": "sensio/distribution-bundle",
-            "version": "v4.0.6",
+            "version": "v4.0.7",
             "target-dir": "Sensio/Bundle/DistributionBundle",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sensiolabs/SensioDistributionBundle.git",
-                "reference": "181a47c527a04d2d03986a0b3e9c1b86eaacab40"
+                "reference": "d738952285a1a7d969f9338f735108c9f65bb7f2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sensiolabs/SensioDistributionBundle/zipball/181a47c527a04d2d03986a0b3e9c1b86eaacab40",
-                "reference": "181a47c527a04d2d03986a0b3e9c1b86eaacab40",
+                "url": "https://api.github.com/repos/sensiolabs/SensioDistributionBundle/zipball/d738952285a1a7d969f9338f735108c9f65bb7f2",
+                "reference": "d738952285a1a7d969f9338f735108c9f65bb7f2",
                 "shasum": ""
             },
             "require": {
@@ -2416,7 +2415,7 @@
                 "configuration",
                 "distribution"
             ],
-            "time": "2016-04-25 20:49:44"
+            "time": "2016-06-23 16:10:25"
         },
         {
             "name": "sensio/framework-extra-bundle",
@@ -3837,17 +3836,59 @@
     ],
     "packages-dev": [
         {
-            "name": "phake/phake",
-            "version": "v2.1.0",
+            "name": "myclabs/deep-copy",
+            "version": "1.5.1",
             "source": {
                 "type": "git",
-                "url": "https://github.com/mlively/Phake.git",
-                "reference": "20d76de0ec09f219d548752847835c256526d22d"
+                "url": "https://github.com/myclabs/DeepCopy.git",
+                "reference": "a8773992b362b58498eed24bf85005f363c34771"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mlively/Phake/zipball/20d76de0ec09f219d548752847835c256526d22d",
-                "reference": "20d76de0ec09f219d548752847835c256526d22d",
+                "url": "https://api.github.com/repos/myclabs/DeepCopy/zipball/a8773992b362b58498eed24bf85005f363c34771",
+                "reference": "a8773992b362b58498eed24bf85005f363c34771",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4.0"
+            },
+            "require-dev": {
+                "doctrine/collections": "1.*",
+                "phpunit/phpunit": "~4.1"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "DeepCopy\\": "src/DeepCopy/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "Create deep copies (clones) of your objects",
+            "homepage": "https://github.com/myclabs/DeepCopy",
+            "keywords": [
+                "clone",
+                "copy",
+                "duplicate",
+                "object",
+                "object graph"
+            ],
+            "time": "2015-11-20 12:04:31"
+        },
+        {
+            "name": "phake/phake",
+            "version": "v2.3.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/mlively/Phake.git",
+                "reference": "2202d361d34f2712dcc257afdedc6c30060dc9bd"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/mlively/Phake/zipball/2202d361d34f2712dcc257afdedc6c30060dc9bd",
+                "reference": "2202d361d34f2712dcc257afdedc6c30060dc9bd",
                 "shasum": ""
             },
             "require": {
@@ -3855,6 +3896,7 @@
                 "sebastian/comparator": "~1.1"
             },
             "require-dev": {
+                "codeclimate/php-test-reporter": "dev-master",
                 "doctrine/common": "2.3.*",
                 "ext-soap": "*",
                 "hamcrest/hamcrest-php": "1.1.*",
@@ -3865,6 +3907,11 @@
                 "hamcrest/hamcrest-php": "Use Hamcrest matchers."
             },
             "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "3.0.0-dev"
+                }
+            },
             "autoload": {
                 "psr-0": {
                     "Phake": "src/"
@@ -3886,7 +3933,7 @@
                 "mock",
                 "testing"
             ],
-            "time": "2015-05-09 13:58:15"
+            "time": "2016-03-04 18:49:33"
         },
         {
             "name": "phpdocumentor/reflection-common",
@@ -4098,39 +4145,40 @@
         },
         {
             "name": "phpunit/php-code-coverage",
-            "version": "2.2.4",
+            "version": "4.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/php-code-coverage.git",
-                "reference": "eabf68b476ac7d0f73793aada060f1c1a9bf8979"
+                "reference": "900370c81280cc0d942ffbc5912d80464eaee7e9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/php-code-coverage/zipball/eabf68b476ac7d0f73793aada060f1c1a9bf8979",
-                "reference": "eabf68b476ac7d0f73793aada060f1c1a9bf8979",
+                "url": "https://api.github.com/repos/sebastianbergmann/php-code-coverage/zipball/900370c81280cc0d942ffbc5912d80464eaee7e9",
+                "reference": "900370c81280cc0d942ffbc5912d80464eaee7e9",
                 "shasum": ""
             },
             "require": {
-                "php": ">=5.3.3",
+                "php": "^5.6 || ^7.0",
                 "phpunit/php-file-iterator": "~1.3",
                 "phpunit/php-text-template": "~1.2",
-                "phpunit/php-token-stream": "~1.3",
+                "phpunit/php-token-stream": "^1.4.2",
+                "sebastian/code-unit-reverse-lookup": "~1.0",
                 "sebastian/environment": "^1.3.2",
-                "sebastian/version": "~1.0"
+                "sebastian/version": "~1.0|~2.0"
             },
             "require-dev": {
                 "ext-xdebug": ">=2.1.4",
-                "phpunit/phpunit": "~4"
+                "phpunit/phpunit": "^5.4"
             },
             "suggest": {
                 "ext-dom": "*",
-                "ext-xdebug": ">=2.2.1",
+                "ext-xdebug": ">=2.4.0",
                 "ext-xmlwriter": "*"
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "2.2.x-dev"
+                    "dev-master": "4.0.x-dev"
                 }
             },
             "autoload": {
@@ -4156,7 +4204,7 @@
                 "testing",
                 "xunit"
             ],
-            "time": "2015-10-06 15:47:00"
+            "time": "2016-06-03 05:03:56"
         },
         {
             "name": "phpunit/php-file-iterator",
@@ -4341,16 +4389,16 @@
         },
         {
             "name": "phpunit/phpunit",
-            "version": "4.8.26",
+            "version": "5.4.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/phpunit.git",
-                "reference": "fc1d8cd5b5de11625979125c5639347896ac2c74"
+                "reference": "2f1fc94b77ea6418bd6a06c64a1dac0645fbce59"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/fc1d8cd5b5de11625979125c5639347896ac2c74",
-                "reference": "fc1d8cd5b5de11625979125c5639347896ac2c74",
+                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/2f1fc94b77ea6418bd6a06c64a1dac0645fbce59",
+                "reference": "2f1fc94b77ea6418bd6a06c64a1dac0645fbce59",
                 "shasum": ""
             },
             "require": {
@@ -4359,20 +4407,26 @@
                 "ext-pcre": "*",
                 "ext-reflection": "*",
                 "ext-spl": "*",
-                "php": ">=5.3.3",
+                "myclabs/deep-copy": "~1.3",
+                "php": "^5.6 || ^7.0",
                 "phpspec/prophecy": "^1.3.1",
-                "phpunit/php-code-coverage": "~2.1",
+                "phpunit/php-code-coverage": "^4.0",
                 "phpunit/php-file-iterator": "~1.4",
                 "phpunit/php-text-template": "~1.2",
                 "phpunit/php-timer": "^1.0.6",
-                "phpunit/phpunit-mock-objects": "~2.3",
+                "phpunit/phpunit-mock-objects": "^3.2",
                 "sebastian/comparator": "~1.1",
                 "sebastian/diff": "~1.2",
-                "sebastian/environment": "~1.3",
+                "sebastian/environment": "^1.3 || ^2.0",
                 "sebastian/exporter": "~1.2",
                 "sebastian/global-state": "~1.0",
-                "sebastian/version": "~1.0",
+                "sebastian/object-enumerator": "~1.0",
+                "sebastian/resource-operations": "~1.0",
+                "sebastian/version": "~1.0|~2.0",
                 "symfony/yaml": "~2.1|~3.0"
+            },
+            "conflict": {
+                "phpdocumentor/reflection-docblock": "3.0.2"
             },
             "suggest": {
                 "phpunit/php-invoker": "~1.1"
@@ -4383,7 +4437,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "4.8.x-dev"
+                    "dev-master": "5.4.x-dev"
                 }
             },
             "autoload": {
@@ -4409,30 +4463,33 @@
                 "testing",
                 "xunit"
             ],
-            "time": "2016-05-17 03:09:28"
+            "time": "2016-06-16 06:01:15"
         },
         {
             "name": "phpunit/phpunit-mock-objects",
-            "version": "2.3.8",
+            "version": "3.2.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/phpunit-mock-objects.git",
-                "reference": "ac8e7a3db35738d56ee9a76e78a4e03d97628983"
+                "reference": "b13d0d9426ced06958bd32104653526a6c998a52"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/phpunit-mock-objects/zipball/ac8e7a3db35738d56ee9a76e78a4e03d97628983",
-                "reference": "ac8e7a3db35738d56ee9a76e78a4e03d97628983",
+                "url": "https://api.github.com/repos/sebastianbergmann/phpunit-mock-objects/zipball/b13d0d9426ced06958bd32104653526a6c998a52",
+                "reference": "b13d0d9426ced06958bd32104653526a6c998a52",
                 "shasum": ""
             },
             "require": {
                 "doctrine/instantiator": "^1.0.2",
-                "php": ">=5.3.3",
-                "phpunit/php-text-template": "~1.2",
-                "sebastian/exporter": "~1.2"
+                "php": "^5.6 || ^7.0",
+                "phpunit/php-text-template": "^1.2",
+                "sebastian/exporter": "^1.2"
+            },
+            "conflict": {
+                "phpunit/phpunit": "<5.4.0"
             },
             "require-dev": {
-                "phpunit/phpunit": "~4.4"
+                "phpunit/phpunit": "^5.4"
             },
             "suggest": {
                 "ext-soap": "*"
@@ -4440,7 +4497,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "2.3.x-dev"
+                    "dev-master": "3.2.x-dev"
                 }
             },
             "autoload": {
@@ -4465,7 +4522,52 @@
                 "mock",
                 "xunit"
             ],
-            "time": "2015-10-02 06:51:40"
+            "time": "2016-06-12 07:37:26"
+        },
+        {
+            "name": "sebastian/code-unit-reverse-lookup",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sebastianbergmann/code-unit-reverse-lookup.git",
+                "reference": "c36f5e7cfce482fde5bf8d10d41a53591e0198fe"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sebastianbergmann/code-unit-reverse-lookup/zipball/c36f5e7cfce482fde5bf8d10d41a53591e0198fe",
+                "reference": "c36f5e7cfce482fde5bf8d10d41a53591e0198fe",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.6"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "~5"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0.x-dev"
+                }
+            },
+            "autoload": {
+                "classmap": [
+                    "src/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Sebastian Bergmann",
+                    "email": "sebastian@phpunit.de"
+                }
+            ],
+            "description": "Looks up which function or method a line of code belongs to",
+            "homepage": "https://github.com/sebastianbergmann/code-unit-reverse-lookup/",
+            "time": "2016-02-13 06:45:14"
         },
         {
             "name": "sebastian/comparator",
@@ -4752,6 +4854,52 @@
             "time": "2015-10-12 03:26:01"
         },
         {
+            "name": "sebastian/object-enumerator",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sebastianbergmann/object-enumerator.git",
+                "reference": "d4ca2fb70344987502567bc50081c03e6192fb26"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sebastianbergmann/object-enumerator/zipball/d4ca2fb70344987502567bc50081c03e6192fb26",
+                "reference": "d4ca2fb70344987502567bc50081c03e6192fb26",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.6",
+                "sebastian/recursion-context": "~1.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "~5"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0.x-dev"
+                }
+            },
+            "autoload": {
+                "classmap": [
+                    "src/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Sebastian Bergmann",
+                    "email": "sebastian@phpunit.de"
+                }
+            ],
+            "description": "Traverses array structures and object graphs to enumerate all referenced objects",
+            "homepage": "https://github.com/sebastianbergmann/object-enumerator/",
+            "time": "2016-01-28 13:25:10"
+        },
+        {
             "name": "sebastian/recursion-context",
             "version": "1.0.2",
             "source": {
@@ -4805,20 +4953,70 @@
             "time": "2015-11-11 19:50:13"
         },
         {
-            "name": "sebastian/version",
-            "version": "1.0.6",
+            "name": "sebastian/resource-operations",
+            "version": "1.0.0",
             "source": {
                 "type": "git",
-                "url": "https://github.com/sebastianbergmann/version.git",
-                "reference": "58b3a85e7999757d6ad81c787a1fbf5ff6c628c6"
+                "url": "https://github.com/sebastianbergmann/resource-operations.git",
+                "reference": "ce990bb21759f94aeafd30209e8cfcdfa8bc3f52"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/version/zipball/58b3a85e7999757d6ad81c787a1fbf5ff6c628c6",
-                "reference": "58b3a85e7999757d6ad81c787a1fbf5ff6c628c6",
+                "url": "https://api.github.com/repos/sebastianbergmann/resource-operations/zipball/ce990bb21759f94aeafd30209e8cfcdfa8bc3f52",
+                "reference": "ce990bb21759f94aeafd30209e8cfcdfa8bc3f52",
                 "shasum": ""
             },
+            "require": {
+                "php": ">=5.6.0"
+            },
             "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0.x-dev"
+                }
+            },
+            "autoload": {
+                "classmap": [
+                    "src/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Sebastian Bergmann",
+                    "email": "sebastian@phpunit.de"
+                }
+            ],
+            "description": "Provides a list of PHP built-in functions that operate on resources",
+            "homepage": "https://www.github.com/sebastianbergmann/resource-operations",
+            "time": "2015-07-28 20:34:47"
+        },
+        {
+            "name": "sebastian/version",
+            "version": "2.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sebastianbergmann/version.git",
+                "reference": "c829badbd8fdf16a0bad8aa7fa7971c029f1b9c5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sebastianbergmann/version/zipball/c829badbd8fdf16a0bad8aa7fa7971c029f1b9c5",
+                "reference": "c829badbd8fdf16a0bad8aa7fa7971c029f1b9c5",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.6"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.0.x-dev"
+                }
+            },
             "autoload": {
                 "classmap": [
                     "src/"
@@ -4837,7 +5035,7 @@
             ],
             "description": "Library that helps with managing the version number of Git-hosted PHP projects",
             "homepage": "https://github.com/sebastianbergmann/version",
-            "time": "2015-06-21 13:59:46"
+            "time": "2016-02-04 12:56:52"
         },
         {
             "name": "webmozart/assert",
@@ -4896,7 +5094,6 @@
         "open-orchestra/open-orchestra-front-bundle": 20,
         "open-orchestra/open-orchestra-media-bundle": 20,
         "open-orchestra/open-orchestra-model-bundle": 20,
-        "innocead/captcha-bundle": 20,
         "open-orchestra/open-orchestra-base-bundle": 20,
         "open-orchestra/open-orchestra-bbcode-bundle": 20,
         "open-orchestra/open-orchestra-display-bundle": 20,

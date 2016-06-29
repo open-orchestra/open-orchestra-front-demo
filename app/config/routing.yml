@@ -1,12 +1,9 @@
 open_orchestra_front:
-    resource: "@OpenOrchestraFrontBundle/Controller"
+    resource: '@OpenOrchestraFrontBundle/Controller'
     type: annotation
 
-open_orchestra_display:
-    resource: "@OpenOrchestraDisplayBundle/Resources/config/routing.yml"
-
 open_orchestra_front_preview:
-    resource: "@OpenOrchestraFrontBundle/Resources/config/preview_routing.yml"
+    resource: '@OpenOrchestraFrontBundle/Resources/config/preview_routing.yml'
 
 open_orchestra_media_get:
     path: /media/{key}

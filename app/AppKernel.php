@@ -32,7 +32,7 @@ class AppKernel extends Kernel
 
             new OpenOrchestra\DemoBundle\OpenOrchestraDemoBundle(),
             new Solution\MongoAggregationBundle\SolutionMongoAggregationBundle(),
-            new Innocead\CaptchaBundle\InnoceadCaptchaBundle(),
+            new Gregwar\CaptchaBundle\GregwarCaptchaBundle(),
             new OpenOrchestra\ElasticaBundle\OpenOrchestraElasticaBundle(),
             new OpenOrchestra\ElasticaFrontBundle\OpenOrchestraElasticaFrontBundle(),
         );
