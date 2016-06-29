@@ -56,8 +56,9 @@
   },
 
   "autoload": {
-    "psr-0": {
-      "": "src/"
+    "psr-4": {
+      "OpenOrchestra\\DemoBundle\\": "src/OpenOrchestra/DemoBundle/",
+      "OpenOrchestra\\FunctionalTests\\": "src/OpenOrchestra/Tests/Functional/"
     }
   },
 
