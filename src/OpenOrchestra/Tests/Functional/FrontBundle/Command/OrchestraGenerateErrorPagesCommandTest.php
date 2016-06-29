@@ -1,5 +1,7 @@
 <?php
 
+namespace OpenOrchestra\FuntionalTests\FrontBundle\Command;
+
 use OpenOrchestra\FrontBundle\Command\OrchestraGenerateErrorPagesCommand;
 use Symfony\Bundle\FrameworkBundle\Console\Application;
 use Symfony\Component\Console\Tester\CommandTester;

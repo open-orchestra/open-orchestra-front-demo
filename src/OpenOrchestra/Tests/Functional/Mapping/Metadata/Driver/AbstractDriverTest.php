@@ -1,14 +1,14 @@
 <?php
 
-namespace OpenOrchestra\Mapping\Tests\Functional\Mapping\Metadata\Driver;
+namespace OpenOrchestra\FunctionalTests\Mapping\Metadata\Driver;
 
 use Metadata\PropertyMetadata;
 use Metadata\ClassMetadata;
 use Metadata\Driver\DriverInterface;
 use OpenOrchestra\Mapping\Metadata\MergeableClassMetadataFactory;
 use OpenOrchestra\Mapping\Metadata\PropertySearchMetadataFactory;
-use OpenOrchestra\Mapping\Tests\Functional\Mapping\Metadata\Driver\FakeClass\FakeClassMetadata;
-use OpenOrchestra\Mapping\Tests\Functional\Mapping\Metadata\Driver\FakeClass\FakeClassWithOutMetadata;
+use OpenOrchestra\FunctionalTests\Mapping\Metadata\Driver\FakeClass\FakeClassMetadata;
+use OpenOrchestra\FunctionalTests\Mapping\Metadata\Driver\FakeClass\FakeClassWithOutMetadata;
 use ReflectionObject;
 
 /**
