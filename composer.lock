@@ -1939,12 +1939,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/open-orchestra/open-orchestra-libs.git",
-                "reference": "7b6bea0ffa6226c4b959e01bb20180937b70e9dd"
+                "reference": "a1904621be61e0151d88ef87e7bbd65773ef0d2c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/open-orchestra/open-orchestra-libs/zipball/7b6bea0ffa6226c4b959e01bb20180937b70e9dd",
-                "reference": "7b6bea0ffa6226c4b959e01bb20180937b70e9dd",
+                "url": "https://api.github.com/repos/open-orchestra/open-orchestra-libs/zipball/a1904621be61e0151d88ef87e7bbd65773ef0d2c",
+                "reference": "a1904621be61e0151d88ef87e7bbd65773ef0d2c",
                 "shasum": ""
             },
             "require": {
@@ -1978,7 +1978,7 @@
                 }
             ],
             "description": "Some library for the Open Orchestra project",
-            "time": "2016-07-04 08:52:49"
+            "time": "2016-07-04 15:28:07"
         },
         {
             "name": "open-orchestra/open-orchestra-media-bundle",
