@@ -835,21 +835,21 @@
         },
         {
             "name": "doctrine/mongodb-odm-bundle",
-            "version": "3.1.0",
+            "version": "3.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/doctrine/DoctrineMongoDBBundle.git",
-                "reference": "5ecd5d553816a258bb5860a5a2eddb67b4446f75"
+                "reference": "e98a08a0c7ba495ef2436fffea1c225da1d0ac18"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/doctrine/DoctrineMongoDBBundle/zipball/5ecd5d553816a258bb5860a5a2eddb67b4446f75",
-                "reference": "5ecd5d553816a258bb5860a5a2eddb67b4446f75",
+                "url": "https://api.github.com/repos/doctrine/DoctrineMongoDBBundle/zipball/e98a08a0c7ba495ef2436fffea1c225da1d0ac18",
+                "reference": "e98a08a0c7ba495ef2436fffea1c225da1d0ac18",
                 "shasum": ""
             },
             "require": {
-                "doctrine/mongodb-odm": "^1.0",
-                "php": "^5.5 || ^7.0",
+                "doctrine/mongodb-odm": "^1.1",
+                "php": "^5.6 || ^7.0",
                 "psr/log": "^1.0",
                 "symfony/config": "^2.7 || ^3.0",
                 "symfony/console": "^2.7 || ^3.0",
@@ -903,7 +903,7 @@
                 "persistence",
                 "symfony"
             ],
-            "time": "2016-04-10 19:04:45"
+            "time": "2016-06-30 12:19:21"
         },
         {
             "name": "friendsofsymfony/http-cache",
@@ -1775,12 +1775,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/open-orchestra/open-orchestra-display-bundle.git",
-                "reference": "9635af8adf9d09310a1e7aabff1a24998cd98739"
+                "reference": "6d95ee30437d8b62c1a926cbdbf7b98a3703614e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/open-orchestra/open-orchestra-display-bundle/zipball/9635af8adf9d09310a1e7aabff1a24998cd98739",
-                "reference": "9635af8adf9d09310a1e7aabff1a24998cd98739",
+                "url": "https://api.github.com/repos/open-orchestra/open-orchestra-display-bundle/zipball/6d95ee30437d8b62c1a926cbdbf7b98a3703614e",
+                "reference": "6d95ee30437d8b62c1a926cbdbf7b98a3703614e",
                 "shasum": ""
             },
             "require": {
@@ -1817,7 +1817,7 @@
                 }
             ],
             "description": "The bundle to display all bricks",
-            "time": "2016-07-04 07:21:17"
+            "time": "2016-07-05 12:54:57"
         },
         {
             "name": "open-orchestra/open-orchestra-elastica-bundle",
@@ -1939,12 +1939,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/open-orchestra/open-orchestra-libs.git",
-                "reference": "7b6bea0ffa6226c4b959e01bb20180937b70e9dd"
+                "reference": "a1904621be61e0151d88ef87e7bbd65773ef0d2c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/open-orchestra/open-orchestra-libs/zipball/7b6bea0ffa6226c4b959e01bb20180937b70e9dd",
-                "reference": "7b6bea0ffa6226c4b959e01bb20180937b70e9dd",
+                "url": "https://api.github.com/repos/open-orchestra/open-orchestra-libs/zipball/a1904621be61e0151d88ef87e7bbd65773ef0d2c",
+                "reference": "a1904621be61e0151d88ef87e7bbd65773ef0d2c",
                 "shasum": ""
             },
             "require": {
@@ -1978,7 +1978,7 @@
                 }
             ],
             "description": "Some library for the Open Orchestra project",
-            "time": "2016-07-04 08:52:49"
+            "time": "2016-07-04 15:28:07"
         },
         {
             "name": "open-orchestra/open-orchestra-media-bundle",
@@ -2129,16 +2129,16 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/open-orchestra/open-orchestra-mongo-libs.git",
-                "reference": "11762e71ad4ced588f857f467b8cad89115876b8"
+                "reference": "c91aa60efa08aadd72f6ead546295dfad1f8e313"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/open-orchestra/open-orchestra-mongo-libs/zipball/11762e71ad4ced588f857f467b8cad89115876b8",
-                "reference": "11762e71ad4ced588f857f467b8cad89115876b8",
+                "url": "https://api.github.com/repos/open-orchestra/open-orchestra-mongo-libs/zipball/c91aa60efa08aadd72f6ead546295dfad1f8e313",
+                "reference": "c91aa60efa08aadd72f6ead546295dfad1f8e313",
                 "shasum": ""
             },
             "require": {
-                "doctrine/mongodb-odm-bundle": "~3.1.0",
+                "doctrine/mongodb-odm-bundle": "~3.2.0",
                 "jms/metadata": "~1.5.1",
                 "open-orchestra/open-orchestra-libs": "self.version",
                 "php": "~5.6.0",
@@ -2172,7 +2172,7 @@
                 }
             ],
             "description": "Some libraries to use MongoDB in Open Orchestra",
-            "time": "2016-07-04 07:21:02"
+            "time": "2016-07-05 09:30:54"
         },
         {
             "name": "open-orchestra/open-orchestra-theme-bundle",
