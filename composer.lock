@@ -1825,31 +1825,29 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/open-orchestra/open-orchestra-elastica-bundle.git",
-                "reference": "75aacbe41006838e6a1215b806cbd86d591562f7"
+                "reference": "aa11c04543cca48c5f18dfe3ce8c4ab773812932"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/open-orchestra/open-orchestra-elastica-bundle/zipball/75aacbe41006838e6a1215b806cbd86d591562f7",
-                "reference": "75aacbe41006838e6a1215b806cbd86d591562f7",
+                "url": "https://api.github.com/repos/open-orchestra/open-orchestra-elastica-bundle/zipball/aa11c04543cca48c5f18dfe3ce8c4ab773812932",
+                "reference": "aa11c04543cca48c5f18dfe3ce8c4ab773812932",
                 "shasum": ""
             },
             "require": {
                 "doctrine/data-fixtures": "~1.2.0",
+                "open-orchestra/open-orchestra-base-bundle": "self.version",
+                "open-orchestra/open-orchestra-display-bundle": "self.version",
                 "open-orchestra/open-orchestra-model-interface": "self.version",
                 "php": "~5.6.0",
                 "ruflin/elastica": "~2.3.1"
             },
             "require-dev": {
                 "codeclimate/php-test-reporter": "~0.3.2",
-                "friendsofsymfony/user-bundle": "2.0.x-dev",
+                "friendsofsymfony/user-bundle": "@alpha",
                 "open-orchestra/open-orchestra-base-api-bundle": "self.version",
-                "open-orchestra/open-orchestra-base-bundle": "self.version",
                 "open-orchestra/open-orchestra-bbcode-bundle": "self.version",
                 "open-orchestra/open-orchestra-cms-bundle": "self.version",
-                "open-orchestra/open-orchestra-display-bundle": "self.version",
                 "open-orchestra/open-orchestra-libs": "self.version",
-                "open-orchestra/open-orchestra-model-bundle": "self.version",
-                "open-orchestra/open-orchestra-mongo-libs": "self.version",
                 "open-orchestra/open-orchestra-user-bundle": "self.version",
                 "phake/phake": "~2.3.0",
                 "phpunit/phpunit": "~5.4.0"
@@ -1880,7 +1878,7 @@
                 }
             ],
             "description": "A bundle to index Open Orchestra elements with Elastica Search",
-            "time": "2016-07-04 10:21:57"
+            "time": "2016-07-07 08:32:52"
         },
         {
             "name": "open-orchestra/open-orchestra-front-bundle",
@@ -1888,12 +1886,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/open-orchestra/open-orchestra-front-bundle.git",
-                "reference": "c0db554d07fc23f8dc832dc09950a0c6e4773d42"
+                "reference": "2874568762d4196de8fd55d3528b46ed53e705da"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/open-orchestra/open-orchestra-front-bundle/zipball/c0db554d07fc23f8dc832dc09950a0c6e4773d42",
-                "reference": "c0db554d07fc23f8dc832dc09950a0c6e4773d42",
+                "url": "https://api.github.com/repos/open-orchestra/open-orchestra-front-bundle/zipball/2874568762d4196de8fd55d3528b46ed53e705da",
+                "reference": "2874568762d4196de8fd55d3528b46ed53e705da",
                 "shasum": ""
             },
             "require": {
@@ -1909,7 +1907,6 @@
                 "codeclimate/php-test-reporter": "~0.3.2",
                 "open-orchestra/open-orchestra-bbcode-bundle": "self.version",
                 "open-orchestra/open-orchestra-libs": "self.version",
-                "open-orchestra/open-orchestra-model-bundle": "self.version",
                 "open-orchestra/open-orchestra-mongo-libs": "self.version",
                 "phake/phake": "~2.3.0",
                 "phpunit/phpunit": "~5.4.0"
@@ -1931,7 +1928,7 @@
                 }
             ],
             "description": "A bundle for the Front End part of an Open Orchestra project",
-            "time": "2016-07-04 14:18:40"
+            "time": "2016-07-07 08:32:29"
         },
         {
             "name": "open-orchestra/open-orchestra-libs",
