@@ -6,6 +6,6 @@ set :composer_install_flags, '--no-dev --prefer-dist --no-interaction --optimize
 set :linked_files, %w{app/config/parameters.yml}
 set :linked_dirs, %w{app/logs web/uploads vendor}
 
-set :repo_url, 'git@github.com:open-orchestra/open-orchestra-front-demo.git'
+set :repo_url, 'https://github.com/open-orchestra/open-orchestra-front-demo.git'
 
 after 'deploy:finishing', 'deploy:cleanup'
