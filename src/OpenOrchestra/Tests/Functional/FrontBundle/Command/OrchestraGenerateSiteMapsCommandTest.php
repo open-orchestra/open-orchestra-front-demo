@@ -36,7 +36,7 @@ class OrchestraGenerateSiteMapsCommandTest extends AbstractWebTestCase
     {
         $command = $this->application->find('orchestra:sitemaps:generate');
         $commandTester = new CommandTester($command);
-        $commandTester->execute(array('command' => $command->getName()));
+        $commandTester->execute(array('command' => $command->getName() , '--siteId' => $siteId));
 
         $site = static::$kernel->getContainer()->get('open_orchestra_model.repository.site')->findOneBySiteId($siteId);
         $mainAlias = $site->getMainAlias();
@@ -60,7 +60,7 @@ class OrchestraGenerateSiteMapsCommandTest extends AbstractWebTestCase
     public function provideSiteAlias()
     {
         return array(
-            array('2'),
+            array('3'),
         );
     }
 }
