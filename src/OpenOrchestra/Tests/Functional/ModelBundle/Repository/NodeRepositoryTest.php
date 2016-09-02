@@ -590,4 +590,26 @@ class NodeRepositoryTest extends AbstractKernelTestCase
             'community in de' => array('fixture_page_community', 'de'),
         );
     }
+
+    /**
+     * @param string  $theme
+     * @param integer $expectedCount
+     *
+     * @dataProvider provideTheme
+     */
+    public function testFindByTheme($theme, $expectedCount)
+    {
+        $this->assertCount($expectedCount, $this->repository->FindByTheme($theme));
+    }
+
+    /**
+     * @return array
+     */
+    public function provideTheme()
+    {
+        return array(
+            array("fakeTheme", 0),
+            array("themePresentation", 27),
+        );
+    }
 }
