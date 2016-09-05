@@ -305,7 +305,7 @@ class ContentRepositoryTest extends AbstractKernelTestCase
             array('news', $descriptionEntity, $this->generateColumnsProvider(array('name' => 'news')), null, null, 0 , null, 0),
             array('car', $descriptionEntity, null, null, '2', 0 ,5 , 3),
             array('car', $descriptionEntity, $this->generateColumnsProvider(array('status_label' => 'publish')), null, null, null ,null , 3),
-            array('car', $descriptionEntity, $this->generateColumnsProvider(array('status_label' => 'publié')), null, null, null ,null , 3),
+            array('car', $descriptionEntity, $this->generateColumnsProvider(array('status_label' => 'publi')), null, null, null ,null , 3),
             array('car', $descriptionEntity, $this->generateColumnsProvider(array('status_label' => 'draft')), null, null, null ,null , 0),
             array('car', $descriptionEntity, $this->generateColumnsProvider(array('status_label' => 'brouillon')), null, null, null ,null , 0),
 
@@ -450,7 +450,7 @@ class ContentRepositoryTest extends AbstractKernelTestCase
             array (
                 'key' => 'status_label',
                 'field' => 'status',
-                'type' => 'translatedValue',
+                'type' => 'multiLanguages',
             ),
             'version' =>
             array (
