@@ -45,8 +45,6 @@ class EntityTest extends AbstractBaseTestCase
             array('Content',          'VersionableInterface'),
             array('Content',          'SiteLinkableInterface'),
             array('ContentType',      'SiteLinkableInterface'),
-            array('ContentType',      'TranslatedValueContainerInterface'),
-            array('FieldType',        'TranslatedValueContainerInterface'),
             array('Area',             'AreaInterface'),
             array('Area',             'ReadAreaInterface'),
             array('Block',            'BlockInterface'),
