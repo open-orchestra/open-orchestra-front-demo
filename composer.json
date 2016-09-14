@@ -59,6 +59,7 @@
 
   "autoload": {
     "psr-4": {
+      "FormationBundle\\": "src/FormationBundle/",
       "OpenOrchestra\\DemoBundle\\": "src/OpenOrchestra/DemoBundle/",
       "OpenOrchestra\\FunctionalTests\\": "src/OpenOrchestra/Tests/Functional/"
     },

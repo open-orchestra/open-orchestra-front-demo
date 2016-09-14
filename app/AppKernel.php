@@ -35,6 +35,7 @@ class AppKernel extends Kernel
             new Gregwar\CaptchaBundle\GregwarCaptchaBundle(),
             new OpenOrchestra\ElasticaBundle\OpenOrchestraElasticaBundle(),
             new OpenOrchestra\ElasticaFrontBundle\OpenOrchestraElasticaFrontBundle(),
+            new FormationBundle\FormationBundle(),
         );
 
         if (in_array($this->getEnvironment(), array('dev', 'test'))) {

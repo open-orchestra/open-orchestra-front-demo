@@ -1,0 +1,9 @@
+services:
+#    formation.example:
+#        class: FormationBundle\Example
+#        arguments: ["@service_id", "plain_value", %parameter%]
+
+  formation.hello.display_block:
+        class: FormationBundle\DisplayBlock\HelloBlockDisplayStrategy
+        tags:
+            - { name: open_orchestra_display.display_block.strategy }
