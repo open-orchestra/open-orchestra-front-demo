@@ -5,5 +5,7 @@ services:
 
   formation.hello.display_block:
         class: FormationBundle\DisplayBlock\HelloBlockDisplayStrategy
+        arguments:
+            - '@open_orchestra_model.repository.content'
         tags:
             - { name: open_orchestra_display.display_block.strategy }

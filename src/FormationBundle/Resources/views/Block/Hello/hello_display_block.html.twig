@@ -1,1 +1,4 @@
 <p>name : {{ name }}</p>
+{% for content in contents %}
+    <p>{{ content.attributes.description }}</p>
+{% endfor %}
