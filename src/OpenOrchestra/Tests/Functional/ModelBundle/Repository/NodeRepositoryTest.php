@@ -162,7 +162,7 @@ class NodeRepositoryTest extends AbstractKernelTestCase
     public function provideNodeSiteAndCount()
     {
         return array(
-            array(NodeInterface::ROOT_NODE_ID, '2', 4),
+            array(NodeInterface::ROOT_NODE_ID, '2', 3),
             array(NodeInterface::TRANSVERSE_NODE_ID, '2', 3),
             array('fixture_page_what_is_orchestra', '2', 0),
         );
@@ -347,9 +347,9 @@ class NodeRepositoryTest extends AbstractKernelTestCase
     public function provideForGetSubMenu()
     {
         return array(
-            array(NodeInterface::ROOT_NODE_ID, 1, 7, 1, '2', 'fr'),
-            array(NodeInterface::ROOT_NODE_ID, 2, 7, 1, '2', 'fr'),
-            array(NodeInterface::ROOT_NODE_ID, 0, 7, 1, '2', 'fr'),
+            array(NodeInterface::ROOT_NODE_ID, 1, 8, 1, '2', 'fr'),
+            array(NodeInterface::ROOT_NODE_ID, 2, 8, 1, '2', 'fr'),
+            array(NodeInterface::ROOT_NODE_ID, 0, 8, 1, '2', 'fr'),
             array(NodeInterface::ROOT_NODE_ID, 0, 7, 1, '2', 'en'),
             array('fixture_page_community', 1, 1, 1, '2', 'fr'),
             array('fixture_page_community', 1, 1, 1, '2', 'en'),
@@ -380,8 +380,8 @@ class NodeRepositoryTest extends AbstractKernelTestCase
     public function provideLanguageSiteIdAndCount()
     {
         return array(
-            array('en', '2', 5),
-            array('fr', '2', 5),
+            array('en', '2', 6),
+            array('fr', '2', 6),
         );
     }
 
@@ -409,9 +409,9 @@ class NodeRepositoryTest extends AbstractKernelTestCase
     public function provideFindByAuthorAndSiteId()
     {
         return array(
-            array('fake_admin', '2', null, 10, array('updatedAt' => -1), 4),
+            array('fake_admin', '2', null, 10, array('updatedAt' => -1), 3),
             array('fake_admin', '2', false, 10, null, 1),
-            array('fake_admin', '2', true, 10, null, 3),
+            array('fake_admin', '2', true, 10, null, 2),
             array('fake_admin', '2', true, 2, null, 2),
             array('fake_contributor', '2', false, 10, null, 0),
             array('fake_contributor', '2', null, 10, null, 0),
@@ -445,14 +445,15 @@ class NodeRepositoryTest extends AbstractKernelTestCase
 
     /**
      * @param string $language
+     * @apram int    $expectedCount
      *
      * @dataProvider provideLanguage
      */
-    public function testFindSubTreeByPath($language)
+    public function testFindSubTreeByPath($language, $expectedCount)
     {
         $nodes = $this->repository->findSubTreeByPath('root', '2', $language);
 
-        $this->assertCount(6, $nodes);
+        $this->assertCount($expectedCount, $nodes);
     }
 
     /**
@@ -461,8 +462,8 @@ class NodeRepositoryTest extends AbstractKernelTestCase
     public function provideLanguage()
     {
         return array(
-            array('en'),
-            array('fr'),
+            array('en', 6),
+            array('fr', 7),
         );
     }
 
@@ -584,10 +585,101 @@ class NodeRepositoryTest extends AbstractKernelTestCase
         return array(
             'root in fr' => array(NodeInterface::ROOT_NODE_ID, 'fr'),
             'root in en' => array(NodeInterface::ROOT_NODE_ID, 'en'),
-            'root in de' => array(NodeInterface::ROOT_NODE_ID, 'de'),
             'community in fr' => array('fixture_page_community', 'fr'),
             'community in en' => array('fixture_page_community', 'en'),
-            'community in de' => array('fixture_page_community', 'de'),
+        );
+    }
+
+    /**
+     * @param string  $siteId
+     * @param integer $expectedCount
+     *
+     * @dataProvider provideFindLastVersionByTypeCurrentlyPublished
+     */
+    public function testFindLastVersionByTypeCurrentlyPublished($siteId, $expectedCount)
+    {
+        $this->assertCount($expectedCount, $this->repository->findLastVersionByTypeCurrentlyPublished($siteId));
+    }
+
+    /**
+     * @return array
+     */
+    public function provideFindLastVersionByTypeCurrentlyPublished()
+    {
+        return array(
+            array("1", 0),
+            array("2", 16),
+        );
+    }
+
+    /**
+     * @param string  $path
+     * @param string  $siteId
+     * @param integer $expectedCount
+     *
+     * @dataProvider provideFindByPathCurrentlyPublished
+     */
+    public function testFindByPathCurrentlyPublished($path, $siteId, $expectedCount)
+    {
+        $this->assertCount($expectedCount, $this->repository->findByPathCurrentlyPublished($path, $siteId));
+    }
+
+    /**
+     * @return array
+     */
+    public function provideFindByPathCurrentlyPublished()
+    {
+        return array(
+            array("root", "2", 8),
+            array("transverse", "2", 0),
+        );
+    }
+
+    /**
+     * @param string  $path
+     * @param string  $siteId
+     * @param string  $language
+     * @param integer $expectedCount
+     *
+     * @dataProvider provideFindByPathCurrentlyPublishedAndLanguage
+     */
+    public function testFindByPathCurrentlyPublishedAndLanguage($path, $siteId, $language, $expectedCount)
+    {
+        $this->assertCount($expectedCount, $this->repository->findByPathCurrentlyPublishedAndLanguage($path, $siteId, $language));
+    }
+
+    /**
+     * @return array
+     */
+    public function provideFindByPathCurrentlyPublishedAndLanguage()
+    {
+        return array(
+            array("root", "2", "en", 8),
+            array("transverse", "2", "en", 0),
+        );
+    }
+
+    /**
+     * @param string  $path
+     * @param string  $siteId
+     * @param string  $language
+     * @param integer $expectedCount
+     *
+     * @dataProvider provideFindByIncludedPathSiteIdAndLanguage
+     */
+    public function testFindByIncludedPathSiteIdAndLanguage($path, $siteId, $language, $expectedCount)
+    {
+        $this->assertCount($expectedCount, $this->repository->findByIncludedPathSiteIdAndLanguage($path, $siteId, $language));
+    }
+
+    /**
+     * @return array
+     */
+    public function provideFindByIncludedPathSiteIdAndLanguage()
+    {
+        return array(
+            array("root", "2", "en", 8),
+            array("transverse", "2", "en", 1),
         );
     }
 
@@ -609,7 +701,7 @@ class NodeRepositoryTest extends AbstractKernelTestCase
     {
         return array(
             array("fakeTheme", 0),
-            array("themePresentation", 24),
+            array("themePresentation", 29),
         );
     }
 }
