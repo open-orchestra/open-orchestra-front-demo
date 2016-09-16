@@ -162,7 +162,7 @@ class NodeRepositoryTest extends AbstractKernelTestCase
     public function provideNodeSiteAndCount()
     {
         return array(
-            array(NodeInterface::ROOT_NODE_ID, '2', 3),
+            array(NodeInterface::ROOT_NODE_ID, '2', 4),
             array(NodeInterface::TRANSVERSE_NODE_ID, '2', 3),
             array('fixture_page_what_is_orchestra', '2', 0),
         );
@@ -409,9 +409,9 @@ class NodeRepositoryTest extends AbstractKernelTestCase
     public function provideFindByAuthorAndSiteId()
     {
         return array(
-            array('fake_admin', '2', null, 10, array('updatedAt' => -1), 3),
+            array('fake_admin', '2', null, 10, array('updatedAt' => -1), 4),
             array('fake_admin', '2', false, 10, null, 1),
-            array('fake_admin', '2', true, 10, null, 2),
+            array('fake_admin', '2', true, 10, null, 3),
             array('fake_admin', '2', true, 2, null, 2),
             array('fake_contributor', '2', false, 10, null, 0),
             array('fake_contributor', '2', null, 10, null, 0),
@@ -535,7 +535,7 @@ class NodeRepositoryTest extends AbstractKernelTestCase
     public function provideNodeTypeAndCount()
     {
         return array(
-            array(NodeInterface::TYPE_DEFAULT, 15),
+            array(NodeInterface::TYPE_DEFAULT, 16),
             array(NodeInterface::TYPE_ERROR, 6),
             array(NodeInterface::TYPE_TRANSVERSE, 0),
         );
@@ -608,7 +608,7 @@ class NodeRepositoryTest extends AbstractKernelTestCase
     {
         return array(
             array("1", 0),
-            array("2", 16),
+            array("2", 17),
         );
     }
 
@@ -701,7 +701,7 @@ class NodeRepositoryTest extends AbstractKernelTestCase
     {
         return array(
             array("fakeTheme", 0),
-            array("themePresentation", 29),
+            array("themePresentation", 26),
         );
     }
 }
