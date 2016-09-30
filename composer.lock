@@ -2042,12 +2042,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/open-orchestra/open-orchestra-model-bundle.git",
-                "reference": "fb7a774080f9147f3f5ba90489dd294a1b090c75"
+                "reference": "8b62cb170ccd82dbd2758d4a838aca596706bbf5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/open-orchestra/open-orchestra-model-bundle/zipball/fb7a774080f9147f3f5ba90489dd294a1b090c75",
-                "reference": "fb7a774080f9147f3f5ba90489dd294a1b090c75",
+                "url": "https://api.github.com/repos/open-orchestra/open-orchestra-model-bundle/zipball/8b62cb170ccd82dbd2758d4a838aca596706bbf5",
+                "reference": "8b62cb170ccd82dbd2758d4a838aca596706bbf5",
                 "shasum": ""
             },
             "require": {
@@ -2082,7 +2082,7 @@
                 }
             ],
             "description": "A MongoDB implemantation of the Open Orchestra Model Interface",
-            "time": "2016-09-30 13:42:53"
+            "time": "2016-09-30 13:59:39"
         },
         {
             "name": "open-orchestra/open-orchestra-model-interface",
