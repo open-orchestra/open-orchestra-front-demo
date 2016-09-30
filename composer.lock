@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "953c6912a7a3d295c87d99031cc32fda",
-    "content-hash": "271ccb921b106d6a1dcc091aef9ddfd7",
+    "hash": "ad94125321bb1de3ff33e1bcc1e8a8c2",
+    "content-hash": "ddc12d6e7c74f29b82b1122c7b44b407",
     "packages": [
         {
             "name": "antimattr/mongodb-migrations",
@@ -5053,17 +5053,17 @@
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
-        "open-orchestra/open-orchestra-elastica-bundle": 20,
-        "open-orchestra/open-orchestra-front-bundle": 20,
-        "open-orchestra/open-orchestra-media-bundle": 20,
-        "open-orchestra/open-orchestra-model-bundle": 20,
-        "open-orchestra/open-orchestra-base-bundle": 20,
-        "open-orchestra/open-orchestra-bbcode-bundle": 20,
-        "open-orchestra/open-orchestra-display-bundle": 20,
-        "open-orchestra/open-orchestra-libs": 20,
-        "open-orchestra/open-orchestra-model-interface": 20,
-        "open-orchestra/open-orchestra-mongo-libs": 20,
-        "open-orchestra/open-orchestra-theme-bundle": 20
+        "open-orchestra/open-orchestra-elastica-bundle": 10,
+        "open-orchestra/open-orchestra-front-bundle": 10,
+        "open-orchestra/open-orchestra-media-bundle": 10,
+        "open-orchestra/open-orchestra-model-bundle": 10,
+        "open-orchestra/open-orchestra-base-bundle": 10,
+        "open-orchestra/open-orchestra-bbcode-bundle": 10,
+        "open-orchestra/open-orchestra-display-bundle": 10,
+        "open-orchestra/open-orchestra-libs": 10,
+        "open-orchestra/open-orchestra-model-interface": 10,
+        "open-orchestra/open-orchestra-mongo-libs": 10,
+        "open-orchestra/open-orchestra-theme-bundle": 10
     },
     "prefer-stable": false,
     "prefer-lowest": false,
