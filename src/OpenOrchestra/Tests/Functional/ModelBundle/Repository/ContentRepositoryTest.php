@@ -368,39 +368,6 @@ class ContentRepositoryTest extends AbstractKernelTestCase
     }
 
     /**
-     * @param string       $author
-     * @param string       $siteId
-     * @param boolean|null $published
-     * @param int          $limit
-     * @param array|null   $sort
-     * @param int          $count
-     *
-     * @dataProvider provideFindByAuthorAndsiteId
-     */
-    public function testFindByAuthorAndsiteId($author, $siteId, $published, $limit, $sort, $count)
-    {
-        $contents = $this->repository->findByAuthorAndsiteId($author, $siteId, $published, $limit, $sort);
-        $this->assertCount($count, $contents);
-    }
-
-    /**
-     * @return array
-     */
-    public function provideFindByAuthorAndsiteId()
-    {
-        return array(
-            array('admin', '2', null, 10, array('updatedAt' => -1), 8),
-            array('admin', '2', false, 10, null, 0),
-            array('admin', '2', true, 10, null, 8),
-            array('fakeContributor', '2', false, 10, null, 0),
-            array('fakeContributor', '2', null, 10, null, 0),
-            array('admin', '3', true, 10, null, 7),
-            array('admin', 'not-an-id', true, 10, null, 6),
-            array('admin', 'not-an-id', true, 3, null, 3),
-        );
-    }
-
-    /**
      * Generate columns of content with search value
      *
      * @param array|null $searchColumns
