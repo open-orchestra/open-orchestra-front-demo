@@ -314,30 +314,6 @@ class ContentRepositoryTest extends AbstractKernelTestCase
 
     /**
      * @param string  $contentType
-     * @param integer $count
-     *
-     * @dataProvider provideContentTypeCount
-     */
-    public function testCountByContentTypeInLastVersion($contentType, $count)
-    {
-        $contents = $this->repository->countByContentTypeInLastVersion($contentType);
-        $this->assertEquals($count, $contents);
-    }
-
-    /**
-     * @return array
-     */
-    public function provideContentTypeCount()
-    {
-        return array(
-            array('car', 3),
-            array('customer', 2),
-            array('news', 4),
-        );
-    }
-
-    /**
-     * @param string  $contentType
      * @param array   $descriptionEntity
      * @param string  $search
      * @param int     $count

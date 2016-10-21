@@ -386,40 +386,6 @@ class NodeRepositoryTest extends AbstractKernelTestCase
     }
 
     /**
-     * @param string       $author
-     * @param string       $siteId
-     * @param boolean|null $published
-     * @param int          $limit
-     * @param array|null   $sort
-     * @param int          $count
-     *
-     * @dataProvider provideFindByAuthorAndSiteId
-     */
-    public function testFindByAuthorAndSiteId($author, $siteId, $published, $limit, $sort, $count)
-    {
-        $this->assertCount(
-            $count,
-            $this->repository->findByAuthorAndSiteId($author, $siteId, $published, $limit, $sort)
-        );
-    }
-
-    /**
-     * @return array
-     */
-    public function provideFindByAuthorAndSiteId()
-    {
-        return array(
-            array('fake_admin', '2', null, 10, array('updatedAt' => -1), 4),
-            array('fake_admin', '2', false, 10, null, 1),
-            array('fake_admin', '2', true, 10, null, 3),
-            array('fake_admin', '2', true, 2, null, 2),
-            array('fake_contributor', '2', false, 10, null, 0),
-            array('fake_contributor', '2', null, 10, null, 0),
-            array('fake_admin', '3', true, 10, null, 1),
-        );
-    }
-
-    /**
      * @param string $nodeId
      * @param string $language
      * @param int    $count
@@ -609,29 +575,6 @@ class NodeRepositoryTest extends AbstractKernelTestCase
         return array(
             array("1", 0),
             array("2", 17),
-        );
-    }
-
-    /**
-     * @param string  $path
-     * @param string  $siteId
-     * @param integer $expectedCount
-     *
-     * @dataProvider provideFindByPathCurrentlyPublished
-     */
-    public function testFindByPathCurrentlyPublished($path, $siteId, $expectedCount)
-    {
-        $this->assertCount($expectedCount, $this->repository->findByPathCurrentlyPublished($path, $siteId));
-    }
-
-    /**
-     * @return array
-     */
-    public function provideFindByPathCurrentlyPublished()
-    {
-        return array(
-            array("root", "2", 8),
-            array("transverse", "2", 0),
         );
     }
 
