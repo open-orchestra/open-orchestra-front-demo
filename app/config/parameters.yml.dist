@@ -10,7 +10,7 @@ parameters:
     open_orchestra_cms.mongodb.server: mongodb://localhost:27017
     open_orchestra_cms.mongodb.database: open_orchestra_%kernel.environment%
 
-    encryption_key: ThisKeyIsNotSecret
+    encryption_key: NStUAIRNUAIs3154rsaierSTR
 
     fos_http_cache.proxy_client.varnish.servers: [127.0.0.1]
     fos_http_cache.proxy_client.varnish.base_url: %router.request_context.host%
