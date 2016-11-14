@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "b1236ed5ce78182630ff4fce8d98ef6b",
-    "content-hash": "7fc559eea35980075e44a464c4a33358",
+    "hash": "772ed62b6edfddef74a20f5e86dba68e",
+    "content-hash": "9d4fcf53b845d019cf530e1115b906ec",
     "packages": [
         {
             "name": "antimattr/mongodb-migrations",
@@ -241,16 +241,16 @@
         },
         {
             "name": "doctrine/cache",
-            "version": "v1.6.0",
+            "version": "v1.6.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/doctrine/cache.git",
-                "reference": "f8af318d14bdb0eff0336795b428b547bd39ccb6"
+                "reference": "b6f544a20f4807e81f7044d31e679ccbb1866dc3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/doctrine/cache/zipball/f8af318d14bdb0eff0336795b428b547bd39ccb6",
-                "reference": "f8af318d14bdb0eff0336795b428b547bd39ccb6",
+                "url": "https://api.github.com/repos/doctrine/cache/zipball/b6f544a20f4807e81f7044d31e679ccbb1866dc3",
+                "reference": "b6f544a20f4807e81f7044d31e679ccbb1866dc3",
                 "shasum": ""
             },
             "require": {
@@ -307,7 +307,7 @@
                 "cache",
                 "caching"
             ],
-            "time": "2015-12-31 16:37:02"
+            "time": "2016-10-29 11:16:17"
         },
         {
             "name": "doctrine/collections",
@@ -450,16 +450,16 @@
         },
         {
             "name": "doctrine/data-fixtures",
-            "version": "v1.2.1",
+            "version": "v1.2.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/doctrine/data-fixtures.git",
-                "reference": "b3cae5efef97191a08d53d733260f7eb667c16e4"
+                "reference": "17fa5bfe6ff52e35cb3d9ec37c934a2f4bd1fa2e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/doctrine/data-fixtures/zipball/b3cae5efef97191a08d53d733260f7eb667c16e4",
-                "reference": "b3cae5efef97191a08d53d733260f7eb667c16e4",
+                "url": "https://api.github.com/repos/doctrine/data-fixtures/zipball/17fa5bfe6ff52e35cb3d9ec37c934a2f4bd1fa2e",
+                "reference": "17fa5bfe6ff52e35cb3d9ec37c934a2f4bd1fa2e",
                 "shasum": ""
             },
             "require": {
@@ -505,7 +505,7 @@
             "keywords": [
                 "database"
             ],
-            "time": "2016-06-20 18:08:26"
+            "time": "2016-09-20 10:07:57"
         },
         {
             "name": "doctrine/inflector",
@@ -1834,12 +1834,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/open-orchestra/open-orchestra-elastica-bundle.git",
-                "reference": "6a343a0df4c9e4f5a0f52bc4c8a3e842ce89d42e"
+                "reference": "e63293f516bbeb7734e75ba74073dde651eba291"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/open-orchestra/open-orchestra-elastica-bundle/zipball/6a343a0df4c9e4f5a0f52bc4c8a3e842ce89d42e",
-                "reference": "6a343a0df4c9e4f5a0f52bc4c8a3e842ce89d42e",
+                "url": "https://api.github.com/repos/open-orchestra/open-orchestra-elastica-bundle/zipball/e63293f516bbeb7734e75ba74073dde651eba291",
+                "reference": "e63293f516bbeb7734e75ba74073dde651eba291",
                 "shasum": ""
             },
             "require": {
@@ -1887,7 +1887,7 @@
                 }
             ],
             "description": "A bundle to index Open Orchestra elements with Elastica Search",
-            "time": "2016-10-10 09:50:52"
+            "time": "2016-11-07 15:39:03"
         },
         {
             "name": "open-orchestra/open-orchestra-front-bundle",
@@ -2041,12 +2041,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/open-orchestra/open-orchestra-model-bundle.git",
-                "reference": "a7f502756fda6ed32595d6a03acf59a23468beba"
+                "reference": "63d1b4000193a591bc389d427ceee0b6cde63428"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/open-orchestra/open-orchestra-model-bundle/zipball/a7f502756fda6ed32595d6a03acf59a23468beba",
-                "reference": "a7f502756fda6ed32595d6a03acf59a23468beba",
+                "url": "https://api.github.com/repos/open-orchestra/open-orchestra-model-bundle/zipball/63d1b4000193a591bc389d427ceee0b6cde63428",
+                "reference": "63d1b4000193a591bc389d427ceee0b6cde63428",
                 "shasum": ""
             },
             "require": {
@@ -2081,7 +2081,7 @@
                 }
             ],
             "description": "A MongoDB implemantation of the Open Orchestra Model Interface",
-            "time": "2016-10-20 16:13:18"
+            "time": "2016-11-08 13:01:58"
         },
         {
             "name": "open-orchestra/open-orchestra-model-interface",
@@ -2089,12 +2089,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/open-orchestra/open-orchestra-model-interface.git",
-                "reference": "e53e5728b78aa70007de52c5b502350f7bc9abbc"
+                "reference": "33e1e0c84f7930bbb6a1e76dd3c53edc525566aa"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/open-orchestra/open-orchestra-model-interface/zipball/e53e5728b78aa70007de52c5b502350f7bc9abbc",
-                "reference": "e53e5728b78aa70007de52c5b502350f7bc9abbc",
+                "url": "https://api.github.com/repos/open-orchestra/open-orchestra-model-interface/zipball/33e1e0c84f7930bbb6a1e76dd3c53edc525566aa",
+                "reference": "33e1e0c84f7930bbb6a1e76dd3c53edc525566aa",
                 "shasum": ""
             },
             "require": {
@@ -2126,7 +2126,7 @@
                 }
             ],
             "description": "Describe all entity and repository to implement for the whole OpenOrchestra project",
-            "time": "2016-10-10 09:50:13"
+            "time": "2016-11-07 14:40:41"
         },
         {
             "name": "open-orchestra/open-orchestra-mongo-libs",
@@ -2134,12 +2134,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/open-orchestra/open-orchestra-mongo-libs.git",
-                "reference": "2e11a5d3ba37cd92afd1f9c8a94a1e8fb053cb95"
+                "reference": "4a4613811a85144c07954eff4c10cc2fdebbe0f6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/open-orchestra/open-orchestra-mongo-libs/zipball/2e11a5d3ba37cd92afd1f9c8a94a1e8fb053cb95",
-                "reference": "2e11a5d3ba37cd92afd1f9c8a94a1e8fb053cb95",
+                "url": "https://api.github.com/repos/open-orchestra/open-orchestra-mongo-libs/zipball/4a4613811a85144c07954eff4c10cc2fdebbe0f6",
+                "reference": "4a4613811a85144c07954eff4c10cc2fdebbe0f6",
                 "shasum": ""
             },
             "require": {
@@ -2176,7 +2176,7 @@
                 }
             ],
             "description": "Some libraries to use MongoDB in Open Orchestra",
-            "time": "2016-10-10 09:50:07"
+            "time": "2016-10-27 08:56:16"
         },
         {
             "name": "open-orchestra/open-orchestra-theme-bundle",
@@ -2222,16 +2222,16 @@
         },
         {
             "name": "paragonie/random_compat",
-            "version": "v2.0.3",
+            "version": "v2.0.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/paragonie/random_compat.git",
-                "reference": "c0125896dbb151380ab47e96c621741e79623beb"
+                "reference": "a9b97968bcde1c4de2a5ec6cbd06a0f6c919b46e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/paragonie/random_compat/zipball/c0125896dbb151380ab47e96c621741e79623beb",
-                "reference": "c0125896dbb151380ab47e96c621741e79623beb",
+                "url": "https://api.github.com/repos/paragonie/random_compat/zipball/a9b97968bcde1c4de2a5ec6cbd06a0f6c919b46e",
+                "reference": "a9b97968bcde1c4de2a5ec6cbd06a0f6c919b46e",
                 "shasum": ""
             },
             "require": {
@@ -2266,7 +2266,7 @@
                 "pseudorandom",
                 "random"
             ],
-            "time": "2016-10-17 15:23:22"
+            "time": "2016-11-07 23:38:38"
         },
         {
             "name": "psr/log",
@@ -2374,16 +2374,16 @@
         },
         {
             "name": "sensio/distribution-bundle",
-            "version": "v5.0.13",
+            "version": "v5.0.14",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sensiolabs/SensioDistributionBundle.git",
-                "reference": "7bc47dcfdbde6d567e1a834577d1c04ddb970281"
+                "reference": "e64947de9ebc37732a62f5115164484a9bee7fa6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sensiolabs/SensioDistributionBundle/zipball/7bc47dcfdbde6d567e1a834577d1c04ddb970281",
-                "reference": "7bc47dcfdbde6d567e1a834577d1c04ddb970281",
+                "url": "https://api.github.com/repos/sensiolabs/SensioDistributionBundle/zipball/e64947de9ebc37732a62f5115164484a9bee7fa6",
+                "reference": "e64947de9ebc37732a62f5115164484a9bee7fa6",
                 "shasum": ""
             },
             "require": {
@@ -2422,7 +2422,7 @@
                 "configuration",
                 "distribution"
             ],
-            "time": "2016-10-08 18:50:33"
+            "time": "2016-10-30 23:18:01"
         },
         {
             "name": "sensio/framework-extra-bundle",
@@ -2919,16 +2919,16 @@
         },
         {
             "name": "symfony/monolog-bundle",
-            "version": "2.11.1",
+            "version": "2.11.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/monolog-bundle.git",
-                "reference": "e7caf4936c7be82bc6d68df87f1d23a0d5bf6e00"
+                "reference": "0b427134a6868050fd9a95cc5eae3df85e5c759b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/monolog-bundle/zipball/e7caf4936c7be82bc6d68df87f1d23a0d5bf6e00",
-                "reference": "e7caf4936c7be82bc6d68df87f1d23a0d5bf6e00",
+                "url": "https://api.github.com/repos/symfony/monolog-bundle/zipball/0b427134a6868050fd9a95cc5eae3df85e5c759b",
+                "reference": "0b427134a6868050fd9a95cc5eae3df85e5c759b",
                 "shasum": ""
             },
             "require": {
@@ -2975,20 +2975,20 @@
                 "log",
                 "logging"
             ],
-            "time": "2016-04-13 16:21:01"
+            "time": "2016-10-19 07:54:05"
         },
         {
             "name": "symfony/polyfill-apcu",
-            "version": "v1.2.0",
+            "version": "v1.3.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-apcu.git",
-                "reference": "6d58bceaeea2c2d3eb62503839b18646e161cd6b"
+                "reference": "5d4474f447403c3348e37b70acc2b95475b7befa"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-apcu/zipball/6d58bceaeea2c2d3eb62503839b18646e161cd6b",
-                "reference": "6d58bceaeea2c2d3eb62503839b18646e161cd6b",
+                "url": "https://api.github.com/repos/symfony/polyfill-apcu/zipball/5d4474f447403c3348e37b70acc2b95475b7befa",
+                "reference": "5d4474f447403c3348e37b70acc2b95475b7befa",
                 "shasum": ""
             },
             "require": {
@@ -2997,7 +2997,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.2-dev"
+                    "dev-master": "1.3-dev"
                 }
             },
             "autoload": {
@@ -3028,20 +3028,20 @@
                 "portable",
                 "shim"
             ],
-            "time": "2016-05-18 14:26:46"
+            "time": "2016-11-14 01:06:16"
         },
         {
             "name": "symfony/polyfill-intl-icu",
-            "version": "v1.2.0",
+            "version": "v1.3.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-intl-icu.git",
-                "reference": "0f8dc2c45f69f8672379e9210bca4a115cd5146f"
+                "reference": "2d6e2b20d457603eefb6e614286c22efca30fdb4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-intl-icu/zipball/0f8dc2c45f69f8672379e9210bca4a115cd5146f",
-                "reference": "0f8dc2c45f69f8672379e9210bca4a115cd5146f",
+                "url": "https://api.github.com/repos/symfony/polyfill-intl-icu/zipball/2d6e2b20d457603eefb6e614286c22efca30fdb4",
+                "reference": "2d6e2b20d457603eefb6e614286c22efca30fdb4",
                 "shasum": ""
             },
             "require": {
@@ -3054,7 +3054,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.2-dev"
+                    "dev-master": "1.3-dev"
                 }
             },
             "autoload": {
@@ -3086,20 +3086,20 @@
                 "portable",
                 "shim"
             ],
-            "time": "2016-05-18 14:26:46"
+            "time": "2016-11-14 01:06:16"
         },
         {
             "name": "symfony/polyfill-mbstring",
-            "version": "v1.2.0",
+            "version": "v1.3.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-mbstring.git",
-                "reference": "dff51f72b0706335131b00a7f49606168c582594"
+                "reference": "e79d363049d1c2128f133a2667e4f4190904f7f4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-mbstring/zipball/dff51f72b0706335131b00a7f49606168c582594",
-                "reference": "dff51f72b0706335131b00a7f49606168c582594",
+                "url": "https://api.github.com/repos/symfony/polyfill-mbstring/zipball/e79d363049d1c2128f133a2667e4f4190904f7f4",
+                "reference": "e79d363049d1c2128f133a2667e4f4190904f7f4",
                 "shasum": ""
             },
             "require": {
@@ -3111,7 +3111,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.2-dev"
+                    "dev-master": "1.3-dev"
                 }
             },
             "autoload": {
@@ -3145,20 +3145,20 @@
                 "portable",
                 "shim"
             ],
-            "time": "2016-05-18 14:26:46"
+            "time": "2016-11-14 01:06:16"
         },
         {
             "name": "symfony/polyfill-php54",
-            "version": "v1.2.0",
+            "version": "v1.3.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-php54.git",
-                "reference": "34d761992f6f2cc6092cc0e5e93f38b53ba5e4f1"
+                "reference": "90e085822963fdcc9d1c5b73deb3d2e5783b16a0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-php54/zipball/34d761992f6f2cc6092cc0e5e93f38b53ba5e4f1",
-                "reference": "34d761992f6f2cc6092cc0e5e93f38b53ba5e4f1",
+                "url": "https://api.github.com/repos/symfony/polyfill-php54/zipball/90e085822963fdcc9d1c5b73deb3d2e5783b16a0",
+                "reference": "90e085822963fdcc9d1c5b73deb3d2e5783b16a0",
                 "shasum": ""
             },
             "require": {
@@ -3167,7 +3167,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.2-dev"
+                    "dev-master": "1.3-dev"
                 }
             },
             "autoload": {
@@ -3203,20 +3203,20 @@
                 "portable",
                 "shim"
             ],
-            "time": "2016-05-18 14:26:46"
+            "time": "2016-11-14 01:06:16"
         },
         {
             "name": "symfony/polyfill-php55",
-            "version": "v1.2.0",
+            "version": "v1.3.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-php55.git",
-                "reference": "bf2ff9ad6be1a4772cb873e4eea94d70daa95c6d"
+                "reference": "03e3f0350bca2220e3623a0e340eef194405fc67"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-php55/zipball/bf2ff9ad6be1a4772cb873e4eea94d70daa95c6d",
-                "reference": "bf2ff9ad6be1a4772cb873e4eea94d70daa95c6d",
+                "url": "https://api.github.com/repos/symfony/polyfill-php55/zipball/03e3f0350bca2220e3623a0e340eef194405fc67",
+                "reference": "03e3f0350bca2220e3623a0e340eef194405fc67",
                 "shasum": ""
             },
             "require": {
@@ -3226,7 +3226,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.2-dev"
+                    "dev-master": "1.3-dev"
                 }
             },
             "autoload": {
@@ -3259,20 +3259,20 @@
                 "portable",
                 "shim"
             ],
-            "time": "2016-05-18 14:26:46"
+            "time": "2016-11-14 01:06:16"
         },
         {
             "name": "symfony/polyfill-php56",
-            "version": "v1.2.0",
+            "version": "v1.3.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-php56.git",
-                "reference": "3edf57a8fbf9a927533344cef65ad7e1cf31030a"
+                "reference": "1dd42b9b89556f18092f3d1ada22cb05ac85383c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-php56/zipball/3edf57a8fbf9a927533344cef65ad7e1cf31030a",
-                "reference": "3edf57a8fbf9a927533344cef65ad7e1cf31030a",
+                "url": "https://api.github.com/repos/symfony/polyfill-php56/zipball/1dd42b9b89556f18092f3d1ada22cb05ac85383c",
+                "reference": "1dd42b9b89556f18092f3d1ada22cb05ac85383c",
                 "shasum": ""
             },
             "require": {
@@ -3282,7 +3282,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.2-dev"
+                    "dev-master": "1.3-dev"
                 }
             },
             "autoload": {
@@ -3315,20 +3315,20 @@
                 "portable",
                 "shim"
             ],
-            "time": "2016-05-18 14:26:46"
+            "time": "2016-11-14 01:06:16"
         },
         {
             "name": "symfony/polyfill-php70",
-            "version": "v1.2.0",
+            "version": "v1.3.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-php70.git",
-                "reference": "a42f4b6b05ed458910f8af4c4e1121b0101b2d85"
+                "reference": "13ce343935f0f91ca89605a2f6ca6f5c2f3faac2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-php70/zipball/a42f4b6b05ed458910f8af4c4e1121b0101b2d85",
-                "reference": "a42f4b6b05ed458910f8af4c4e1121b0101b2d85",
+                "url": "https://api.github.com/repos/symfony/polyfill-php70/zipball/13ce343935f0f91ca89605a2f6ca6f5c2f3faac2",
+                "reference": "13ce343935f0f91ca89605a2f6ca6f5c2f3faac2",
                 "shasum": ""
             },
             "require": {
@@ -3338,7 +3338,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.2-dev"
+                    "dev-master": "1.3-dev"
                 }
             },
             "autoload": {
@@ -3374,20 +3374,20 @@
                 "portable",
                 "shim"
             ],
-            "time": "2016-05-18 14:26:46"
+            "time": "2016-11-14 01:06:16"
         },
         {
             "name": "symfony/polyfill-util",
-            "version": "v1.2.0",
+            "version": "v1.3.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-util.git",
-                "reference": "ef830ce3d218e622b221d6bfad42c751d974bf99"
+                "reference": "746bce0fca664ac0a575e465f65c6643faddf7fb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-util/zipball/ef830ce3d218e622b221d6bfad42c751d974bf99",
-                "reference": "ef830ce3d218e622b221d6bfad42c751d974bf99",
+                "url": "https://api.github.com/repos/symfony/polyfill-util/zipball/746bce0fca664ac0a575e465f65c6643faddf7fb",
+                "reference": "746bce0fca664ac0a575e465f65c6643faddf7fb",
                 "shasum": ""
             },
             "require": {
@@ -3396,7 +3396,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.2-dev"
+                    "dev-master": "1.3-dev"
                 }
             },
             "autoload": {
@@ -3426,7 +3426,7 @@
                 "polyfill",
                 "shim"
             ],
-            "time": "2016-05-18 14:26:46"
+            "time": "2016-11-14 01:06:16"
         },
         {
             "name": "symfony/security-acl",
@@ -3797,16 +3797,16 @@
     "packages-dev": [
         {
             "name": "myclabs/deep-copy",
-            "version": "1.5.4",
+            "version": "1.5.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/myclabs/DeepCopy.git",
-                "reference": "ea74994a3dc7f8d2f65a06009348f2d63c81e61f"
+                "reference": "399c1f9781e222f6eb6cc238796f5200d1b7f108"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/myclabs/DeepCopy/zipball/ea74994a3dc7f8d2f65a06009348f2d63c81e61f",
-                "reference": "ea74994a3dc7f8d2f65a06009348f2d63c81e61f",
+                "url": "https://api.github.com/repos/myclabs/DeepCopy/zipball/399c1f9781e222f6eb6cc238796f5200d1b7f108",
+                "reference": "399c1f9781e222f6eb6cc238796f5200d1b7f108",
                 "shasum": ""
             },
             "require": {
@@ -3835,7 +3835,7 @@
                 "object",
                 "object graph"
             ],
-            "time": "2016-09-16 13:37:59"
+            "time": "2016-10-31 17:19:45"
         },
         {
             "name": "phake/phake",
@@ -4105,16 +4105,16 @@
         },
         {
             "name": "phpunit/php-code-coverage",
-            "version": "4.0.1",
+            "version": "4.0.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/php-code-coverage.git",
-                "reference": "5f3f7e736d6319d5f1fc402aff8b026da26709a3"
+                "reference": "6cba06ff75a1a63a71033e1a01b89056f3af1e8d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/php-code-coverage/zipball/5f3f7e736d6319d5f1fc402aff8b026da26709a3",
-                "reference": "5f3f7e736d6319d5f1fc402aff8b026da26709a3",
+                "url": "https://api.github.com/repos/sebastianbergmann/php-code-coverage/zipball/6cba06ff75a1a63a71033e1a01b89056f3af1e8d",
+                "reference": "6cba06ff75a1a63a71033e1a01b89056f3af1e8d",
                 "shasum": ""
             },
             "require": {
@@ -4164,7 +4164,7 @@
                 "testing",
                 "xunit"
             ],
-            "time": "2016-07-26 14:39:29"
+            "time": "2016-11-01 05:06:24"
         },
         {
             "name": "phpunit/php-file-iterator",
@@ -4996,6 +4996,58 @@
             "description": "Library that helps with managing the version number of Git-hosted PHP projects",
             "homepage": "https://github.com/sebastianbergmann/version",
             "time": "2016-02-04 12:56:52"
+        },
+        {
+            "name": "sensio/generator-bundle",
+            "version": "v3.0.11",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sensiolabs/SensioGeneratorBundle.git",
+                "reference": "b9be7f1b3b2e8bcfc1debefc901b71da923a5e5c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sensiolabs/SensioGeneratorBundle/zipball/b9be7f1b3b2e8bcfc1debefc901b71da923a5e5c",
+                "reference": "b9be7f1b3b2e8bcfc1debefc901b71da923a5e5c",
+                "shasum": ""
+            },
+            "require": {
+                "symfony/console": "~2.7|~3.0",
+                "symfony/framework-bundle": "~2.7|~3.0",
+                "symfony/process": "~2.7|~3.0",
+                "symfony/yaml": "~2.7|~3.0"
+            },
+            "require-dev": {
+                "doctrine/orm": "~2.4",
+                "symfony/doctrine-bridge": "~2.7|~3.0",
+                "twig/twig": "~1.18"
+            },
+            "type": "symfony-bundle",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "3.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Sensio\\Bundle\\GeneratorBundle\\": ""
+                },
+                "exclude-from-classmap": [
+                    "/Tests/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Fabien Potencier",
+                    "email": "fabien@symfony.com"
+                }
+            ],
+            "description": "This bundle generates code for you",
+            "time": "2016-10-10 14:17:42"
         },
         {
             "name": "webmozart/assert",
