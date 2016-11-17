@@ -1896,12 +1896,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/open-orchestra/open-orchestra-front-bundle.git",
-                "reference": "16809dd1d555b0bdc53e8df55af5f5f743708c68"
+                "reference": "7abd871e52d18b3513b899c6857fec8219e5f130"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/open-orchestra/open-orchestra-front-bundle/zipball/16809dd1d555b0bdc53e8df55af5f5f743708c68",
-                "reference": "16809dd1d555b0bdc53e8df55af5f5f743708c68",
+                "url": "https://api.github.com/repos/open-orchestra/open-orchestra-front-bundle/zipball/7abd871e52d18b3513b899c6857fec8219e5f130",
+                "reference": "7abd871e52d18b3513b899c6857fec8219e5f130",
                 "shasum": ""
             },
             "require": {
@@ -1938,7 +1938,7 @@
                 }
             ],
             "description": "A bundle for the Front End part of an Open Orchestra project",
-            "time": "2016-10-20 16:24:44"
+            "time": "2016-11-17 14:30:30"
         },
         {
             "name": "open-orchestra/open-orchestra-libs",
@@ -4532,16 +4532,16 @@
         },
         {
             "name": "sebastian/comparator",
-            "version": "1.2.0",
+            "version": "1.2.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/comparator.git",
-                "reference": "937efb279bd37a375bcadf584dec0726f84dbf22"
+                "reference": "ce2bda23a56456f19e35d98241446b581f648c14"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/comparator/zipball/937efb279bd37a375bcadf584dec0726f84dbf22",
-                "reference": "937efb279bd37a375bcadf584dec0726f84dbf22",
+                "url": "https://api.github.com/repos/sebastianbergmann/comparator/zipball/ce2bda23a56456f19e35d98241446b581f648c14",
+                "reference": "ce2bda23a56456f19e35d98241446b581f648c14",
                 "shasum": ""
             },
             "require": {
@@ -4592,7 +4592,7 @@
                 "compare",
                 "equality"
             ],
-            "time": "2015-07-26 15:48:44"
+            "time": "2016-11-17 14:39:37"
         },
         {
             "name": "sebastian/diff",
