@@ -22,7 +22,7 @@ class DemoFooterStrategy extends FooterStrategy
             array(
                 'tree' => $nodes,
                 'id' => $block->getId(),
-                'class' => $block->getClass(),
+                'class' => $block->getStyle(),
             )
         );
     }

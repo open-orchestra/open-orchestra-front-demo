@@ -1784,12 +1784,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/open-orchestra/open-orchestra-display-bundle.git",
-                "reference": "69236549845ecdc36462d7ce1fdce84d5c5bd4ee"
+                "reference": "5654e11cc5a223667307a54c7522dd6ae3d45b9a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/open-orchestra/open-orchestra-display-bundle/zipball/69236549845ecdc36462d7ce1fdce84d5c5bd4ee",
-                "reference": "69236549845ecdc36462d7ce1fdce84d5c5bd4ee",
+                "url": "https://api.github.com/repos/open-orchestra/open-orchestra-display-bundle/zipball/5654e11cc5a223667307a54c7522dd6ae3d45b9a",
+                "reference": "5654e11cc5a223667307a54c7522dd6ae3d45b9a",
                 "shasum": ""
             },
             "require": {
@@ -1826,7 +1826,7 @@
                 }
             ],
             "description": "The bundle to display all bricks",
-            "time": "2016-10-07 08:31:19"
+            "time": "2016-11-15 13:38:27"
         },
         {
             "name": "open-orchestra/open-orchestra-elastica-bundle",
@@ -1834,12 +1834,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/open-orchestra/open-orchestra-elastica-bundle.git",
-                "reference": "e63293f516bbeb7734e75ba74073dde651eba291"
+                "reference": "db84c5f3e08800af013f37042a2bac846f01007a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/open-orchestra/open-orchestra-elastica-bundle/zipball/e63293f516bbeb7734e75ba74073dde651eba291",
-                "reference": "e63293f516bbeb7734e75ba74073dde651eba291",
+                "url": "https://api.github.com/repos/open-orchestra/open-orchestra-elastica-bundle/zipball/db84c5f3e08800af013f37042a2bac846f01007a",
+                "reference": "db84c5f3e08800af013f37042a2bac846f01007a",
                 "shasum": ""
             },
             "require": {
@@ -1858,6 +1858,7 @@
                 "open-orchestra/open-orchestra-cms-bundle": "self.version",
                 "open-orchestra/open-orchestra-libs": "self.version",
                 "open-orchestra/open-orchestra-user-bundle": "self.version",
+                "open-orchestra/open-orchestra-workflow-function-bundle": "self.version",
                 "phake/phake": "~2.3.0",
                 "phpunit/phpunit": "~5.4.0"
             },
@@ -1887,7 +1888,7 @@
                 }
             ],
             "description": "A bundle to index Open Orchestra elements with Elastica Search",
-            "time": "2016-11-07 15:39:03"
+            "time": "2016-11-14 13:50:59"
         },
         {
             "name": "open-orchestra/open-orchestra-front-bundle",
@@ -1895,12 +1896,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/open-orchestra/open-orchestra-front-bundle.git",
-                "reference": "16809dd1d555b0bdc53e8df55af5f5f743708c68"
+                "reference": "7abd871e52d18b3513b899c6857fec8219e5f130"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/open-orchestra/open-orchestra-front-bundle/zipball/16809dd1d555b0bdc53e8df55af5f5f743708c68",
-                "reference": "16809dd1d555b0bdc53e8df55af5f5f743708c68",
+                "url": "https://api.github.com/repos/open-orchestra/open-orchestra-front-bundle/zipball/7abd871e52d18b3513b899c6857fec8219e5f130",
+                "reference": "7abd871e52d18b3513b899c6857fec8219e5f130",
                 "shasum": ""
             },
             "require": {
@@ -1937,7 +1938,7 @@
                 }
             ],
             "description": "A bundle for the Front End part of an Open Orchestra project",
-            "time": "2016-10-20 16:24:44"
+            "time": "2016-11-17 14:30:30"
         },
         {
             "name": "open-orchestra/open-orchestra-libs",
@@ -1991,12 +1992,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/open-orchestra/open-orchestra-media-bundle.git",
-                "reference": "005ef1b9f6948e75bce9c5a3bf36c0e676bfa702"
+                "reference": "5c5f5eb5c9e6b781ab746522e7821d22253c62aa"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/open-orchestra/open-orchestra-media-bundle/zipball/005ef1b9f6948e75bce9c5a3bf36c0e676bfa702",
-                "reference": "005ef1b9f6948e75bce9c5a3bf36c0e676bfa702",
+                "url": "https://api.github.com/repos/open-orchestra/open-orchestra-media-bundle/zipball/5c5f5eb5c9e6b781ab746522e7821d22253c62aa",
+                "reference": "5c5f5eb5c9e6b781ab746522e7821d22253c62aa",
                 "shasum": ""
             },
             "require": {
@@ -2033,7 +2034,7 @@
                 }
             ],
             "description": "A media bundle for Open Orchestra",
-            "time": "2016-10-10 09:50:26"
+            "time": "2016-11-15 13:36:16"
         },
         {
             "name": "open-orchestra/open-orchestra-model-bundle",
@@ -2041,12 +2042,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/open-orchestra/open-orchestra-model-bundle.git",
-                "reference": "63d1b4000193a591bc389d427ceee0b6cde63428"
+                "reference": "13983922f061adec64cd018e4510343b80db955e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/open-orchestra/open-orchestra-model-bundle/zipball/63d1b4000193a591bc389d427ceee0b6cde63428",
-                "reference": "63d1b4000193a591bc389d427ceee0b6cde63428",
+                "url": "https://api.github.com/repos/open-orchestra/open-orchestra-model-bundle/zipball/13983922f061adec64cd018e4510343b80db955e",
+                "reference": "13983922f061adec64cd018e4510343b80db955e",
                 "shasum": ""
             },
             "require": {
@@ -2081,7 +2082,7 @@
                 }
             ],
             "description": "A MongoDB implemantation of the Open Orchestra Model Interface",
-            "time": "2016-11-08 13:01:58"
+            "time": "2016-11-17 10:05:41"
         },
         {
             "name": "open-orchestra/open-orchestra-model-interface",
@@ -2089,12 +2090,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/open-orchestra/open-orchestra-model-interface.git",
-                "reference": "33e1e0c84f7930bbb6a1e76dd3c53edc525566aa"
+                "reference": "582743b62f25f4b802f55f77358f7cb342ac2c80"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/open-orchestra/open-orchestra-model-interface/zipball/33e1e0c84f7930bbb6a1e76dd3c53edc525566aa",
-                "reference": "33e1e0c84f7930bbb6a1e76dd3c53edc525566aa",
+                "url": "https://api.github.com/repos/open-orchestra/open-orchestra-model-interface/zipball/582743b62f25f4b802f55f77358f7cb342ac2c80",
+                "reference": "582743b62f25f4b802f55f77358f7cb342ac2c80",
                 "shasum": ""
             },
             "require": {
@@ -2126,7 +2127,7 @@
                 }
             ],
             "description": "Describe all entity and repository to implement for the whole OpenOrchestra project",
-            "time": "2016-11-07 14:40:41"
+            "time": "2016-11-15 09:48:07"
         },
         {
             "name": "open-orchestra/open-orchestra-mongo-libs",
@@ -4300,16 +4301,16 @@
         },
         {
             "name": "phpunit/php-token-stream",
-            "version": "1.4.8",
+            "version": "1.4.9",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/php-token-stream.git",
-                "reference": "3144ae21711fb6cac0b1ab4cbe63b75ce3d4e8da"
+                "reference": "3b402f65a4cc90abf6e1104e388b896ce209631b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/php-token-stream/zipball/3144ae21711fb6cac0b1ab4cbe63b75ce3d4e8da",
-                "reference": "3144ae21711fb6cac0b1ab4cbe63b75ce3d4e8da",
+                "url": "https://api.github.com/repos/sebastianbergmann/php-token-stream/zipball/3b402f65a4cc90abf6e1104e388b896ce209631b",
+                "reference": "3b402f65a4cc90abf6e1104e388b896ce209631b",
                 "shasum": ""
             },
             "require": {
@@ -4345,7 +4346,7 @@
             "keywords": [
                 "tokenizer"
             ],
-            "time": "2015-09-15 10:49:45"
+            "time": "2016-11-15 14:06:22"
         },
         {
             "name": "phpunit/phpunit",
@@ -4531,16 +4532,16 @@
         },
         {
             "name": "sebastian/comparator",
-            "version": "1.2.0",
+            "version": "1.2.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/comparator.git",
-                "reference": "937efb279bd37a375bcadf584dec0726f84dbf22"
+                "reference": "ce2bda23a56456f19e35d98241446b581f648c14"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/comparator/zipball/937efb279bd37a375bcadf584dec0726f84dbf22",
-                "reference": "937efb279bd37a375bcadf584dec0726f84dbf22",
+                "url": "https://api.github.com/repos/sebastianbergmann/comparator/zipball/ce2bda23a56456f19e35d98241446b581f648c14",
+                "reference": "ce2bda23a56456f19e35d98241446b581f648c14",
                 "shasum": ""
             },
             "require": {
@@ -4591,7 +4592,7 @@
                 "compare",
                 "equality"
             ],
-            "time": "2015-07-26 15:48:44"
+            "time": "2016-11-17 14:39:37"
         },
         {
             "name": "sebastian/diff",
@@ -4815,21 +4816,21 @@
         },
         {
             "name": "sebastian/object-enumerator",
-            "version": "1.0.0",
+            "version": "1.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/object-enumerator.git",
-                "reference": "d4ca2fb70344987502567bc50081c03e6192fb26"
+                "reference": "12dc92be4c9b1286fd37c15d54f7c9d8524f29e0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/object-enumerator/zipball/d4ca2fb70344987502567bc50081c03e6192fb26",
-                "reference": "d4ca2fb70344987502567bc50081c03e6192fb26",
+                "url": "https://api.github.com/repos/sebastianbergmann/object-enumerator/zipball/12dc92be4c9b1286fd37c15d54f7c9d8524f29e0",
+                "reference": "12dc92be4c9b1286fd37c15d54f7c9d8524f29e0",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.6",
-                "sebastian/recursion-context": "~1.0"
+                "sebastian/recursion-context": "~1.0.4"
             },
             "require-dev": {
                 "phpunit/phpunit": "~5"
@@ -4857,20 +4858,20 @@
             ],
             "description": "Traverses array structures and object graphs to enumerate all referenced objects",
             "homepage": "https://github.com/sebastianbergmann/object-enumerator/",
-            "time": "2016-01-28 13:25:10"
+            "time": "2016-11-16 07:17:31"
         },
         {
             "name": "sebastian/recursion-context",
-            "version": "1.0.2",
+            "version": "1.0.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/recursion-context.git",
-                "reference": "913401df809e99e4f47b27cdd781f4a258d58791"
+                "reference": "938df7a6478e72795e5f8266cff24d06e3136f2e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/recursion-context/zipball/913401df809e99e4f47b27cdd781f4a258d58791",
-                "reference": "913401df809e99e4f47b27cdd781f4a258d58791",
+                "url": "https://api.github.com/repos/sebastianbergmann/recursion-context/zipball/938df7a6478e72795e5f8266cff24d06e3136f2e",
+                "reference": "938df7a6478e72795e5f8266cff24d06e3136f2e",
                 "shasum": ""
             },
             "require": {
@@ -4910,7 +4911,7 @@
             ],
             "description": "Provides functionality to recursively process PHP variables",
             "homepage": "http://www.github.com/sebastianbergmann/recursion-context",
-            "time": "2015-11-11 19:50:13"
+            "time": "2016-11-15 06:55:36"
         },
         {
             "name": "sebastian/resource-operations",
