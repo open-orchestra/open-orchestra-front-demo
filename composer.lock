@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "611c6f631c60565aa3de95c2df23a526",
-    "content-hash": "9eb82322287fe182602012cb178aee75",
+    "hash": "142eeb7cd430b268a759e728a19dbe30",
+    "content-hash": "2c42b6d7f1a3eb2d342845c62c3684cd",
     "packages": [
         {
             "name": "antimattr/mongodb-migrations",
@@ -1692,16 +1692,16 @@
         },
         {
             "name": "open-orchestra/open-orchestra-base-bundle",
-            "version": "v1.2.0",
+            "version": "1.2.x-dev",
             "source": {
                 "type": "git",
                 "url": "https://github.com/open-orchestra/open-orchestra-base-bundle.git",
-                "reference": "241e23f1c07841c606520e3390b5b711a8d1abb1"
+                "reference": "41663992a7eb4e037d75741e3f8ca483206ff550"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/open-orchestra/open-orchestra-base-bundle/zipball/241e23f1c07841c606520e3390b5b711a8d1abb1",
-                "reference": "241e23f1c07841c606520e3390b5b711a8d1abb1",
+                "url": "https://api.github.com/repos/open-orchestra/open-orchestra-base-bundle/zipball/41663992a7eb4e037d75741e3f8ca483206ff550",
+                "reference": "41663992a7eb4e037d75741e3f8ca483206ff550",
                 "shasum": ""
             },
             "require": {
@@ -1734,11 +1734,11 @@
                 }
             ],
             "description": "The OpenOrchestra base bundle",
-            "time": "2016-11-28 14:56:27"
+            "time": "2016-11-24 14:00:30"
         },
         {
             "name": "open-orchestra/open-orchestra-bbcode-bundle",
-            "version": "v1.2.0",
+            "version": "1.2.x-dev",
             "source": {
                 "type": "git",
                 "url": "https://github.com/open-orchestra/open-orchestra-bbcode-bundle.git",
@@ -1781,7 +1781,7 @@
         },
         {
             "name": "open-orchestra/open-orchestra-display-bundle",
-            "version": "v1.2.0",
+            "version": "1.2.x-dev",
             "source": {
                 "type": "git",
                 "url": "https://github.com/open-orchestra/open-orchestra-display-bundle.git",
@@ -1831,7 +1831,7 @@
         },
         {
             "name": "open-orchestra/open-orchestra-elastica-bundle",
-            "version": "v1.2.0",
+            "version": "1.2.x-dev",
             "source": {
                 "type": "git",
                 "url": "https://github.com/open-orchestra/open-orchestra-elastica-bundle.git",
@@ -1892,7 +1892,7 @@
         },
         {
             "name": "open-orchestra/open-orchestra-front-bundle",
-            "version": "v1.2.0",
+            "version": "1.2.x-dev",
             "source": {
                 "type": "git",
                 "url": "https://github.com/open-orchestra/open-orchestra-front-bundle.git",
@@ -1942,7 +1942,7 @@
         },
         {
             "name": "open-orchestra/open-orchestra-libs",
-            "version": "v1.2.0",
+            "version": "1.2.x-dev",
             "source": {
                 "type": "git",
                 "url": "https://github.com/open-orchestra/open-orchestra-libs.git",
@@ -1989,7 +1989,7 @@
         },
         {
             "name": "open-orchestra/open-orchestra-media-bundle",
-            "version": "v1.2.0",
+            "version": "1.2.x-dev",
             "source": {
                 "type": "git",
                 "url": "https://github.com/open-orchestra/open-orchestra-media-bundle.git",
@@ -2039,7 +2039,7 @@
         },
         {
             "name": "open-orchestra/open-orchestra-model-bundle",
-            "version": "v1.2.0",
+            "version": "1.2.x-dev",
             "source": {
                 "type": "git",
                 "url": "https://github.com/open-orchestra/open-orchestra-model-bundle.git",
@@ -2087,7 +2087,7 @@
         },
         {
             "name": "open-orchestra/open-orchestra-model-interface",
-            "version": "v1.2.0",
+            "version": "1.2.x-dev",
             "source": {
                 "type": "git",
                 "url": "https://github.com/open-orchestra/open-orchestra-model-interface.git",
@@ -2132,7 +2132,7 @@
         },
         {
             "name": "open-orchestra/open-orchestra-mongo-libs",
-            "version": "v1.2.0",
+            "version": "1.2.x-dev",
             "source": {
                 "type": "git",
                 "url": "https://github.com/open-orchestra/open-orchestra-mongo-libs.git",
@@ -2183,7 +2183,7 @@
         },
         {
             "name": "open-orchestra/open-orchestra-theme-bundle",
-            "version": "v1.2.0",
+            "version": "1.2.x-dev",
             "source": {
                 "type": "git",
                 "url": "https://github.com/open-orchestra/open-orchestra-theme-bundle.git",
@@ -5106,7 +5106,19 @@
     ],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {
+        "open-orchestra/open-orchestra-elastica-bundle": 20,
+        "open-orchestra/open-orchestra-front-bundle": 20,
+        "open-orchestra/open-orchestra-media-bundle": 20,
+        "open-orchestra/open-orchestra-model-bundle": 20,
+        "open-orchestra/open-orchestra-base-bundle": 20,
+        "open-orchestra/open-orchestra-bbcode-bundle": 20,
+        "open-orchestra/open-orchestra-display-bundle": 20,
+        "open-orchestra/open-orchestra-libs": 20,
+        "open-orchestra/open-orchestra-model-interface": 20,
+        "open-orchestra/open-orchestra-mongo-libs": 20,
+        "open-orchestra/open-orchestra-theme-bundle": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
