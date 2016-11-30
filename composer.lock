@@ -1897,12 +1897,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/open-orchestra/open-orchestra-front-bundle.git",
-                "reference": "b282ddbacec63b1f103b160d9607d6a5ff6b00fb"
+                "reference": "365e92106369af265a7aad80dc14a10f3878a3c9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/open-orchestra/open-orchestra-front-bundle/zipball/b282ddbacec63b1f103b160d9607d6a5ff6b00fb",
-                "reference": "b282ddbacec63b1f103b160d9607d6a5ff6b00fb",
+                "url": "https://api.github.com/repos/open-orchestra/open-orchestra-front-bundle/zipball/365e92106369af265a7aad80dc14a10f3878a3c9",
+                "reference": "365e92106369af265a7aad80dc14a10f3878a3c9",
                 "shasum": ""
             },
             "require": {
@@ -1939,7 +1939,7 @@
                 }
             ],
             "description": "A bundle for the Front End part of an Open Orchestra project",
-            "time": "2016-11-24 15:04:11"
+            "time": "2016-11-30 08:13:39"
         },
         {
             "name": "open-orchestra/open-orchestra-libs",
@@ -1993,12 +1993,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/open-orchestra/open-orchestra-media-bundle.git",
-                "reference": "5c5f5eb5c9e6b781ab746522e7821d22253c62aa"
+                "reference": "c59d2622da633409e1cb1a4316a40d54e4be1eb2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/open-orchestra/open-orchestra-media-bundle/zipball/5c5f5eb5c9e6b781ab746522e7821d22253c62aa",
-                "reference": "5c5f5eb5c9e6b781ab746522e7821d22253c62aa",
+                "url": "https://api.github.com/repos/open-orchestra/open-orchestra-media-bundle/zipball/c59d2622da633409e1cb1a4316a40d54e4be1eb2",
+                "reference": "c59d2622da633409e1cb1a4316a40d54e4be1eb2",
                 "shasum": ""
             },
             "require": {
@@ -2035,7 +2035,7 @@
                 }
             ],
             "description": "A media bundle for Open Orchestra",
-            "time": "2016-11-15 13:36:16"
+            "time": "2016-11-28 16:15:46"
         },
         {
             "name": "open-orchestra/open-orchestra-model-bundle",
@@ -2043,12 +2043,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/open-orchestra/open-orchestra-model-bundle.git",
-                "reference": "25ed7539de42129593109e980ab68a3ea6a2a2cd"
+                "reference": "d040faf3ec4f3f5733cdc4c8eaa1e7aecab7dc07"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/open-orchestra/open-orchestra-model-bundle/zipball/25ed7539de42129593109e980ab68a3ea6a2a2cd",
-                "reference": "25ed7539de42129593109e980ab68a3ea6a2a2cd",
+                "url": "https://api.github.com/repos/open-orchestra/open-orchestra-model-bundle/zipball/d040faf3ec4f3f5733cdc4c8eaa1e7aecab7dc07",
+                "reference": "d040faf3ec4f3f5733cdc4c8eaa1e7aecab7dc07",
                 "shasum": ""
             },
             "require": {
@@ -2083,7 +2083,7 @@
                 }
             ],
             "description": "A MongoDB implemantation of the Open Orchestra Model Interface",
-            "time": "2016-11-24 13:24:47"
+            "time": "2016-11-30 08:12:31"
         },
         {
             "name": "open-orchestra/open-orchestra-model-interface",
@@ -2091,12 +2091,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/open-orchestra/open-orchestra-model-interface.git",
-                "reference": "cad9fd6a86980b3921e7a1fde6a489e2faa083df"
+                "reference": "f626031521daeb953dc025d47f0548534cd56e5a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/open-orchestra/open-orchestra-model-interface/zipball/cad9fd6a86980b3921e7a1fde6a489e2faa083df",
-                "reference": "cad9fd6a86980b3921e7a1fde6a489e2faa083df",
+                "url": "https://api.github.com/repos/open-orchestra/open-orchestra-model-interface/zipball/f626031521daeb953dc025d47f0548534cd56e5a",
+                "reference": "f626031521daeb953dc025d47f0548534cd56e5a",
                 "shasum": ""
             },
             "require": {
@@ -2128,7 +2128,7 @@
                 }
             ],
             "description": "Describe all entity and repository to implement for the whole OpenOrchestra project",
-            "time": "2016-11-24 13:23:56"
+            "time": "2016-11-30 08:09:38"
         },
         {
             "name": "open-orchestra/open-orchestra-mongo-libs",
@@ -4108,16 +4108,16 @@
         },
         {
             "name": "phpunit/php-code-coverage",
-            "version": "4.0.2",
+            "version": "4.0.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/php-code-coverage.git",
-                "reference": "6cba06ff75a1a63a71033e1a01b89056f3af1e8d"
+                "reference": "903fd6318d0a90b4770a009ff73e4a4e9c437929"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/php-code-coverage/zipball/6cba06ff75a1a63a71033e1a01b89056f3af1e8d",
-                "reference": "6cba06ff75a1a63a71033e1a01b89056f3af1e8d",
+                "url": "https://api.github.com/repos/sebastianbergmann/php-code-coverage/zipball/903fd6318d0a90b4770a009ff73e4a4e9c437929",
+                "reference": "903fd6318d0a90b4770a009ff73e4a4e9c437929",
                 "shasum": ""
             },
             "require": {
@@ -4167,7 +4167,7 @@
                 "testing",
                 "xunit"
             ],
-            "time": "2016-11-01 05:06:24"
+            "time": "2016-11-28 16:00:31"
         },
         {
             "name": "phpunit/php-file-iterator",
