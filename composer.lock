@@ -377,16 +377,16 @@
         },
         {
             "name": "doctrine/common",
-            "version": "v2.6.1",
+            "version": "v2.7.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/doctrine/common.git",
-                "reference": "a579557bc689580c19fee4e27487a67fe60defc0"
+                "reference": "5954c297e9d93ff84554906c2fbbc2a133c43941"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/doctrine/common/zipball/a579557bc689580c19fee4e27487a67fe60defc0",
-                "reference": "a579557bc689580c19fee4e27487a67fe60defc0",
+                "url": "https://api.github.com/repos/doctrine/common/zipball/5954c297e9d93ff84554906c2fbbc2a133c43941",
+                "reference": "5954c297e9d93ff84554906c2fbbc2a133c43941",
                 "shasum": ""
             },
             "require": {
@@ -395,10 +395,10 @@
                 "doctrine/collections": "1.*",
                 "doctrine/inflector": "1.*",
                 "doctrine/lexer": "1.*",
-                "php": "~5.5|~7.0"
+                "php": "~5.6|~7.0"
             },
             "require-dev": {
-                "phpunit/phpunit": "~4.8|~5.0"
+                "phpunit/phpunit": "^5.4.6"
             },
             "type": "library",
             "extra": {
@@ -446,7 +446,7 @@
                 "persistence",
                 "spl"
             ],
-            "time": "2015-12-25 13:18:31"
+            "time": "2016-12-03 08:15:01"
         },
         {
             "name": "doctrine/data-fixtures",
@@ -1835,12 +1835,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/open-orchestra/open-orchestra-elastica-bundle.git",
-                "reference": "db84c5f3e08800af013f37042a2bac846f01007a"
+                "reference": "05a03ae79a629da5968474f91e67086dec6fb2fc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/open-orchestra/open-orchestra-elastica-bundle/zipball/db84c5f3e08800af013f37042a2bac846f01007a",
-                "reference": "db84c5f3e08800af013f37042a2bac846f01007a",
+                "url": "https://api.github.com/repos/open-orchestra/open-orchestra-elastica-bundle/zipball/05a03ae79a629da5968474f91e67086dec6fb2fc",
+                "reference": "05a03ae79a629da5968474f91e67086dec6fb2fc",
                 "shasum": ""
             },
             "require": {
@@ -1859,7 +1859,6 @@
                 "open-orchestra/open-orchestra-cms-bundle": "self.version",
                 "open-orchestra/open-orchestra-libs": "self.version",
                 "open-orchestra/open-orchestra-user-bundle": "self.version",
-                "open-orchestra/open-orchestra-workflow-function-bundle": "self.version",
                 "phake/phake": "~2.3.0",
                 "phpunit/phpunit": "~5.4.0"
             },
@@ -1889,7 +1888,7 @@
                 }
             ],
             "description": "A bundle to index Open Orchestra elements with Elastica Search",
-            "time": "2016-11-14 13:50:59"
+            "time": "2016-11-30 10:26:34"
         },
         {
             "name": "open-orchestra/open-orchestra-front-bundle",
@@ -1897,12 +1896,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/open-orchestra/open-orchestra-front-bundle.git",
-                "reference": "365e92106369af265a7aad80dc14a10f3878a3c9"
+                "reference": "c2ca459ca01331953a4886294527996207d84eed"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/open-orchestra/open-orchestra-front-bundle/zipball/365e92106369af265a7aad80dc14a10f3878a3c9",
-                "reference": "365e92106369af265a7aad80dc14a10f3878a3c9",
+                "url": "https://api.github.com/repos/open-orchestra/open-orchestra-front-bundle/zipball/c2ca459ca01331953a4886294527996207d84eed",
+                "reference": "c2ca459ca01331953a4886294527996207d84eed",
                 "shasum": ""
             },
             "require": {
@@ -1939,7 +1938,7 @@
                 }
             ],
             "description": "A bundle for the Front End part of an Open Orchestra project",
-            "time": "2016-11-30 08:13:39"
+            "time": "2016-12-02 17:06:41"
         },
         {
             "name": "open-orchestra/open-orchestra-libs",
@@ -2043,12 +2042,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/open-orchestra/open-orchestra-model-bundle.git",
-                "reference": "d040faf3ec4f3f5733cdc4c8eaa1e7aecab7dc07"
+                "reference": "d8f129b594ed69e37ef490f6a145812f89ec0b53"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/open-orchestra/open-orchestra-model-bundle/zipball/d040faf3ec4f3f5733cdc4c8eaa1e7aecab7dc07",
-                "reference": "d040faf3ec4f3f5733cdc4c8eaa1e7aecab7dc07",
+                "url": "https://api.github.com/repos/open-orchestra/open-orchestra-model-bundle/zipball/d8f129b594ed69e37ef490f6a145812f89ec0b53",
+                "reference": "d8f129b594ed69e37ef490f6a145812f89ec0b53",
                 "shasum": ""
             },
             "require": {
@@ -2083,7 +2082,7 @@
                 }
             ],
             "description": "A MongoDB implemantation of the Open Orchestra Model Interface",
-            "time": "2016-11-30 08:12:31"
+            "time": "2016-12-07 10:30:31"
         },
         {
             "name": "open-orchestra/open-orchestra-model-interface",
@@ -2091,12 +2090,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/open-orchestra/open-orchestra-model-interface.git",
-                "reference": "f626031521daeb953dc025d47f0548534cd56e5a"
+                "reference": "322dc3217542f31055325358ccdc10a73b0ed1ae"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/open-orchestra/open-orchestra-model-interface/zipball/f626031521daeb953dc025d47f0548534cd56e5a",
-                "reference": "f626031521daeb953dc025d47f0548534cd56e5a",
+                "url": "https://api.github.com/repos/open-orchestra/open-orchestra-model-interface/zipball/322dc3217542f31055325358ccdc10a73b0ed1ae",
+                "reference": "322dc3217542f31055325358ccdc10a73b0ed1ae",
                 "shasum": ""
             },
             "require": {
@@ -2128,7 +2127,7 @@
                 }
             ],
             "description": "Describe all entity and repository to implement for the whole OpenOrchestra project",
-            "time": "2016-11-30 08:09:38"
+            "time": "2016-12-07 10:49:12"
         },
         {
             "name": "open-orchestra/open-orchestra-mongo-libs",
@@ -2376,16 +2375,16 @@
         },
         {
             "name": "sensio/distribution-bundle",
-            "version": "v5.0.14",
+            "version": "v5.0.15",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sensiolabs/SensioDistributionBundle.git",
-                "reference": "e64947de9ebc37732a62f5115164484a9bee7fa6"
+                "reference": "d294b0665cf09c799e9c1993d5c776a5bf55cb85"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sensiolabs/SensioDistributionBundle/zipball/e64947de9ebc37732a62f5115164484a9bee7fa6",
-                "reference": "e64947de9ebc37732a62f5115164484a9bee7fa6",
+                "url": "https://api.github.com/repos/sensiolabs/SensioDistributionBundle/zipball/d294b0665cf09c799e9c1993d5c776a5bf55cb85",
+                "reference": "d294b0665cf09c799e9c1993d5c776a5bf55cb85",
                 "shasum": ""
             },
             "require": {
@@ -2424,7 +2423,7 @@
                 "configuration",
                 "distribution"
             ],
-            "time": "2016-10-30 23:18:01"
+            "time": "2016-12-06 07:29:27"
         },
         {
             "name": "sensio/framework-extra-bundle",
