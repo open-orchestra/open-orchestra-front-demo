@@ -1946,12 +1946,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/open-orchestra/open-orchestra-libs.git",
-                "reference": "bf6672870003c96e5107beade7a9364f0e7a66d0"
+                "reference": "4deb1c55a7859c5d1de10bb890bab0be8b993a2a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/open-orchestra/open-orchestra-libs/zipball/bf6672870003c96e5107beade7a9364f0e7a66d0",
-                "reference": "bf6672870003c96e5107beade7a9364f0e7a66d0",
+                "url": "https://api.github.com/repos/open-orchestra/open-orchestra-libs/zipball/4deb1c55a7859c5d1de10bb890bab0be8b993a2a",
+                "reference": "4deb1c55a7859c5d1de10bb890bab0be8b993a2a",
                 "shasum": ""
             },
             "require": {
@@ -1984,7 +1984,7 @@
                 }
             ],
             "description": "Some library for the Open Orchestra project",
-            "time": "2016-11-24 13:23:53"
+            "time": "2016-12-07 11:29:10"
         },
         {
             "name": "open-orchestra/open-orchestra-media-bundle",
@@ -1992,12 +1992,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/open-orchestra/open-orchestra-media-bundle.git",
-                "reference": "c59d2622da633409e1cb1a4316a40d54e4be1eb2"
+                "reference": "21a02b6c513761ab347ac70b00e2d39afe825a9b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/open-orchestra/open-orchestra-media-bundle/zipball/c59d2622da633409e1cb1a4316a40d54e4be1eb2",
-                "reference": "c59d2622da633409e1cb1a4316a40d54e4be1eb2",
+                "url": "https://api.github.com/repos/open-orchestra/open-orchestra-media-bundle/zipball/21a02b6c513761ab347ac70b00e2d39afe825a9b",
+                "reference": "21a02b6c513761ab347ac70b00e2d39afe825a9b",
                 "shasum": ""
             },
             "require": {
@@ -2034,7 +2034,7 @@
                 }
             ],
             "description": "A media bundle for Open Orchestra",
-            "time": "2016-11-28 16:15:46"
+            "time": "2016-12-07 11:33:48"
         },
         {
             "name": "open-orchestra/open-orchestra-model-bundle",
@@ -2042,12 +2042,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/open-orchestra/open-orchestra-model-bundle.git",
-                "reference": "d8f129b594ed69e37ef490f6a145812f89ec0b53"
+                "reference": "98dfa11e909e457a7e7f9127caea38e39cb1aa41"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/open-orchestra/open-orchestra-model-bundle/zipball/d8f129b594ed69e37ef490f6a145812f89ec0b53",
-                "reference": "d8f129b594ed69e37ef490f6a145812f89ec0b53",
+                "url": "https://api.github.com/repos/open-orchestra/open-orchestra-model-bundle/zipball/98dfa11e909e457a7e7f9127caea38e39cb1aa41",
+                "reference": "98dfa11e909e457a7e7f9127caea38e39cb1aa41",
                 "shasum": ""
             },
             "require": {
@@ -2082,7 +2082,7 @@
                 }
             ],
             "description": "A MongoDB implemantation of the Open Orchestra Model Interface",
-            "time": "2016-12-07 10:30:31"
+            "time": "2016-12-07 11:35:33"
         },
         {
             "name": "open-orchestra/open-orchestra-model-interface",
@@ -2135,12 +2135,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/open-orchestra/open-orchestra-mongo-libs.git",
-                "reference": "4a4613811a85144c07954eff4c10cc2fdebbe0f6"
+                "reference": "531bf02114b80ab182f30dcab031782a712bc403"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/open-orchestra/open-orchestra-mongo-libs/zipball/4a4613811a85144c07954eff4c10cc2fdebbe0f6",
-                "reference": "4a4613811a85144c07954eff4c10cc2fdebbe0f6",
+                "url": "https://api.github.com/repos/open-orchestra/open-orchestra-mongo-libs/zipball/531bf02114b80ab182f30dcab031782a712bc403",
+                "reference": "531bf02114b80ab182f30dcab031782a712bc403",
                 "shasum": ""
             },
             "require": {
@@ -2177,7 +2177,7 @@
                 }
             ],
             "description": "Some libraries to use MongoDB in Open Orchestra",
-            "time": "2016-10-27 08:56:16"
+            "time": "2016-12-07 11:30:42"
         },
         {
             "name": "open-orchestra/open-orchestra-theme-bundle",
