@@ -18,7 +18,8 @@
     "open-orchestra/open-orchestra-elastica-bundle": "self.version",
     "open-orchestra/open-orchestra-front-bundle": "self.version",
     "open-orchestra/open-orchestra-media-bundle": "self.version",
-    "open-orchestra/open-orchestra-model-bundle": "self.version"
+    "open-orchestra/open-orchestra-model-bundle": "self.version",
+    "open-orchestra/open-orchestra-migration-bundle": "self.version"
   },
 
   "require-dev": {
