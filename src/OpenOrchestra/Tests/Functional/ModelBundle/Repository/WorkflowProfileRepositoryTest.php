@@ -3,6 +3,7 @@
 namespace OpenOrchestra\FunctionalTests\ModelBundle\Repository;
 
 use OpenOrchestra\BaseBundle\Tests\AbstractTest\AbstractKernelTestCase;
+use OpenOrchestra\Pagination\Configuration\PaginateFinderConfiguration;
 
 /**
  * Class WorkflowProfileRepositoryTest
