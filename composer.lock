@@ -1786,12 +1786,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/open-orchestra/open-orchestra-display-bundle.git",
-                "reference": "5654e11cc5a223667307a54c7522dd6ae3d45b9a"
+                "reference": "ac53f2c7ebe49d5ed683af619c3cb9f5e785f75a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/open-orchestra/open-orchestra-display-bundle/zipball/5654e11cc5a223667307a54c7522dd6ae3d45b9a",
-                "reference": "5654e11cc5a223667307a54c7522dd6ae3d45b9a",
+                "url": "https://api.github.com/repos/open-orchestra/open-orchestra-display-bundle/zipball/ac53f2c7ebe49d5ed683af619c3cb9f5e785f75a",
+                "reference": "ac53f2c7ebe49d5ed683af619c3cb9f5e785f75a",
                 "shasum": ""
             },
             "require": {
@@ -1828,7 +1828,7 @@
                 }
             ],
             "description": "The bundle to display all bricks",
-            "time": "2016-11-15 13:38:27"
+            "time": "2017-02-03 13:39:49"
         },
         {
             "name": "open-orchestra/open-orchestra-elastica-bundle",
@@ -1836,12 +1836,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/open-orchestra/open-orchestra-elastica-bundle.git",
-                "reference": "a78b8b8fe8740e68238ea146f7bcf16280636a7c"
+                "reference": "bddf43420dbf74db96daa84a4ae2127761626739"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/open-orchestra/open-orchestra-elastica-bundle/zipball/a78b8b8fe8740e68238ea146f7bcf16280636a7c",
-                "reference": "a78b8b8fe8740e68238ea146f7bcf16280636a7c",
+                "url": "https://api.github.com/repos/open-orchestra/open-orchestra-elastica-bundle/zipball/bddf43420dbf74db96daa84a4ae2127761626739",
+                "reference": "bddf43420dbf74db96daa84a4ae2127761626739",
                 "shasum": ""
             },
             "require": {
@@ -1889,7 +1889,7 @@
                 }
             ],
             "description": "A bundle to index Open Orchestra elements with Elastica Search",
-            "time": "2017-01-20 08:24:41"
+            "time": "2017-02-03 13:47:09"
         },
         {
             "name": "open-orchestra/open-orchestra-front-bundle",
@@ -1993,12 +1993,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/open-orchestra/open-orchestra-media-bundle.git",
-                "reference": "791c5530bae8a69d44654c62760b40a3c9ba132f"
+                "reference": "44b6af11065298f4abc53b79237a07a13dfba5e9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/open-orchestra/open-orchestra-media-bundle/zipball/791c5530bae8a69d44654c62760b40a3c9ba132f",
-                "reference": "791c5530bae8a69d44654c62760b40a3c9ba132f",
+                "url": "https://api.github.com/repos/open-orchestra/open-orchestra-media-bundle/zipball/44b6af11065298f4abc53b79237a07a13dfba5e9",
+                "reference": "44b6af11065298f4abc53b79237a07a13dfba5e9",
                 "shasum": ""
             },
             "require": {
@@ -2035,7 +2035,7 @@
                 }
             ],
             "description": "A media bundle for Open Orchestra",
-            "time": "2016-12-16 14:48:57"
+            "time": "2017-02-03 13:36:26"
         },
         {
             "name": "open-orchestra/open-orchestra-migration-bundle",
@@ -2080,12 +2080,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/open-orchestra/open-orchestra-model-bundle.git",
-                "reference": "3899b753fb652a9c00a216c8705bf2e8e95b005f"
+                "reference": "8bf6d74e256cae13a03be6161423a76a8f239012"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/open-orchestra/open-orchestra-model-bundle/zipball/3899b753fb652a9c00a216c8705bf2e8e95b005f",
-                "reference": "3899b753fb652a9c00a216c8705bf2e8e95b005f",
+                "url": "https://api.github.com/repos/open-orchestra/open-orchestra-model-bundle/zipball/8bf6d74e256cae13a03be6161423a76a8f239012",
+                "reference": "8bf6d74e256cae13a03be6161423a76a8f239012",
                 "shasum": ""
             },
             "require": {
@@ -2120,7 +2120,7 @@
                 }
             ],
             "description": "A MongoDB implemantation of the Open Orchestra Model Interface",
-            "time": "2017-01-30 15:37:06"
+            "time": "2017-02-03 13:38:53"
         },
         {
             "name": "open-orchestra/open-orchestra-model-interface",
@@ -2128,12 +2128,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/open-orchestra/open-orchestra-model-interface.git",
-                "reference": "2b1e504eaaa2b196f352b96d6ee268535b2c65f6"
+                "reference": "b57f1b594407bc3730bb0b0b70323c8c83e58668"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/open-orchestra/open-orchestra-model-interface/zipball/2b1e504eaaa2b196f352b96d6ee268535b2c65f6",
-                "reference": "2b1e504eaaa2b196f352b96d6ee268535b2c65f6",
+                "url": "https://api.github.com/repos/open-orchestra/open-orchestra-model-interface/zipball/b57f1b594407bc3730bb0b0b70323c8c83e58668",
+                "reference": "b57f1b594407bc3730bb0b0b70323c8c83e58668",
                 "shasum": ""
             },
             "require": {
@@ -2165,7 +2165,7 @@
                 }
             ],
             "description": "Describe all entity and repository to implement for the whole OpenOrchestra project",
-            "time": "2017-01-30 15:37:03"
+            "time": "2017-02-03 13:35:44"
         },
         {
             "name": "open-orchestra/open-orchestra-mongo-libs",
@@ -2173,12 +2173,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/open-orchestra/open-orchestra-mongo-libs.git",
-                "reference": "21a205dca516d1af37a050cdf187673d5b03d507"
+                "reference": "e32d05be4ef2e8b8ae71b3b1f4858b3b8c629e2d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/open-orchestra/open-orchestra-mongo-libs/zipball/21a205dca516d1af37a050cdf187673d5b03d507",
-                "reference": "21a205dca516d1af37a050cdf187673d5b03d507",
+                "url": "https://api.github.com/repos/open-orchestra/open-orchestra-mongo-libs/zipball/e32d05be4ef2e8b8ae71b3b1f4858b3b8c629e2d",
+                "reference": "e32d05be4ef2e8b8ae71b3b1f4858b3b8c629e2d",
                 "shasum": ""
             },
             "require": {
@@ -2215,7 +2215,7 @@
                 }
             ],
             "description": "Some libraries to use MongoDB in Open Orchestra",
-            "time": "2017-01-25 15:59:03"
+            "time": "2017-02-03 13:36:36"
         },
         {
             "name": "open-orchestra/open-orchestra-theme-bundle",
@@ -2465,16 +2465,16 @@
         },
         {
             "name": "sensio/framework-extra-bundle",
-            "version": "v3.0.19",
+            "version": "v3.0.21",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sensiolabs/SensioFrameworkExtraBundle.git",
-                "reference": "d57c2f297d17ee82baf8cae0b16dae34a9378784"
+                "reference": "ed86f6fb1753e76b39ff8b87f527045ca6b97169"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sensiolabs/SensioFrameworkExtraBundle/zipball/d57c2f297d17ee82baf8cae0b16dae34a9378784",
-                "reference": "d57c2f297d17ee82baf8cae0b16dae34a9378784",
+                "url": "https://api.github.com/repos/sensiolabs/SensioFrameworkExtraBundle/zipball/ed86f6fb1753e76b39ff8b87f527045ca6b97169",
+                "reference": "ed86f6fb1753e76b39ff8b87f527045ca6b97169",
                 "shasum": ""
             },
             "require": {
@@ -2529,7 +2529,7 @@
                 "annotations",
                 "controllers"
             ],
-            "time": "2017-01-10 19:42:56"
+            "time": "2017-02-02 15:31:23"
         },
         {
             "name": "sensiolabs/security-checker",
