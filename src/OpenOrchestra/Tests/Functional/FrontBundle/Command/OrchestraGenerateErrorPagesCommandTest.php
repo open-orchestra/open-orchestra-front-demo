@@ -48,15 +48,15 @@ class OrchestraGenerateErrorPagesCommandTest extends AbstractWebTestCase
 
         foreach ($aliases as $key => $alias) {
             $this->assertRegExp(
-                '/-> ' . $siteId . '\/alias-' . $key . '\/Error 404.html generated/',
+                '/-> ' . $siteId . '\/alias-' . $key . '\/404.html generated/',
                 $commandTester->getDisplay()
             );
-            $this->assertFileExists('./web/' . $siteId . '/alias-' . $key . '/Error 404.html');
+            $this->assertFileExists('./web/' . $siteId . '/alias-' . $key . '/404.html');
             $this->assertRegExp(
-                '/-> ' . $siteId . '\/alias-' . $key . '\/Error 503.html generated/',
+                '/-> ' . $siteId . '\/alias-' . $key . '\/503.html generated/',
                 $commandTester->getDisplay()
             );
-            $this->assertFileExists('./web/' . $siteId . '/alias-' . $key . '/Error 503.html');
+            $this->assertFileExists('./web/' . $siteId . '/alias-' . $key . '/503.html');
         }
 
         $this->assertRegExp('/Done./', $commandTester->getDisplay());
