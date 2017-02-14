@@ -30,7 +30,6 @@ class AppKernel extends Kernel
             new OpenOrchestra\BBcodeBundle\OpenOrchestraBBcodeBundle(),
             new OpenOrchestra\FrontBundle\OpenOrchestraFrontBundle(),
 
-            new OpenOrchestra\DemoBundle\OpenOrchestraDemoBundle(),
             new Solution\MongoAggregationBundle\SolutionMongoAggregationBundle(),
             new Gregwar\CaptchaBundle\GregwarCaptchaBundle(),
             new OpenOrchestra\ElasticaBundle\OpenOrchestraElasticaBundle(),
