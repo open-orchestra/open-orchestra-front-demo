@@ -1897,12 +1897,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/open-orchestra/open-orchestra-front-bundle.git",
-                "reference": "7447209e5441234d3959cbe7b048508b245cf435"
+                "reference": "ac332829335d3e37695570da4d6945e4daec6e2b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/open-orchestra/open-orchestra-front-bundle/zipball/7447209e5441234d3959cbe7b048508b245cf435",
-                "reference": "7447209e5441234d3959cbe7b048508b245cf435",
+                "url": "https://api.github.com/repos/open-orchestra/open-orchestra-front-bundle/zipball/ac332829335d3e37695570da4d6945e4daec6e2b",
+                "reference": "ac332829335d3e37695570da4d6945e4daec6e2b",
                 "shasum": ""
             },
             "require": {
@@ -1939,7 +1939,7 @@
                 }
             ],
             "description": "A bundle for the Front End part of an Open Orchestra project",
-            "time": "2017-02-14 13:32:06"
+            "time": "2017-02-17 10:45:26"
         },
         {
             "name": "open-orchestra/open-orchestra-libs",
