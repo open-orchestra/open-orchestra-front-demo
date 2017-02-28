@@ -1992,12 +1992,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/open-orchestra/open-orchestra-media-bundle.git",
-                "reference": "0c7990195e914bb86fd9a64daf627f8d09976cb7"
+                "reference": "003659bd177cc35092cfa598989b1a129990f13a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/open-orchestra/open-orchestra-media-bundle/zipball/0c7990195e914bb86fd9a64daf627f8d09976cb7",
-                "reference": "0c7990195e914bb86fd9a64daf627f8d09976cb7",
+                "url": "https://api.github.com/repos/open-orchestra/open-orchestra-media-bundle/zipball/003659bd177cc35092cfa598989b1a129990f13a",
+                "reference": "003659bd177cc35092cfa598989b1a129990f13a",
                 "shasum": ""
             },
             "require": {
@@ -2034,7 +2034,7 @@
                 }
             ],
             "description": "A media bundle for Open Orchestra",
-            "time": "2017-02-20 17:10:39"
+            "time": "2017-02-23 15:02:28"
         },
         {
             "name": "open-orchestra/open-orchestra-migration-bundle",
@@ -2042,12 +2042,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/open-orchestra/open-orchestra-migration-bundle.git",
-                "reference": "c03161532323298b534703ae716fd385d6d72801"
+                "reference": "fe82b83a827c3ccd2d6950f47f4a28f9a4b9559d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/open-orchestra/open-orchestra-migration-bundle/zipball/c03161532323298b534703ae716fd385d6d72801",
-                "reference": "c03161532323298b534703ae716fd385d6d72801",
+                "url": "https://api.github.com/repos/open-orchestra/open-orchestra-migration-bundle/zipball/fe82b83a827c3ccd2d6950f47f4a28f9a4b9559d",
+                "reference": "fe82b83a827c3ccd2d6950f47f4a28f9a4b9559d",
                 "shasum": ""
             },
             "require": {
@@ -2071,7 +2071,7 @@
                 }
             ],
             "description": "A bundle which contains the mongo migrations for Open Orchestra",
-            "time": "2016-12-12 13:14:48"
+            "time": "2017-02-24 15:19:43"
         },
         {
             "name": "open-orchestra/open-orchestra-model-bundle",
@@ -2079,12 +2079,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/open-orchestra/open-orchestra-model-bundle.git",
-                "reference": "425b1d5a8eac3ac2884c0c869057533a7c8ab079"
+                "reference": "00026323084a5d538fc55cc437bb6a2fef925f36"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/open-orchestra/open-orchestra-model-bundle/zipball/425b1d5a8eac3ac2884c0c869057533a7c8ab079",
-                "reference": "425b1d5a8eac3ac2884c0c869057533a7c8ab079",
+                "url": "https://api.github.com/repos/open-orchestra/open-orchestra-model-bundle/zipball/00026323084a5d538fc55cc437bb6a2fef925f36",
+                "reference": "00026323084a5d538fc55cc437bb6a2fef925f36",
                 "shasum": ""
             },
             "require": {
@@ -2119,7 +2119,7 @@
                 }
             ],
             "description": "A MongoDB implemantation of the Open Orchestra Model Interface",
-            "time": "2017-02-20 09:01:24"
+            "time": "2017-02-28 08:50:37"
         },
         {
             "name": "open-orchestra/open-orchestra-model-interface",
@@ -2127,12 +2127,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/open-orchestra/open-orchestra-model-interface.git",
-                "reference": "2f21ffd9ce8e5a17dd5d27a01e1912238613c0df"
+                "reference": "2ea6e803a616e3cd72f7ef79851f2ca13b010d9e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/open-orchestra/open-orchestra-model-interface/zipball/2f21ffd9ce8e5a17dd5d27a01e1912238613c0df",
-                "reference": "2f21ffd9ce8e5a17dd5d27a01e1912238613c0df",
+                "url": "https://api.github.com/repos/open-orchestra/open-orchestra-model-interface/zipball/2ea6e803a616e3cd72f7ef79851f2ca13b010d9e",
+                "reference": "2ea6e803a616e3cd72f7ef79851f2ca13b010d9e",
                 "shasum": ""
             },
             "require": {
@@ -2164,7 +2164,7 @@
                 }
             ],
             "description": "Describe all entity and repository to implement for the whole OpenOrchestra project",
-            "time": "2017-02-20 09:01:15"
+            "time": "2017-02-28 08:44:13"
         },
         {
             "name": "open-orchestra/open-orchestra-mongo-libs",
@@ -2172,12 +2172,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/open-orchestra/open-orchestra-mongo-libs.git",
-                "reference": "bf6a4c589aa400c2e5074499ab95b7cfbf9ecb81"
+                "reference": "ced5d42393a0f31401dae0782bbf663862e9cab9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/open-orchestra/open-orchestra-mongo-libs/zipball/bf6a4c589aa400c2e5074499ab95b7cfbf9ecb81",
-                "reference": "bf6a4c589aa400c2e5074499ab95b7cfbf9ecb81",
+                "url": "https://api.github.com/repos/open-orchestra/open-orchestra-mongo-libs/zipball/ced5d42393a0f31401dae0782bbf663862e9cab9",
+                "reference": "ced5d42393a0f31401dae0782bbf663862e9cab9",
                 "shasum": ""
             },
             "require": {
@@ -2214,7 +2214,7 @@
                 }
             ],
             "description": "Some libraries to use MongoDB in Open Orchestra",
-            "time": "2017-02-20 09:01:19"
+            "time": "2017-02-28 08:44:15"
         },
         {
             "name": "open-orchestra/open-orchestra-theme-bundle",
@@ -2260,16 +2260,16 @@
         },
         {
             "name": "paragonie/random_compat",
-            "version": "v2.0.4",
+            "version": "v2.0.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/paragonie/random_compat.git",
-                "reference": "a9b97968bcde1c4de2a5ec6cbd06a0f6c919b46e"
+                "reference": "b5ea1ef3d8ff10c307ba8c5945c2f134e503278f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/paragonie/random_compat/zipball/a9b97968bcde1c4de2a5ec6cbd06a0f6c919b46e",
-                "reference": "a9b97968bcde1c4de2a5ec6cbd06a0f6c919b46e",
+                "url": "https://api.github.com/repos/paragonie/random_compat/zipball/b5ea1ef3d8ff10c307ba8c5945c2f134e503278f",
+                "reference": "b5ea1ef3d8ff10c307ba8c5945c2f134e503278f",
                 "shasum": ""
             },
             "require": {
@@ -2304,7 +2304,7 @@
                 "pseudorandom",
                 "random"
             ],
-            "time": "2016-11-07T23:38:38+00:00"
+            "time": "2017-02-27T17:11:23+00:00"
         },
         {
             "name": "psr/log",
@@ -3783,29 +3783,30 @@
         },
         {
             "name": "twig/twig",
-            "version": "v1.31.0",
+            "version": "v1.32.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/twigphp/Twig.git",
-                "reference": "ddc9e3e20ee9c0b6908f401ac8353635b750eca7"
+                "reference": "9935b662e24d6e634da88901ab534cc12e8c728f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/twigphp/Twig/zipball/ddc9e3e20ee9c0b6908f401ac8353635b750eca7",
-                "reference": "ddc9e3e20ee9c0b6908f401ac8353635b750eca7",
+                "url": "https://api.github.com/repos/twigphp/Twig/zipball/9935b662e24d6e634da88901ab534cc12e8c728f",
+                "reference": "9935b662e24d6e634da88901ab534cc12e8c728f",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.2.7"
             },
             "require-dev": {
+                "psr/container": "^1.0",
                 "symfony/debug": "~2.7",
                 "symfony/phpunit-bridge": "~3.2"
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.31-dev"
+                    "dev-master": "1.32-dev"
                 }
             },
             "autoload": {
@@ -3840,7 +3841,7 @@
             "keywords": [
                 "templating"
             ],
-            "time": "2017-01-11T19:36:15+00:00"
+            "time": "2017-02-27T00:07:03+00:00"
         }
     ],
     "packages-dev": [
@@ -4306,25 +4307,30 @@
         },
         {
             "name": "phpunit/php-timer",
-            "version": "1.0.8",
+            "version": "1.0.9",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/php-timer.git",
-                "reference": "38e9124049cf1a164f1e4537caf19c99bf1eb260"
+                "reference": "3dcf38ca72b158baf0bc245e9184d3fdffa9c46f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/php-timer/zipball/38e9124049cf1a164f1e4537caf19c99bf1eb260",
-                "reference": "38e9124049cf1a164f1e4537caf19c99bf1eb260",
+                "url": "https://api.github.com/repos/sebastianbergmann/php-timer/zipball/3dcf38ca72b158baf0bc245e9184d3fdffa9c46f",
+                "reference": "3dcf38ca72b158baf0bc245e9184d3fdffa9c46f",
                 "shasum": ""
             },
             "require": {
-                "php": ">=5.3.3"
+                "php": "^5.3.3 || ^7.0"
             },
             "require-dev": {
-                "phpunit/phpunit": "~4|~5"
+                "phpunit/phpunit": "^4.8.35 || ^5.7 || ^6.0"
             },
             "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0-dev"
+                }
+            },
             "autoload": {
                 "classmap": [
                     "src/"
@@ -4346,20 +4352,20 @@
             "keywords": [
                 "timer"
             ],
-            "time": "2016-05-12T18:03:57+00:00"
+            "time": "2017-02-26T11:10:40+00:00"
         },
         {
             "name": "phpunit/php-token-stream",
-            "version": "1.4.10",
+            "version": "1.4.11",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/php-token-stream.git",
-                "reference": "284fb0679dd25fb5ffb56dad92c72860c0a22f1b"
+                "reference": "e03f8f67534427a787e21a385a67ec3ca6978ea7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/php-token-stream/zipball/284fb0679dd25fb5ffb56dad92c72860c0a22f1b",
-                "reference": "284fb0679dd25fb5ffb56dad92c72860c0a22f1b",
+                "url": "https://api.github.com/repos/sebastianbergmann/php-token-stream/zipball/e03f8f67534427a787e21a385a67ec3ca6978ea7",
+                "reference": "e03f8f67534427a787e21a385a67ec3ca6978ea7",
                 "shasum": ""
             },
             "require": {
@@ -4395,7 +4401,7 @@
             "keywords": [
                 "tokenizer"
             ],
-            "time": "2017-02-23T06:14:45+00:00"
+            "time": "2017-02-27T10:12:30+00:00"
         },
         {
             "name": "phpunit/phpunit",
