@@ -21,7 +21,6 @@ class AppKernel extends Kernel
             new Symfony\Cmf\Bundle\RoutingBundle\CmfRoutingBundle(),
 
             new OpenOrchestra\BaseBundle\OpenOrchestraBaseBundle(),
-            new OpenOrchestra\ThemeBundle\OpenOrchestraThemeBundle(),
             new OpenOrchestra\ModelBundle\OpenOrchestraModelBundle(),
             new OpenOrchestra\MongoBundle\OpenOrchestraMongoBundle(),
             new OpenOrchestra\MediaBundle\OpenOrchestraMediaBundle(),
