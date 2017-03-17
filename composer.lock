@@ -1963,12 +1963,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/open-orchestra/open-orchestra-migration-bundle.git",
-                "reference": "6ea8dd064fab20f8e6f5728675d01c670f7dea14"
+                "reference": "6060862230c3d86a2dd8ed6bfbb47ad00cdacea6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/open-orchestra/open-orchestra-migration-bundle/zipball/6ea8dd064fab20f8e6f5728675d01c670f7dea14",
-                "reference": "6ea8dd064fab20f8e6f5728675d01c670f7dea14",
+                "url": "https://api.github.com/repos/open-orchestra/open-orchestra-migration-bundle/zipball/6060862230c3d86a2dd8ed6bfbb47ad00cdacea6",
+                "reference": "6060862230c3d86a2dd8ed6bfbb47ad00cdacea6",
                 "shasum": ""
             },
             "require": {
@@ -1992,7 +1992,7 @@
                 }
             ],
             "description": "A bundle which contains the mongo migrations for Open Orchestra",
-            "time": "2017-03-03 13:54:59"
+            "time": "2017-03-17 09:16:52"
         },
         {
             "name": "open-orchestra/open-orchestra-model-bundle",
@@ -2000,12 +2000,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/open-orchestra/open-orchestra-model-bundle.git",
-                "reference": "348e16ae8877b8368b15d1fdee504a0a64f12d82"
+                "reference": "8162135ed6f3ef2892e6308e073539e182b2118b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/open-orchestra/open-orchestra-model-bundle/zipball/348e16ae8877b8368b15d1fdee504a0a64f12d82",
-                "reference": "348e16ae8877b8368b15d1fdee504a0a64f12d82",
+                "url": "https://api.github.com/repos/open-orchestra/open-orchestra-model-bundle/zipball/8162135ed6f3ef2892e6308e073539e182b2118b",
+                "reference": "8162135ed6f3ef2892e6308e073539e182b2118b",
                 "shasum": ""
             },
             "require": {
@@ -2040,7 +2040,7 @@
                 }
             ],
             "description": "A MongoDB implemantation of the Open Orchestra Model Interface",
-            "time": "2017-03-17 08:28:34"
+            "time": "2017-03-17 09:16:43"
         },
         {
             "name": "open-orchestra/open-orchestra-model-interface",
