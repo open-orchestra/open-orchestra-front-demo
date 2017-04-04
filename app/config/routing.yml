@@ -4,6 +4,3 @@ open_orchestra_front:
 
 open_orchestra_front_preview:
     resource: '@OpenOrchestraFrontBundle/Resources/config/preview_routing.yml'
-
-open_orchestra_media_get:
-    path: /media/{key}
