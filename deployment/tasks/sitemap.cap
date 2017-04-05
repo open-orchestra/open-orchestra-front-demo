@@ -1,9 +1,0 @@
-namespace :orchestra do
-    desc "Generate sitemap.xml files"
-    task :generate_sitemaps do
-        on roles(:app) do
-            execute :php, "#{fetch(:deploy_to)}/current/app/console orchestra:sitemaps:generate --env=prod "
-        end
-    end
-    after 'deploy:finishing', 'orchestra:generate_sitemaps'
-end

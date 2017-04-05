@@ -1,9 +1,0 @@
-namespace :orchestra do
-    desc "Generate sitemap.xml files"
-    task :generate_robots do
-        on roles(:app) do
-            execute :php, "#{fetch(:deploy_to)}/current/app/console orchestra:robots:generate --env=prod "
-        end
-    end
-    after 'deploy:finishing', 'orchestra:generate_robots'
-end
