@@ -39,5 +39,5 @@ before_script:
   - php app/console orchestra:mongodb:fixtures:load --type=functional -e=test
 
 script:
-  - phpunit -c app/ --testsuite=unit
-  - phpunit -c app/ --testsuite=functional
+  - phpunit --testsuite=unit
+  - phpunit --testsuite=functional
