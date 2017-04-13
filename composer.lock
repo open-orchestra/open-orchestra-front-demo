@@ -1974,12 +1974,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/open-orchestra/open-orchestra-media-bundle.git",
-                "reference": "8a13b6f4c8d201e5af1b963c46501c35b23455ad"
+                "reference": "a7234704069154a7bbf3a01b7c6ec32aec122416"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/open-orchestra/open-orchestra-media-bundle/zipball/8a13b6f4c8d201e5af1b963c46501c35b23455ad",
-                "reference": "8a13b6f4c8d201e5af1b963c46501c35b23455ad",
+                "url": "https://api.github.com/repos/open-orchestra/open-orchestra-media-bundle/zipball/a7234704069154a7bbf3a01b7c6ec32aec122416",
+                "reference": "a7234704069154a7bbf3a01b7c6ec32aec122416",
                 "shasum": ""
             },
             "require": {
@@ -2016,7 +2016,7 @@
                 }
             ],
             "description": "A media bundle for Open Orchestra",
-            "time": "2017-04-04 09:02:23"
+            "time": "2017-04-11 15:11:48"
         },
         {
             "name": "open-orchestra/open-orchestra-migration-bundle",
@@ -2024,12 +2024,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/open-orchestra/open-orchestra-migration-bundle.git",
-                "reference": "83627897747169b6038d2a711a1080e33a8f0922"
+                "reference": "09707ed268e9ed0367e9acbe0c73abd141ad0013"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/open-orchestra/open-orchestra-migration-bundle/zipball/83627897747169b6038d2a711a1080e33a8f0922",
-                "reference": "83627897747169b6038d2a711a1080e33a8f0922",
+                "url": "https://api.github.com/repos/open-orchestra/open-orchestra-migration-bundle/zipball/09707ed268e9ed0367e9acbe0c73abd141ad0013",
+                "reference": "09707ed268e9ed0367e9acbe0c73abd141ad0013",
                 "shasum": ""
             },
             "require": {
@@ -2053,7 +2053,7 @@
                 }
             ],
             "description": "A bundle which contains the mongo migrations for Open Orchestra",
-            "time": "2017-04-06 13:02:37"
+            "time": "2017-04-13 13:17:07"
         },
         {
             "name": "open-orchestra/open-orchestra-model-bundle",
@@ -3719,16 +3719,16 @@
     "packages-dev": [
         {
             "name": "myclabs/deep-copy",
-            "version": "1.6.0",
+            "version": "1.6.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/myclabs/DeepCopy.git",
-                "reference": "5a5a9fc8025a08d8919be87d6884d5a92520cefe"
+                "reference": "8e6e04167378abf1ddb4d3522d8755c5fd90d102"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/myclabs/DeepCopy/zipball/5a5a9fc8025a08d8919be87d6884d5a92520cefe",
-                "reference": "5a5a9fc8025a08d8919be87d6884d5a92520cefe",
+                "url": "https://api.github.com/repos/myclabs/DeepCopy/zipball/8e6e04167378abf1ddb4d3522d8755c5fd90d102",
+                "reference": "8e6e04167378abf1ddb4d3522d8755c5fd90d102",
                 "shasum": ""
             },
             "require": {
@@ -3757,7 +3757,7 @@
                 "object",
                 "object graph"
             ],
-            "time": "2017-01-26T22:05:40+00:00"
+            "time": "2017-04-12T18:52:22+00:00"
         },
         {
             "name": "phake/phake",
