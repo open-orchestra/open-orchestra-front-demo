@@ -1769,12 +1769,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/open-orchestra/open-orchestra-display-bundle.git",
-                "reference": "02f58edc63ef09fb485bd2161e4a1bf325e7b636"
+                "reference": "0bc691a1b96e6a1674a61177d85f7c5be1e9c79b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/open-orchestra/open-orchestra-display-bundle/zipball/02f58edc63ef09fb485bd2161e4a1bf325e7b636",
-                "reference": "02f58edc63ef09fb485bd2161e4a1bf325e7b636",
+                "url": "https://api.github.com/repos/open-orchestra/open-orchestra-display-bundle/zipball/0bc691a1b96e6a1674a61177d85f7c5be1e9c79b",
+                "reference": "0bc691a1b96e6a1674a61177d85f7c5be1e9c79b",
                 "shasum": ""
             },
             "require": {
@@ -1811,7 +1811,7 @@
                 }
             ],
             "description": "The bundle to display all bricks",
-            "time": "2017-04-19 09:57:58"
+            "time": "2017-04-19 10:26:40"
         },
         {
             "name": "open-orchestra/open-orchestra-elastica-bundle",
@@ -1879,12 +1879,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/open-orchestra/open-orchestra-front-bundle.git",
-                "reference": "9cfcb30fd11ec9bab989b8f571311c6623c90e5c"
+                "reference": "73b75f704bc3e59e60268d3b1d03af2dccfd5c9b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/open-orchestra/open-orchestra-front-bundle/zipball/9cfcb30fd11ec9bab989b8f571311c6623c90e5c",
-                "reference": "9cfcb30fd11ec9bab989b8f571311c6623c90e5c",
+                "url": "https://api.github.com/repos/open-orchestra/open-orchestra-front-bundle/zipball/73b75f704bc3e59e60268d3b1d03af2dccfd5c9b",
+                "reference": "73b75f704bc3e59e60268d3b1d03af2dccfd5c9b",
                 "shasum": ""
             },
             "require": {
@@ -1920,7 +1920,7 @@
                 }
             ],
             "description": "A bundle for the Front End part of an Open Orchestra project",
-            "time": "2017-04-19 09:56:00"
+            "time": "2017-04-19 13:13:37"
         },
         {
             "name": "open-orchestra/open-orchestra-libs",
