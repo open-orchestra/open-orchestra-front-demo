@@ -1815,12 +1815,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/open-orchestra/open-orchestra-elastica-bundle.git",
-                "reference": "594dadb9b3334d6150c4afd66e0ff77553f8e500"
+                "reference": "9680934cd111f28f44cdb9fc92ebf58e4dbc6f44"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/open-orchestra/open-orchestra-elastica-bundle/zipball/594dadb9b3334d6150c4afd66e0ff77553f8e500",
-                "reference": "594dadb9b3334d6150c4afd66e0ff77553f8e500",
+                "url": "https://api.github.com/repos/open-orchestra/open-orchestra-elastica-bundle/zipball/9680934cd111f28f44cdb9fc92ebf58e4dbc6f44",
+                "reference": "9680934cd111f28f44cdb9fc92ebf58e4dbc6f44",
                 "shasum": ""
             },
             "require": {
@@ -1859,7 +1859,7 @@
                 }
             ],
             "description": "A bundle to index Open Orchestra elements with Elastica Search",
-            "time": "2017-05-12 12:38:45"
+            "time": "2017-05-12 14:36:03"
         },
         {
             "name": "open-orchestra/open-orchestra-front-bundle",
@@ -1962,12 +1962,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/open-orchestra/open-orchestra-media-bundle.git",
-                "reference": "dad6c205e3e9f7e5518653f9c319febe21df3107"
+                "reference": "f6946010136b2d8dba0bb60162de83d8fd5a4436"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/open-orchestra/open-orchestra-media-bundle/zipball/dad6c205e3e9f7e5518653f9c319febe21df3107",
-                "reference": "dad6c205e3e9f7e5518653f9c319febe21df3107",
+                "url": "https://api.github.com/repos/open-orchestra/open-orchestra-media-bundle/zipball/f6946010136b2d8dba0bb60162de83d8fd5a4436",
+                "reference": "f6946010136b2d8dba0bb60162de83d8fd5a4436",
                 "shasum": ""
             },
             "require": {
@@ -2004,7 +2004,7 @@
                 }
             ],
             "description": "A media bundle for Open Orchestra",
-            "time": "2017-05-05 14:09:17"
+            "time": "2017-05-12 14:59:10"
         },
         {
             "name": "open-orchestra/open-orchestra-migration-bundle",
