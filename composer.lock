@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "a8242ebd78aebb8ab6355091bb642d89",
+    "content-hash": "6be50463f41f9ac4347c0ee2cedbcd08",
     "packages": [
         {
             "name": "antimattr/mongodb-migrations",
@@ -1673,16 +1673,16 @@
         },
         {
             "name": "open-orchestra/open-orchestra-base-bundle",
-            "version": "v2.0.0",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/open-orchestra/open-orchestra-base-bundle.git",
-                "reference": "684b4495bca44d4f373cc6051208dd02fa1d9f4a"
+                "reference": "83a93ee7e727e24bf609adfe6ef956cd589420e1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/open-orchestra/open-orchestra-base-bundle/zipball/684b4495bca44d4f373cc6051208dd02fa1d9f4a",
-                "reference": "684b4495bca44d4f373cc6051208dd02fa1d9f4a",
+                "url": "https://api.github.com/repos/open-orchestra/open-orchestra-base-bundle/zipball/83a93ee7e727e24bf609adfe6ef956cd589420e1",
+                "reference": "83a93ee7e727e24bf609adfe6ef956cd589420e1",
                 "shasum": ""
             },
             "require": {
@@ -1714,11 +1714,11 @@
                 }
             ],
             "description": "The OpenOrchestra base bundle",
-            "time": "2017-05-24T11:48:43+00:00"
+            "time": "2017-05-19 10:30:38"
         },
         {
             "name": "open-orchestra/open-orchestra-bbcode-bundle",
-            "version": "v2.0.0",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/open-orchestra/open-orchestra-bbcode-bundle.git",
@@ -1757,11 +1757,11 @@
                 }
             ],
             "description": "The Open Orchestra bundle wrapping the jbbcode/jbbcode library",
-            "time": "2017-05-15T08:52:26+00:00"
+            "time": "2017-05-15 08:52:26"
         },
         {
             "name": "open-orchestra/open-orchestra-display-bundle",
-            "version": "v2.0.0",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/open-orchestra/open-orchestra-display-bundle.git",
@@ -1807,11 +1807,11 @@
                 }
             ],
             "description": "The bundle to display all bricks",
-            "time": "2017-05-19T10:30:01+00:00"
+            "time": "2017-05-19 10:30:01"
         },
         {
             "name": "open-orchestra/open-orchestra-elastica-bundle",
-            "version": "v2.0.0",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/open-orchestra/open-orchestra-elastica-bundle.git",
@@ -1859,11 +1859,11 @@
                 }
             ],
             "description": "A bundle to index Open Orchestra elements with Elastica Search",
-            "time": "2017-05-19T10:27:06+00:00"
+            "time": "2017-05-19 10:27:06"
         },
         {
             "name": "open-orchestra/open-orchestra-front-bundle",
-            "version": "v2.0.0",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/open-orchestra/open-orchestra-front-bundle.git",
@@ -1908,11 +1908,11 @@
                 }
             ],
             "description": "A bundle for the Front End part of an Open Orchestra project",
-            "time": "2017-05-19T10:27:01+00:00"
+            "time": "2017-05-19 10:27:01"
         },
         {
             "name": "open-orchestra/open-orchestra-libs",
-            "version": "v2.0.0",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/open-orchestra/open-orchestra-libs.git",
@@ -1954,11 +1954,11 @@
                 }
             ],
             "description": "Some library for the Open Orchestra project",
-            "time": "2017-05-04T13:07:04+00:00"
+            "time": "2017-05-04 13:07:04"
         },
         {
             "name": "open-orchestra/open-orchestra-media-bundle",
-            "version": "v2.0.0",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/open-orchestra/open-orchestra-media-bundle.git",
@@ -2004,11 +2004,11 @@
                 }
             ],
             "description": "A media bundle for Open Orchestra",
-            "time": "2017-05-24T09:27:14+00:00"
+            "time": "2017-05-24 09:27:14"
         },
         {
             "name": "open-orchestra/open-orchestra-migration-bundle",
-            "version": "v2.0.0",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/open-orchestra/open-orchestra-migration-bundle.git",
@@ -2041,11 +2041,11 @@
                 }
             ],
             "description": "A bundle which contains the mongo migrations for Open Orchestra",
-            "time": "2017-05-23T08:55:11+00:00"
+            "time": "2017-05-23 08:55:11"
         },
         {
             "name": "open-orchestra/open-orchestra-model-bundle",
-            "version": "v2.0.0",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/open-orchestra/open-orchestra-model-bundle.git",
@@ -2089,11 +2089,11 @@
                 }
             ],
             "description": "A MongoDB implemantation of the Open Orchestra Model Interface",
-            "time": "2017-05-23T08:56:00+00:00"
+            "time": "2017-05-23 08:56:00"
         },
         {
             "name": "open-orchestra/open-orchestra-model-interface",
-            "version": "v2.0.0",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/open-orchestra/open-orchestra-model-interface.git",
@@ -2134,11 +2134,11 @@
                 }
             ],
             "description": "Describe all entity and repository to implement for the whole OpenOrchestra project",
-            "time": "2017-05-05T14:02:42+00:00"
+            "time": "2017-05-05 14:02:42"
         },
         {
             "name": "open-orchestra/open-orchestra-mongo-libs",
-            "version": "v2.0.0",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/open-orchestra/open-orchestra-mongo-libs.git",
@@ -2184,7 +2184,7 @@
                 }
             ],
             "description": "Some libraries to use MongoDB in Open Orchestra",
-            "time": "2017-05-04T13:11:03+00:00"
+            "time": "2017-05-04 13:11:03"
         },
         {
             "name": "paragonie/random_compat",
@@ -5023,7 +5023,19 @@
     ],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {
+        "open-orchestra/open-orchestra-elastica-bundle": 20,
+        "open-orchestra/open-orchestra-front-bundle": 20,
+        "open-orchestra/open-orchestra-media-bundle": 20,
+        "open-orchestra/open-orchestra-model-bundle": 20,
+        "open-orchestra/open-orchestra-migration-bundle": 20,
+        "open-orchestra/open-orchestra-base-bundle": 20,
+        "open-orchestra/open-orchestra-bbcode-bundle": 20,
+        "open-orchestra/open-orchestra-display-bundle": 20,
+        "open-orchestra/open-orchestra-libs": 20,
+        "open-orchestra/open-orchestra-model-interface": 20,
+        "open-orchestra/open-orchestra-mongo-libs": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
