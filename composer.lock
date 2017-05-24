@@ -1962,12 +1962,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/open-orchestra/open-orchestra-media-bundle.git",
-                "reference": "f354592e3fc43c99dc22f33241d0ce39653005ce"
+                "reference": "efd016c90bfe6ec0dc89da7aab06bb406200d100"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/open-orchestra/open-orchestra-media-bundle/zipball/f354592e3fc43c99dc22f33241d0ce39653005ce",
-                "reference": "f354592e3fc43c99dc22f33241d0ce39653005ce",
+                "url": "https://api.github.com/repos/open-orchestra/open-orchestra-media-bundle/zipball/efd016c90bfe6ec0dc89da7aab06bb406200d100",
+                "reference": "efd016c90bfe6ec0dc89da7aab06bb406200d100",
                 "shasum": ""
             },
             "require": {
@@ -2004,7 +2004,7 @@
                 }
             ],
             "description": "A media bundle for Open Orchestra",
-            "time": "2017-05-23 12:32:08"
+            "time": "2017-05-24 09:27:14"
         },
         {
             "name": "open-orchestra/open-orchestra-migration-bundle",
