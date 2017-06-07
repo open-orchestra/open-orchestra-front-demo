@@ -3,7 +3,7 @@
   "description": "Example of an Open Orchestra Front Office implementation",
   "license": "Apache-2.0",
   "type": "project",
-  "version": "dev-master",
+  "version": "v2.0.1",
   "authors": [
     {
       "name": "OpenOrchestra community",
